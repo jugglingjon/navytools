@@ -2,13 +2,14 @@
 
 Bootstrap 4 template for generating content for US Navy Tools and Their Uses app
 
-## Viewing the files
-
-View files from within a local webserver (XAMPP, MAMP, etc), because this generation template and final framework use AJAX, which will cause same-origin policy violations when viewed locally.
 
 ## Content generation process
 
 Process for generating a new chapter html file, with proper markup.
+
+### Assigned chapters
+
+Within the shared excel spreadsheet, change status assigned chapter to ACTIVE.
 
 ### New chapter html file
 
@@ -20,7 +21,7 @@ Create a blank html file, with the chapter number as the filename
 
 ### Copy in unformatted text
 
-Copy in text from the Word file into a text editor. Example:
+Copy in text from target chapter in the Word file into a text editor. This does not include the question/answer segments, or the feedback page that is the last page of each chatper (we are leaving the last page off, and batch processing the questions) Example:
 
 ```
 Chapter 2
@@ -80,6 +81,8 @@ Will output:
 </figure>
 ```
 
+The images will be extracted from the Word file, named properly, and added to the /media folder to maintain proper links. So you don't have to worry about copying images or files.
+
 You can also add bootstrap 4 content classes to the figure, to align or otherwise manipulate:
 
 ```
@@ -125,6 +128,29 @@ For columns, use the boostrap 4 grid system, the following will generate a 2x3 l
 	</div>
 </div>
 ```
+
+### Viewing the files
+
+View files from within a local webserver (XAMPP, MAMP, etc), because this generation template and final framework use AJAX, which will cause same-origin policy violations when viewed locally.
+
+Within index.html, change the following ng-include attribute to your new file (example, 2.html), to preview it within the container (and soon, framework):
+
+```
+<div class="container">
+	<div class="row">
+		<div class="col" ng-include="'2.html'">
+			
+		</div>
+	</div>
+</div>
+```
+
+Now navigate to index.html in your local webserver, you should be able to view and proof the content.
+
+### Logging and continuing
+
+Within the shared excel spreadsheet, change status of chapter to COMPLETE, commit changes, push to repository, and continue to next assigned chapter.
+
 
 ### Reference
 

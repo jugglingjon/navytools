@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="toolsandtheiruses">Tools and Their Uses</h1>
+
+<p>Bootstrap 4 template for generating content for US Navy Tools and Their Uses app</p>
+
+<h2 id="viewingthefiles">Viewing the files</h2>
+
+<p>View files from within a local webserver (XAMPP, MAMP, etc), because this generation template and final framework use AJAX, which will cause same-origin policy violations when viewed locally.</p>
+
+<h2 id="contentgenerationprocess">Content generation process</h2>
+
+<p>Process for generating a new chapter html file, with proper markup.</p>
+
+<h3 id="newchapterhtmlfile">New chapter html file</h3>
+
+<p>Create a blank html file, with the chapter number as the filename</p>
+
+<pre><code>2.html
+</code></pre>
+
+<h3 id="copyinunformattedtext">Copy in unformatted text</h3>
+
+<p>Copy in text from the Word file into a text editor. Example:</p>
+
+<pre><code>Chapter 2
+SAFETY AND SAFETY EQUIPMENT
+No matter how small the job, safety must be practiced at all times. A tool may be efficient, essential, time-saving or even convenient; but it is also dangerous. When using any hand tool you must use it correctly, following the methods prescribed in this manual. You must also be alert for any conditions that might endanger yourself or fellow workers. Take the time necessary to acquaint yourself with the safety guidelines in this chapter. Remember, you are the most important part of safety procedures.
+
+LEARNING OBJECTIVES
+When you have completed this chapter, you will be able to do the following:
+1.	State the general safety procedures for common hand tools.
+2.	Identify good tool work habits.
+3.	List the types of tool boxes.
+4.	List the safety precautions that apply to power tools.
+5.	Identify the types of personal protective equipment.
+</code></pre>
+
+<h3 id="addsimplemarkup">Add simple markup</h3>
+
+<p>We want to keep the markup as simple as possible, so we&#8217;ll use simple header tags, paragraph tags, ordered, and unordered lists. Our example becomes:</p>
+
+<pre><code>&lt;h1&gt;Chapter 2&lt;/h1&gt;
+&lt;h2&gt;SAFETY AND SAFETY EQUIPMENT&lt;/h3&gt;
+&lt;p&gt;No matter how small the job, safety must be practiced at all times. A tool may be efficient, essential, time-saving or even convenient; but it is also dangerous. When using any hand tool you must use it correctly, following the methods prescribed in this manual. You must also be alert for any conditions that might endanger yourself or fellow workers. Take the time necessary to acquaint yourself with the safety guidelines in this chapter. Remember, you are the most important part of safety procedures.&lt;/p&gt;
+
+&lt;h3&gt;LEARNING OBJECTIVES&lt;/h3&gt;
+&lt;p&gt;When you have completed this chapter, you will be able to do the following:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;State the general safety procedures for common hand tools.&lt;/li&gt;
+	&lt;li&gt;Identify good tool work habits.&lt;/li&gt;
+	&lt;li&gt;List the types of tool boxes.&lt;/li&gt;
+	&lt;li&gt;List the safety precautions that apply to power tools.&lt;/li&gt;
+	&lt;li&gt;Identify the types of personal protective equipment.&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+
+<h3 id="headings">Headings</h3>
+
+<p>Headings will be formatted:</p>
+
+<ul>
+<li>H1 - chapter number</li>
+<li>H2 - chapter title</li>
+<li>H3 - uppercase headings</li>
+<li>H4 - title case headings immediate children of h3</li>
+<li>h5 - theoretical headings within H4 sections</li>
+</ul>
+
+<h3 id="addfigures">Add figures</h3>
+
+<p>To keep the markup as simple as possible, we will add figures dynamically, putting only the figure number and caption into markup:</p>
+
+<pre><code>&lt;figure data-id=&quot;2-1&quot; class=&quot;&quot;&gt;Improper tool storage&lt;/figure&gt;
+</code></pre>
+
+<p>Will output:</p>
+
+<pre><code>&lt;figure data-id=&quot;2-1&quot; class=&quot;&quot;&gt;
+	&lt;img src=&quot;media/2-1.jpg&quot;&gt;
+	&lt;figcaption&gt;Figure 2-1 — Improper tool storage&lt;/figcaption&gt;
+&lt;/figure&gt;
+</code></pre>
+
+<p>You can also add bootstrap 4 content classes to the figure, to align or otherwise manipulate:</p>
+
+<pre><code>&lt;figure data-id=&quot;2-1&quot; class=&quot;float-right&quot;&gt;Improper tool storage&lt;/figure&gt;
+</code></pre>
+
+<h3 id="addalerts">Add Alerts</h3>
+
+<p>A number of alerts exist in the document, of different styles. Use the bootstrap 4 alert system, with an appropriate class-suffix:</p>
+
+<pre><code>&lt;div class=&quot;alert alert-note&quot;&gt;A note style alert&lt;/div&gt;
+&lt;div class=&quot;alert alert-caution&quot;&gt;A caution style alert&lt;/div&gt;
+</code></pre>
+
+<p>The titles NOTE or CAUTION, and any accompanying icons, will be added dynamically.</p>
+
+<h3 id="columnlayouts">Column layouts</h3>
+
+<p>For columns, use the boostrap 4 grid system, the following will generate a 2x3 layout of figures:</p>
+
+<pre><code>&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col&quot;&gt;
+		&lt;figure data-id=&quot;2-3&quot; class=&quot;&quot;&gt;Portable tool box&lt;/figure&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col&quot;&gt;
+		&lt;figure data-id=&quot;2-4&quot; class=&quot;&quot;&gt;Cantilevered tray tool box&lt;/figure&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col&quot;&gt;
+		&lt;figure data-id=&quot;2-5&quot; class=&quot;&quot;&gt;Removable tray tool box&lt;/figure&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col&quot;&gt;
+		&lt;figure data-id=&quot;2-6&quot; class=&quot;&quot;&gt;Mechanics tool box (chest type)&lt;/figure&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col&quot;&gt;
+		&lt;figure data-id=&quot;2-7&quot; class=&quot;&quot;&gt;Canvas tool bag&lt;/figure&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col&quot;&gt;
+		&lt;figure data-id=&quot;2-8&quot; class=&quot;&quot;&gt;Five Drawer portable tool box&lt;/figure&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h3 id="reference">Reference</h3>
+
+<ul>
+<li><a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">Bootstrap 4</a> - Bootstrap 4, framework used</li>
+</ul>
+
+</body>
+</html>
+

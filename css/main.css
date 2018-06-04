@@ -53,4 +53,10 @@ Examples:
   font-weight: 600;
   font-style: normal;
 }
+body {
+  background: #fff;
+}
+.alert.alert-note {
+  background: #ccc;
+}
 /*# sourceMappingURL=main.css.map */

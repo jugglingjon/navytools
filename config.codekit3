@@ -9,6 +9,20 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/1.html",
+		"oF": 0
+		},
+	"\/2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/2.html",
+		"oF": 0
+		},
 	"\/css\/bootstrap.min-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -409,6 +423,17 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/media\/2-1.jpg": {
+		"ft": 16384,
+		"iS": 36483,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/2-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		}
 	},
 "hooks": [

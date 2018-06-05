@@ -89,6 +89,12 @@ You can also add bootstrap 4 content classes to the figure, to align or otherwis
 <figure data-id="2-1" class="float-right">Improper tool storage</figure>
 ```
 
+The fullWidth class makes the figure take up the width of the container (instead of default smaller size):
+
+```
+<figure data-id="2-1" class="fullWidth">Improper tool storage</figure>
+```
+
 ### Add Alerts
 A number of alerts exist in the document, of different styles. Use the bootstrap 4 alert system, with an appropriate class-suffix:
 
@@ -127,6 +133,57 @@ For columns, use the boostrap 4 grid system, the following will generate a 2x3 l
 		<figure data-id="2-8" class="">Five Drawer portable tool box</figure>
 	</div>
 </div>
+```
+
+### Tables
+For tables, use the boostrap 4 table system, the following will generate a 2 column table with headings:
+
+```
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th colspan="2" valign="top" class="text-center">Table 9-1 — Types of Brushes</th>
+		</tr>
+		<tr>
+			<th>Type of Brush</th>
+			<th>For Use On</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Flat paintbrush </td>
+			<td>Large surfaces </td>
+		</tr>
+		<tr>
+			<td>Oval sash and trim   brush </td>
+			<td>Small surfaces </td>
+		</tr>
+		<tr>
+			<td>Fitch brush </td>
+			<td>Small surfaces </td>
+		</tr>
+		<tr>
+			<td>Oval varnish brush </td>
+			<td>Rough work </td>
+		</tr>
+		<tr>
+			<td>Flat varnish brush </td>
+			<td>Medium work </td>
+		</tr>
+		<tr>
+			<td>French bristle varnish   brush </td>
+			<td>High-grade work </td>
+		</tr>
+		<tr>
+			<td>Lettering brush </td>
+			<td>Small surfaces </td>
+		</tr>
+		<tr>
+			<td>Painter&rsquo;s duster</td>
+			<td>Cleaning work </td>
+		</tr>
+	</tbody>
+</table>
 ```
 
 ### Viewing the files

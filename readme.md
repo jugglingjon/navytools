@@ -9,7 +9,7 @@ Process for generating a new chapter html file, with proper markup.
 
 ### Assigned chapters
 
-Within the shared excel spreadsheet, change status assigned chapter to ACTIVE.
+Within the [shared Excel spreadsheet](https://boozallen-my.sharepoint.com/:x:/g/personal/559014_bah_com/EdDCgLSID2NIrWowqF8X5gsBzEAnTbiPu-0KRDly3CZ6iQ?e=TqEYYT), change status assigned chapter to ACTIVE.
 
 ### New chapter html file
 
@@ -206,9 +206,11 @@ Now navigate to index.html in your local webserver, you should be able to view a
 
 ### Logging and continuing
 
-Within the shared excel spreadsheet, change status of chapter to COMPLETE, commit changes, push to repository, and continue to next assigned chapter.
+Within the [shared Excel spreadsheet](https://boozallen-my.sharepoint.com/:x:/g/personal/559014_bah_com/EdDCgLSID2NIrWowqF8X5gsBzEAnTbiPu-0KRDly3CZ6iQ?e=TqEYYT), change status of chapter to COMPLETE, commit changes, push to repository, and continue to next assigned chapter.
 
 
 ### Reference
 
+* [Chapter Progress Tracker](https://boozallen-my.sharepoint.com/:x:/g/personal/559014_bah_com/EdDCgLSID2NIrWowqF8X5gsBzEAnTbiPu-0KRDly3CZ6iQ?e=TqEYYT) - Excel spreadsheet we're using to share progress
 * [Bootstrap 4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - Bootstrap 4, framework used
+

@@ -79,6 +79,9 @@ figure.fullWidth {
   margin-left: 0;
   margin-right: 0;
 }
+figure.large {
+  max-width: 50%;
+}
 .portal .col figure {
   max-width: 100%;
   margin-left: 0;

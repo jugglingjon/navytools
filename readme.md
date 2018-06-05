@@ -95,6 +95,12 @@ The fullWidth class makes the figure take up the width of the container (instead
 <figure data-id="2-1" class="fullWidth">Improper tool storage</figure>
 ```
 
+The large class makes the figure larger, 50% of container:
+
+```
+<figure data-id="2-1" class="large">Improper tool storage</figure>
+```
+
 ### Add Alerts
 A number of alerts exist in the document, of different styles. Use the bootstrap 4 alert system, with an appropriate class-suffix:
 

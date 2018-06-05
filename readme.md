@@ -72,7 +72,7 @@ To keep the markup as simple as possible, we will add figures dynamically, putti
 <figure data-id="2-1" class="">Improper tool storage</figure>
 ```
 
-Will output:
+This will output:
 
 ```
 <figure data-id="2-1" class="">

@@ -15,7 +15,7 @@
 
 <h3 id="assignedchapters">Assigned chapters</h3>
 
-<p>Within the shared excel spreadsheet, change status assigned chapter to ACTIVE.</p>
+<p>Within the <a href="https://boozallen-my.sharepoint.com/:x:/g/personal/559014_bah_com/EdDCgLSID2NIrWowqF8X5gsBzEAnTbiPu-0KRDly3CZ6iQ?e=TqEYYT">shared Excel spreadsheet</a>, change status assigned chapter to ACTIVE.</p>
 
 <h3 id="newchapterhtmlfile">New chapter html file</h3>
 
@@ -79,7 +79,7 @@ When you have completed this chapter, you will be able to do the following:
 <pre><code>&lt;figure data-id=&quot;2-1&quot; class=&quot;&quot;&gt;Improper tool storage&lt;/figure&gt;
 </code></pre>
 
-<p>Will output:</p>
+<p>This will output:</p>
 
 <pre><code>&lt;figure data-id=&quot;2-1&quot; class=&quot;&quot;&gt;
 	&lt;img src=&quot;media/2-1.jpg&quot;&gt;
@@ -92,6 +92,16 @@ When you have completed this chapter, you will be able to do the following:
 <p>You can also add bootstrap 4 content classes to the figure, to align or otherwise manipulate:</p>
 
 <pre><code>&lt;figure data-id=&quot;2-1&quot; class=&quot;float-right&quot;&gt;Improper tool storage&lt;/figure&gt;
+</code></pre>
+
+<p>The fullWidth class makes the figure take up the width of the container (instead of default smaller size):</p>
+
+<pre><code>&lt;figure data-id=&quot;2-1&quot; class=&quot;fullWidth&quot;&gt;Improper tool storage&lt;/figure&gt;
+</code></pre>
+
+<p>The large class makes the figure larger, 50% of container:</p>
+
+<pre><code>&lt;figure data-id=&quot;2-1&quot; class=&quot;large&quot;&gt;Improper tool storage&lt;/figure&gt;
 </code></pre>
 
 <h3 id="addalerts">Add Alerts</h3>
@@ -134,6 +144,57 @@ When you have completed this chapter, you will be able to do the following:
 &lt;/div&gt;
 </code></pre>
 
+<h3 id="tables">Tables</h3>
+
+<p>For tables, use the boostrap 4 table system, the following will generate a 2 column table with headings:</p>
+
+<pre><code>&lt;table class=&quot;table table-striped&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th colspan=&quot;2&quot; valign=&quot;top&quot; class=&quot;text-center&quot;&gt;Table 9-1 — Types of Brushes&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Type of Brush&lt;/th&gt;
+			&lt;th&gt;For Use On&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Flat paintbrush &lt;/td&gt;
+			&lt;td&gt;Large surfaces &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Oval sash and trim   brush &lt;/td&gt;
+			&lt;td&gt;Small surfaces &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Fitch brush &lt;/td&gt;
+			&lt;td&gt;Small surfaces &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Oval varnish brush &lt;/td&gt;
+			&lt;td&gt;Rough work &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Flat varnish brush &lt;/td&gt;
+			&lt;td&gt;Medium work &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;French bristle varnish   brush &lt;/td&gt;
+			&lt;td&gt;High-grade work &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Lettering brush &lt;/td&gt;
+			&lt;td&gt;Small surfaces &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Painter&amp;rsquo;s duster&lt;/td&gt;
+			&lt;td&gt;Cleaning work &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre>
+
 <h3 id="viewingthefiles">Viewing the files</h3>
 
 <p>View files from within a local webserver (XAMPP, MAMP, etc), because this generation template and final framework use AJAX, which will cause same-origin policy violations when viewed locally.</p>
@@ -153,11 +214,12 @@ When you have completed this chapter, you will be able to do the following:
 
 <h3 id="loggingandcontinuing">Logging and continuing</h3>
 
-<p>Within the shared excel spreadsheet, change status of chapter to COMPLETE, commit changes, push to repository, and continue to next assigned chapter.</p>
+<p>Within the <a href="https://boozallen-my.sharepoint.com/:x:/g/personal/559014_bah_com/EdDCgLSID2NIrWowqF8X5gsBzEAnTbiPu-0KRDly3CZ6iQ?e=TqEYYT">shared Excel spreadsheet</a>, change status of chapter to COMPLETE, commit changes, push to repository, and continue to next assigned chapter.</p>
 
 <h3 id="reference">Reference</h3>
 
 <ul>
+<li><a href="https://boozallen-my.sharepoint.com/:x:/g/personal/559014_bah_com/EdDCgLSID2NIrWowqF8X5gsBzEAnTbiPu-0KRDly3CZ6iQ?e=TqEYYT">Chapter Progress Tracker</a> - Excel spreadsheet we&#8217;re using to share progress</li>
 <li><a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">Bootstrap 4</a> - Bootstrap 4, framework used</li>
 </ul>
 

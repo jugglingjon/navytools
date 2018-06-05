@@ -59,4 +59,40 @@ body {
 .alert.alert-note {
   background: #ccc;
 }
+figure {
+  max-width: 40%;
+  padding: 15px;
+  border: 1px solid gray;
+  margin: 0 20px 20px 20px;
+}
+figure img {
+  max-width: 100%;
+}
+figure.float-right {
+  margin-right: 0;
+}
+figure.float-left {
+  margin-left: 0;
+}
+figure.fullWidth {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+figure.large {
+  max-width: 50%;
+}
+.portal .col figure {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+}
 /*# sourceMappingURL=main.css.map */

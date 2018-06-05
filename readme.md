@@ -9,7 +9,7 @@ Process for generating a new chapter html file, with proper markup.
 
 ### Assigned chapters
 
-Within the shared excel spreadsheet, change status assigned chapter to ACTIVE.
+Within the [shared Excel spreadsheet](https://boozallen-my.sharepoint.com/:x:/g/personal/559014_bah_com/EdDCgLSID2NIrWowqF8X5gsBzEAnTbiPu-0KRDly3CZ6iQ?e=TqEYYT), change status assigned chapter to ACTIVE.
 
 ### New chapter html file
 
@@ -72,7 +72,7 @@ To keep the markup as simple as possible, we will add figures dynamically, putti
 <figure data-id="2-1" class="">Improper tool storage</figure>
 ```
 
-Will output:
+This will output:
 
 ```
 <figure data-id="2-1" class="">
@@ -87,6 +87,18 @@ You can also add bootstrap 4 content classes to the figure, to align or otherwis
 
 ```
 <figure data-id="2-1" class="float-right">Improper tool storage</figure>
+```
+
+The fullWidth class makes the figure take up the width of the container (instead of default smaller size):
+
+```
+<figure data-id="2-1" class="fullWidth">Improper tool storage</figure>
+```
+
+The large class makes the figure larger, 50% of container:
+
+```
+<figure data-id="2-1" class="large">Improper tool storage</figure>
 ```
 
 ### Add Alerts
@@ -129,6 +141,57 @@ For columns, use the boostrap 4 grid system, the following will generate a 2x3 l
 </div>
 ```
 
+### Tables
+For tables, use the boostrap 4 table system, the following will generate a 2 column table with headings:
+
+```
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th colspan="2" valign="top" class="text-center">Table 9-1 — Types of Brushes</th>
+		</tr>
+		<tr>
+			<th>Type of Brush</th>
+			<th>For Use On</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Flat paintbrush </td>
+			<td>Large surfaces </td>
+		</tr>
+		<tr>
+			<td>Oval sash and trim   brush </td>
+			<td>Small surfaces </td>
+		</tr>
+		<tr>
+			<td>Fitch brush </td>
+			<td>Small surfaces </td>
+		</tr>
+		<tr>
+			<td>Oval varnish brush </td>
+			<td>Rough work </td>
+		</tr>
+		<tr>
+			<td>Flat varnish brush </td>
+			<td>Medium work </td>
+		</tr>
+		<tr>
+			<td>French bristle varnish   brush </td>
+			<td>High-grade work </td>
+		</tr>
+		<tr>
+			<td>Lettering brush </td>
+			<td>Small surfaces </td>
+		</tr>
+		<tr>
+			<td>Painter&rsquo;s duster</td>
+			<td>Cleaning work </td>
+		</tr>
+	</tbody>
+</table>
+```
+
 ### Viewing the files
 
 View files from within a local webserver (XAMPP, MAMP, etc), because this generation template and final framework use AJAX, which will cause same-origin policy violations when viewed locally.
@@ -149,9 +212,11 @@ Now navigate to index.html in your local webserver, you should be able to view a
 
 ### Logging and continuing
 
-Within the shared excel spreadsheet, change status of chapter to COMPLETE, commit changes, push to repository, and continue to next assigned chapter.
+Within the [shared Excel spreadsheet](https://boozallen-my.sharepoint.com/:x:/g/personal/559014_bah_com/EdDCgLSID2NIrWowqF8X5gsBzEAnTbiPu-0KRDly3CZ6iQ?e=TqEYYT), change status of chapter to COMPLETE, commit changes, push to repository, and continue to next assigned chapter.
 
 
 ### Reference
 
+* [Chapter Progress Tracker](https://boozallen-my.sharepoint.com/:x:/g/personal/559014_bah_com/EdDCgLSID2NIrWowqF8X5gsBzEAnTbiPu-0KRDly3CZ6iQ?e=TqEYYT) - Excel spreadsheet we're using to share progress
 * [Bootstrap 4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - Bootstrap 4, framework used
+

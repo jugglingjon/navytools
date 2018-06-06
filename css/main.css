@@ -56,6 +56,9 @@ Examples:
 body {
   background: #fff;
 }
+.alert {
+  clear: both;
+}
 .alert.alert-note {
   background: #ccc;
 }
@@ -64,6 +67,8 @@ figure {
   padding: 15px;
   border: 1px solid gray;
   margin: 0 20px 20px 20px;
+  float: right;
+  margin-right: 0;
 }
 figure img {
   max-width: 100%;
@@ -76,6 +81,7 @@ figure.float-left {
 }
 figure.fullWidth {
   max-width: 100%;
+  float: none;
   margin-left: 0;
   margin-right: 0;
 }

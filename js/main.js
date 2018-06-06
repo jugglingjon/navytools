@@ -92,7 +92,7 @@ $(document).ready(function(){
 		$(this).prepend('<h5>WARNING</h5>');
 	});
 
-	$('.alert-CAUTION').each(function(){
+	$('.alert-caution').each(function(){
 		$(this).prepend('<h5>CAUTION</h5>');
 	});
 });

@@ -74,6 +74,7 @@ figure {
   border: 1px solid gray;
   margin: 0 20px 20px 20px;
   float: right;
+  clear: right;
   margin-right: 0;
 }
 figure img {

@@ -83,10 +83,10 @@ This will output:
 
 The images will be extracted from the Word file, named properly, and added to the /media folder to maintain proper links. So you don't have to worry about copying images or files.
 
-You can also add bootstrap 4 content classes to the figure, to align or otherwise manipulate:
+All figures default to float:right, but you can also add bootstrap 4 content classes to the figure, to align or otherwise manipulate:
 
 ```
-<figure data-id="2-1" class="float-right">Improper tool storage</figure>
+<figure data-id="2-1" class="float-left">Improper tool storage</figure>
 ```
 
 The fullWidth class makes the figure take up the width of the container (instead of default smaller size):

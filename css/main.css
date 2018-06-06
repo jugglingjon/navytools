@@ -56,14 +56,26 @@ Examples:
 body {
   background: #fff;
 }
+.alert {
+  clear: both;
+}
 .alert.alert-note {
   background: #ccc;
+}
+.alert.alert-caution {
+  background: #fff3cd;
+}
+.alert.alert-warning {
+  background: #f8d7da;
 }
 figure {
   max-width: 40%;
   padding: 15px;
   border: 1px solid gray;
   margin: 0 20px 20px 20px;
+  float: right;
+  clear: right;
+  margin-right: 0;
 }
 figure img {
   max-width: 100%;
@@ -76,6 +88,7 @@ figure.float-left {
 }
 figure.fullWidth {
   max-width: 100%;
+  float: none;
   margin-left: 0;
   margin-right: 0;
 }

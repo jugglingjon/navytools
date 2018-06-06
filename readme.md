@@ -83,10 +83,10 @@ This will output:
 
 The images will be extracted from the Word file, named properly, and added to the /media folder to maintain proper links. So you don't have to worry about copying images or files.
 
-You can also add bootstrap 4 content classes to the figure, to align or otherwise manipulate:
+All figures default to float:right, but you can also add bootstrap 4 content classes to the figure, to align or otherwise manipulate:
 
 ```
-<figure data-id="2-1" class="float-right">Improper tool storage</figure>
+<figure data-id="2-1" class="float-left">Improper tool storage</figure>
 ```
 
 The fullWidth class makes the figure take up the width of the container (instead of default smaller size):
@@ -107,6 +107,7 @@ A number of alerts exist in the document, of different styles. Use the bootstrap
 ```
 <div class="alert alert-note">A note style alert</div>
 <div class="alert alert-caution">A caution style alert</div>
+<div class="alert alert-warning">A warning style alert</div>
 ```
 
 The titles NOTE or CAUTION, and any accompanying icons, will be added dynamically.

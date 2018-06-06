@@ -62,6 +62,12 @@ body {
 .alert.alert-note {
   background: #ccc;
 }
+.alert.alert-caution {
+  background: #fff3cd;
+}
+.alert.alert-warning {
+  background: #f8d7da;
+}
 figure {
   max-width: 40%;
   padding: 15px;

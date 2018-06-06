@@ -107,6 +107,7 @@ A number of alerts exist in the document, of different styles. Use the bootstrap
 ```
 <div class="alert alert-note">A note style alert</div>
 <div class="alert alert-caution">A caution style alert</div>
+<div class="alert alert-warning">A warning style alert</div>
 ```
 
 The titles NOTE or CAUTION, and any accompanying icons, will be added dynamically.

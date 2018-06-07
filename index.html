@@ -19,11 +19,16 @@
 	<link rel="stylesheet" href="css/main.css">
 
 </head>
-<body ng-app="">
+<body ng-app="myApp" ng-controller="chapterController">
+	<header>
+		<select ng-model="chapterID" ng-change="openChapter()">
+			<option ng-repeat="n in [].constructor(22) track by $index" value="{{$index+1}}">{{$index+1}}</option>
+		</select>
+	</header>
 	
 	<div class="container">
 		<div class="row">
-			<div class="col portal" ng-include="'9.html'">
+			<div class="col portal" ng-include="'1.html'">
 				
 			</div>
 		</div>

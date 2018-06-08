@@ -74,5 +74,13 @@ $(document).ready(function(){
 	//implement fastclick
 	FastClick.attach(document.body);
 
-	
+	$('body').on('click','.quiz-answer',function(){
+		if($(this).hasClass('quiz-correct')){
+			alert('Correct');
+		}
+		else{
+			alert('Incorrect');
+		}
+		return false;
+	});
 });

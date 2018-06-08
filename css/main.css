@@ -108,4 +108,10 @@ h5,
 h6 {
   clear: both;
 }
+.quiz-area .quiz {
+  margin-bottom: 20px;
+}
+.quiz-area .quiz .quiz-answers .quiz-answer {
+  display: block;
+}
 /*# sourceMappingURL=main.css.map */

@@ -16,11 +16,74 @@
 		"oAP": "\/1.html",
 		"oF": 0
 		},
+	"\/14.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/14.html",
+		"oF": 0
+		},
+	"\/15.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/15.html",
+		"oF": 0
+		},
+	"\/16.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/16.html",
+		"oF": 0
+		},
+	"\/17.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/17.html",
+		"oF": 0
+		},
+	"\/18.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/18.html",
+		"oF": 0
+		},
+	"\/19.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/19.html",
+		"oF": 0
+		},
 	"\/2.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/2.html",
+		"oF": 0
+		},
+	"\/20.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/20.html",
+		"oF": 0
+		},
+	"\/3.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/3.html",
+		"oF": 0
+		},
+	"\/5.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/5.html",
 		"oF": 0
 		},
 	"\/9.html": {
@@ -29,6 +92,14 @@
 		"oA": 0,
 		"oAP": "\/9.html",
 		"oF": 0
+		},
+	"\/chapterQuestions.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/chapterQuestions-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/css\/bootstrap.min-min.css": {
 		"aP": 1,
@@ -260,6 +331,26 @@
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/js\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/controllers.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/controllers-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/js\/fastclick.js": {
 		"ft": 64,
@@ -8133,6 +8224,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/template-quiz.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-quiz.html",
+		"oF": 0
 		}
 	},
 "hooks": [

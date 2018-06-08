@@ -22,19 +22,32 @@
 <body ng-app="myApp" ng-controller="chapterController">
 	<header>
 		<select ng-model="chapterID" ng-change="openChapter()">
+
 			<option ng-repeat="n in [].constructor(22) track by $index" value="{{$index+1}}">{{$index+1}}</option>
 		</select>
 	</header>
 	
 	<div class="container">
 		<div class="row">
-			<div class="col portal" ng-include="'1.html'">
+			<div class="col portal">
 				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col quiz-area">
+				<h1>Quiz</h1>
+				<div class="quiz" ng-repeat="question in questions">
+					{{question.question}}
+					<div class="quiz-answers" >
+						<a href="#" ng-repeat="answer in question.answers" class="quiz-answer" ng-class="(answer.correct)?'quiz-correct':'quiz-incorrect'">{{answer.answer}}</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	
+
+
 
 
 	<!-- Framework Scripts -->

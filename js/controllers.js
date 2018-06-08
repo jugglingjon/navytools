@@ -3,6 +3,10 @@ app.controller('chapterController', function($scope,$compile,$http) {
 	$scope.startChapter = 1;
 	$scope.chapterID=$scope.startChapter;
 
+	$http.get('chapters.json').then(function(response){
+		$scope.chapters=response.data;
+	});
+
 	function initChapter(){
 		$('figure').each(function(){
 			var figure=$(this).attr('data-id');
@@ -30,33 +34,19 @@ app.controller('chapterController', function($scope,$compile,$http) {
 
 	}
 
-	$scope.openChapter=function(){
-		console.log($scope.chapterID);
-		$('.portal').load($scope.chapterID+'.html',function(){
+	$scope.openChapter=function(chapterID){
+		$('.portal').empty().load(chapterID+'.html',function(){
 
 			$('.portal').append($('<div class="quiz"></div>'));
 
 
 			$http.get('chapterQuestions.json').then(function(response){
-				$scope.questions=response.data[$scope.chapterID].questions;
-				// var quiz=$('<div>').load('template-quiz.html');
-				// var compiled=$compile(quiz[0])($scope);
-				// $('.portal .quiz').append(compiled);
-
-		    	// console.log(response.data[$scope.chapterID].questions);
-		    	// $.each(response.data[$scope.chapterID].questions,function(){
-		    	// 	var newQuestion=$(`<div class="questionWrapper">
-
-
-		    	// 		</div>`);
-		    	// 	$('.portal .quiz').append(this.question+'<br>');
-		    	// });
-
+				$scope.questions=response.data[chapterID].questions;
 		    });
 			initChapter();
 		});
 	};
-	$scope.openChapter();
+	$scope.openChapter($scope.chapterID);
 
 
 });

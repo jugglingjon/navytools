@@ -63,6 +63,52 @@ $('[data-to]').on('click',function(){
 	return false;
 });
 
+// ====================================
+// 				^TOPIC NAV
+// ====================================
+
+//topic search/filter
+$('#topicNav-search').keyup(function(){
+
+	if($('#topicNav-search').val()!=''){
+		$('#topicNav li').hide();
+		$('#topicNav li a span').css('display','block');
+		$('#topicNav li a:containsIN("'+$(this).val()+'")').parent().show();
+		$('#topicNav-search-clear').show().siblings('.fa').hide();
+		$('#topicNav li:visible:even').addClass('even');
+		$('#topicNav li:visible:odd').removeClass('even');
+	}
+	else{
+		$('#topicNav li').show();
+		$('#topicNav li a span').css('display','none');
+		$('#topicNav-search-clear').hide().siblings('.fa').show();
+		resetTopicNav();
+	}
+
+});
+
+//maintain clicks to search wrapper
+$('.topicNav-search-wrapper').click(function(event){
+	var targ=$(event.target);
+
+	//if click to search clear button, clear search box
+	if(targ.is('#topicNav-search-clear')){
+		resetTopicNav();
+		$('#topicNav-search-clear').hide().siblings('.fa').show();
+	}
+
+	event.stopPropagation();
+});
+
+//reset topic nav textbox value and list items
+function resetTopicNav(){
+	$('#topicNav-search').val('');
+	$('#topicNav li').show().removeClass('even');
+	$('#topicNav li:even').addClass('even');
+
+	$('.topicNav-bookmarks-btn').removeClass('filter-selected');
+	$('#topicNav-search').removeAttr('disabled');
+}
 
 
 // ====================================
@@ -74,6 +120,8 @@ $(document).ready(function(){
 	//implement fastclick
 	FastClick.attach(document.body);
 
+	resetTopicNav();
+
 	$('body').on('click','.quiz-answer',function(){
 		if($(this).hasClass('quiz-correct')){
 			alert('Correct');
@@ -82,5 +130,18 @@ $(document).ready(function(){
 			alert('Incorrect');
 		}
 		return false;
+	});
+
+	//topicNav button
+	$('.topicNav-button').click(function(){
+		$('.topicNav-wrapper, .shroud').toggle();
+		return false;
+	});
+
+	//clicks to window clear nav dropdowns
+	$(window).click(function() {
+		$('#sectionNav, .topicNav-wrapper').hide();
+		$('.shroud').hide();
+		resetTopicNav();
 	});
 });

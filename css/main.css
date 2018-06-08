@@ -54,6 +54,7 @@ Examples:
   font-style: normal;
 }
 body {
+  padding-top: 4rem;
   background: #fff;
 }
 .alert {
@@ -107,6 +108,166 @@ h4,
 h5,
 h6 {
   clear: both;
+}
+header {
+  height: 4rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: #2e7dbb;
+  border-bottom: 1px solid #7bbdf0;
+}
+header .topicNav-area {
+  width: 33%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+header .topicNav-area .topicNav-button {
+  height: 61px;
+  padding: 15px 12px;
+  display: inline-block;
+  line-height: 32px;
+  position: relative;
+  color: white;
+}
+header .topicNav-area .topicNav-button::before {
+  content: "\f078";
+  display: inline-block;
+  position: absolute;
+  bottom: 2px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  left: 50%;
+  transform: translateX(-50%);
+}
+header .topicNav-area .topicNav-wrapper {
+  display: none;
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  z-index: 9999999;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+header .topicNav-area .topicNav-wrapper:after,
+header .topicNav-area .topicNav-wrapper:before {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+header .topicNav-area .topicNav-wrapper:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #fff;
+  border-width: 15px;
+  margin-left: -15px;
+}
+header .topicNav-area .topicNav-wrapper:before {
+  border-color: rgba(204, 204, 204, 0);
+  border-bottom-color: #ccc;
+  border-width: 16px;
+  margin-left: -16px;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .fa {
+  color: #373b42;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .icon-wrapper {
+  display: block;
+  width: 320px;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper #topicNav-search {
+  display: block;
+  width: 100%;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .topicNav-bookmarks-btn {
+  display: block;
+  width: 34px;
+  height: 34px;
+  border-radius: 4px;
+  border: 1px solid #2e7dbb;
+  float: right;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .topicNav-bookmarks-btn::before {
+  content: "\f097";
+  color: #2e7dbb;
+  position: relative;
+  top: 4px;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .topicNav-bookmarks-btn.filter-selected {
+  background-color: #2e7dbb;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .topicNav-bookmarks-btn.filter-selected::before {
+  content: "\f02e";
+  color: white;
+}
+header .topicNav-area .topicNav-wrapper #topicNav {
+  padding: 0;
+  max-height: 550px;
+  overflow: scroll;
+  z-index: 100;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li a {
+  padding: 6px 15px 6px 15px;
+  display: block;
+  color: #2e7dbb;
+  text-align: left;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li a.bookmarked::before {
+  content: "\f02e";
+  position: relative;
+  top: 4px;
+  display: inline-block;
+  float: right;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li a span {
+  display: none;
+  float: none;
+  text-align: left;
+  font-size: 14px;
+  color: gray;
+  padding-left: 16px;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li.even a {
+  background: #f3f3f3;
+}
+.shroud {
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 8;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 .quiz-area .quiz {
   margin-bottom: 20px;

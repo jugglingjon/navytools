@@ -72,6 +72,20 @@
 		"oAP": "\/20.html",
 		"oF": 0
 		},
+	"\/21.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/21.html",
+		"oF": 0
+		},
+	"\/22.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/22.html",
+		"oF": 0
+		},
 	"\/3.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -97,6 +111,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/chapterQuestions-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/chapters.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/chapters-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -338,6 +360,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/controllers-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/controllers-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -8224,13 +8256,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/template-quiz.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/template-quiz.html",
-		"oF": 0
 		}
 	},
 "hooks": [

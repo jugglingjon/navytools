@@ -39,7 +39,7 @@
 				</div>
 				<ul id="topicNav">
 					<li ng-repeat="chapter in chapters">
-						<a href="#" class="" data-topic="cover" ng-click="openChapter($index+1)">{{$index+1}} - {{chapter.title}}</span></a>
+						<a href="#" class="" data-topic="cover" ng-click="openChapter($index+1)" ng-class="(chapter.bookmarked)?'bookmarked':''">{{$index+1}} - {{chapter.title}}</span></a>
 					</li>
 				</ul>
 			</div>

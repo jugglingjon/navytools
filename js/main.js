@@ -110,6 +110,28 @@ function resetTopicNav(){
 	$('#topicNav-search').removeAttr('disabled');
 }
 
+// ====================================
+// 				^BOOKMARKS
+// ====================================
+
+//bookmark filter{
+$('.topicNav-bookmarks-btn').click(function(){
+	$(this).toggleClass('filter-selected');
+
+	if($(this).hasClass('filter-selected')){
+		$('#topicNav-search').attr('disabled','disabled');
+		$('#topicNav li').hide();
+		$('#topicNav li a.bookmarked').parent().show();
+	}
+	else{
+		$('#topicNav-search').removeAttr('disabled');
+		$('#topicNav li').show();
+	}
+
+	
+
+	return false;
+});
 
 // ====================================
 // 				^EVENTS

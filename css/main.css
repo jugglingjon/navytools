@@ -275,4 +275,25 @@ header .topicNav-area .topicNav-wrapper #topicNav li.even a {
 .quiz-area .quiz .quiz-answers .quiz-answer {
   display: block;
 }
+.bookmark-toggle-btn {
+  display: inline-block;
+  right: 30px;
+  bottom: 20px;
+  color: #2e7dbb;
+  padding: 6px 12px;
+  border: 1px solid #2e7dbb;
+  border-radius: 4px;
+}
+.bookmark-toggle-btn .bookmark-toggle-icon::before {
+  content: "\f097";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bookmark-toggle-btn.bookmark-toggle-btn.bookmarked .bookmark-toggle-icon::before {
+  content: "\f02e";
+}
 /*# sourceMappingURL=main.css.map */

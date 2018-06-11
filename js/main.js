@@ -144,15 +144,7 @@ $(document).ready(function(){
 
 	resetTopicNav();
 
-	$('body').on('click','.quiz-answer',function(){
-		if($(this).hasClass('quiz-correct')){
-			alert('Correct');
-		}
-		else{
-			alert('Incorrect');
-		}
-		return false;
-	});
+	
 
 	//topicNav button
 	$('.topicNav-button').click(function(){

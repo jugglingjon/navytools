@@ -4,18 +4,26 @@ app.controller('chapterController', function($scope,$compile,$http) {
 	$scope.startChapter = 1;
 	$scope.chapterID=$scope.startChapter;
 
-	var namespace='NETCtoolsAlphaChapters';
+	var namespace='NETCtoolsAlphaChaptersA';
 
-	//check local storage, init with that data if available, otherwise JSON file
-	if(window.localStorage[namespace]){
-		init(JSON.parse(window.localStorage[namespace]));
-	}
-	else{
-		$http.get('chapters.json').then(function(response){
-			init(response.data);
-		});
+	//load questions data file
+	$http.get('chapterQuestions.json').then(function(response){
+		$scope.questions=response.data;
 
-	}
+		//check local storage, init with that data if available, otherwise JSON file
+		if(window.localStorage[namespace]){
+			init(JSON.parse(window.localStorage[namespace]));
+		}
+		else{
+			$http.get('chapters.json').then(function(response){
+				init(response.data);
+			});
+
+		}
+
+	});
+
+	
 
 	//save data to localstorage
 	function saveData(){
@@ -75,16 +83,32 @@ app.controller('chapterController', function($scope,$compile,$http) {
 		//open chapter with argument ID
 		$scope.openChapter=function(chapterID){
 			$scope.chapterID=chapterID;
+			$scope.chapterQuestions=$scope.questions[chapterID].questions;
+
 			$('.portal').empty().load(chapterID+'.html',function(){
 
-				$('.portal').append($('<div class="quiz"></div>'));
+				for (var answer in $scope.chapters[$scope.chapterID].answered){
 
-				$http.get('chapterQuestions.json').then(function(response){
-					$scope.questions=response.data[chapterID].questions;
-			    });
+					$('.quiz').eq(parseInt(answer)).find('.quiz-answer').eq($scope.chapters[$scope.chapterID].answered[answer]).addClass('selected');
+					console.log($scope.chapters[$scope.chapterID].answered[answer]);
+				}
 				initChapter();
-			});
+
+		    });
 		};
+
+		$('body').on('click','.quiz-answer',function(){
+			
+			$(this).addClass('selected').siblings().removeClass('selected');
+			var answer=$(this).parent().children().index($(this));
+			var question=$(this).closest('.quiz').index('.quiz');
+			if(!$scope.chapters[$scope.chapterID].answered){
+				$scope.chapters[$scope.chapterID].answered={};
+			}
+			$scope.chapters[$scope.chapterID].answered[question]=answer;
+			saveData();
+			return false;
+		});
 
 		//open starting chapter
 		$scope.openChapter($scope.chapterID);

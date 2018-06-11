@@ -275,6 +275,13 @@ header .topicNav-area .topicNav-wrapper #topicNav li.even a {
 .quiz-area .quiz .quiz-answers .quiz-answer {
   display: block;
 }
+.quiz-area .quiz .quiz-answers .quiz-answer.selected {
+  color: white;
+  background: red;
+}
+.quiz-area .quiz .quiz-answers .quiz-answer.selected.quiz-correct {
+  background: green;
+}
 .bookmark-toggle-btn {
   display: inline-block;
   right: 30px;

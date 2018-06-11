@@ -55,7 +55,7 @@
 		<div class="row">
 			<div class="col quiz-area">
 				<h1>Quiz</h1>
-				<div class="quiz" ng-repeat="question in questions">
+				<div class="quiz" ng-repeat="question in chapterQuestions">
 					{{question.question}}
 					<div class="quiz-answers" >
 						<a href="#" ng-repeat="answer in question.answers" class="quiz-answer" ng-class="(answer.correct)?'quiz-correct':'quiz-incorrect'">{{answer.answer}}</a>

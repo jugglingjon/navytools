@@ -360,6 +360,15 @@ header{
         .quiz-answers{
             .quiz-answer{
                 display: block;
+
+                &.selected{
+                    color:white;
+                    background:red;
+
+                    &.quiz-correct{
+                        background:green;
+                    }
+                }
             }
         }
     }

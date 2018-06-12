@@ -4,7 +4,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 		"0": "A",
 		"1": "B",
 		"2": "C",
-		"3": "D",
+		"3": "D"
 	}
 
 	//initialize chapter at 1

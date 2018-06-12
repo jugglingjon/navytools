@@ -4,24 +4,24 @@
 
 Examples:
 ```````````````````````````````````````````
-.gradient(#F5F5F5, #EEE, #FFF); 			
-.bw-gradient(#EEE, 230, 255); 				
-.bordered(#EEE, #E5E5E5, #DDD, #E5E5E5); 	
-.drop-shadow(0, 1px, 2px, 0.2); 			
-.rounded(5px); 								
-.border-radius(5px, 0, 0, 5px); 			
-.opacity(0.8); 								
-.transition-duration(0.2s); 				
-.rotation(15deg); 							
-.scale(2); 									
-.transition(2s, ease-out); 					
-.inner-shadow(0, 1px, 2px, 0.4); 			
-.box-shadow(0 1px 2px #999); 				
-.columns(50px, 0, 50px, #EEE, solid, 1px); 	
-.translate(10px, 20px); 					
+.gradient(#F5F5F5, #EEE, #FFF);             
+.bw-gradient(#EEE, 230, 255);               
+.bordered(#EEE, #E5E5E5, #DDD, #E5E5E5);    
+.drop-shadow(0, 1px, 2px, 0.2);             
+.rounded(5px);                              
+.border-radius(5px, 0, 0, 5px);             
+.opacity(0.8);                              
+.transition-duration(0.2s);                 
+.rotation(15deg);                           
+.scale(2);                                  
+.transition(2s, ease-out);                  
+.inner-shadow(0, 1px, 2px, 0.4);            
+.box-shadow(0 1px 2px #999);                
+.columns(50px, 0, 50px, #EEE, solid, 1px);  
+.translate(10px, 20px);                     
 .box-sizing(content-box);
-.background-size(cover) 					
-.user-select(none); 	
+.background-size(cover)                     
+.user-select(none);     
 .animation-delay(2s)
 
 */
@@ -29,7 +29,7 @@ Examples:
 
 
 // ====================================
-// 				VARIABLES
+//              VARIABLES
 // ====================================
 
 @highlight: #2e7dbb;
@@ -45,18 +45,18 @@ Examples:
 @smallphones: ~"only screen and (max-width: 360px)";
 
 // ====================================
-// 				^Mixins
+//              ^Mixins
 // ====================================
 
 //clearfix
 .clearfix{
-	zoom:1;
-	&:before, &:after{ content:""; display:table; }
-	&:after{ clear: both; }
+    zoom:1;
+    &:before, &:after{ content:""; display:table; }
+    &:after{ clear: both; }
 }
 
 // ====================================
-// 				FONTS
+//              FONTS
 // ====================================
 
 
@@ -87,15 +87,20 @@ Examples:
 
 
 // ====================================
-// 				Shared Styles
+//              Shared Styles
 // ====================================
 
 body{
     font-family: 'Roboto', Helvetica, Arial, Sans-serif;
-	padding-top: 4rem;
+    padding-top: 4rem;
     background: #fff;
+    color: @text;
 
     -webkit-font-smoothing: antialiased;
+}
+
+a:hover{
+    text-decoration:none;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -108,7 +113,7 @@ h1,h2,h3,h4,h5,h6{
 // ====================================
 
 .hero{
-    padding: 3rem 0;
+    padding: 3rem 0 4rem 0;
     margin-bottom: 2rem;
     position: relative;
 
@@ -154,7 +159,7 @@ h1,h2,h3,h4,h5,h6{
     
 }
 
-.portal{
+.portal, .quiz-area{
 
     h1,h2{
         display:none;
@@ -165,7 +170,10 @@ h1,h2,h3,h4,h5,h6{
         color:@highlight;
     }
     h3,h4,h5,h6{
+        margin-top: 2rem;
+
         text-transform: capitalize;
+
     }
 
     h3{
@@ -186,6 +194,10 @@ h1,h2,h3,h4,h5,h6{
 
     .alert{
         clear:both;
+
+        h5{
+            margin-top:0;
+        }
 
         &.alert-note{
             background:#e2e3e5;
@@ -464,22 +476,75 @@ header{
 }
 
 // ====================================
-// 				QUIZ
+//              QUIZ
 // ====================================
 
 .quiz-area{
     .quiz{
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
+        border-radius: .25rem;
+        padding-left: 3rem;
+
+        .quiz-question{
+            padding:.5rem 0;
+            font-weight:bold;
+
+            span{
+                position:absolute;
+                left:1rem;
+            }
+        }
         .quiz-answers{
             .quiz-answer{
                 display: block;
+                position:relative;
+                padding: .5rem 1rem .5rem 2.5rem;
+                margin-bottom:.5rem;
+                border:1px solid #9c9c9c;
+                color: #404040;
+                border-radius: .25rem;
+
+                span{
+                    position: absolute;
+                    z-index:0;
+                    color:white;
+                    left: 10px;
+                    top: 7px;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                }
+
+                &::before{
+                    content: '';
+                    position: absolute;
+                    left:0;
+                    top:0px;
+                    bottom:0px;
+                    width: 2rem;
+                    border-radius:.25rem 0 0 .25rem;
+                    background:#b5b5b5;
+
+                }
+
 
                 &.selected{
-                    color:white;
-                    background:red;
+                    color:#721c24;
+                    background:#f8d7da;
+                    border-color:red;
+
+                    &::before{
+                        background-color:red;
+                    }
 
                     &.quiz-correct{
-                        background:green;
+                        background:#d4edda;
+                        color: #155724;
+                        border-color: green;
+
+                        &::before{
+                            background-color:green;
+                        }
                     }
                 }
             }

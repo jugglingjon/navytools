@@ -1,68 +1,112 @@
 {
 	"1": {
-		"title": "Introduction"
+		"title": "Introduction",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"2": {
-		"title": "Safety and Safety Equipment"
+		"title": "Safety and Safety Equipment",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"3": {
-		"title": "Reading Measuring Scales"
+		"title": "Reading Measuring Scales",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"4": {
-		"title": "Measuring and Layout Tools"
+		"title": "Measuring and Layout Tools",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"5": {
-		"title": "Fastening and Prying Tools"
+		"title": "Fastening and Prying Tools",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"6": {
-		"title": "Sawing and Cutting Tools"
+		"title": "Sawing and Cutting Tools",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"7": {
-		"title": "Boring and Clamping Tools"
+		"title": "Boring and Clamping Tools",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"8": {
-		"title": "Smoothing Tools (Wood and Metal Surfaces)"
+		"title": "Smoothing Tools (Wood and Metal Surfaces)",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"9": {
-		"title": "Brushes"
+		"title": "Brushes",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"10": {
-		"title": "Shop Tools"
+		"title": "Shop Tools",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"11": {
-		"title": "Portable Hand Tools"
+		"title": "Portable Hand Tools",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"12": {
-		"title": "Pneumatic Tools"
+		"title": "Pneumatic Tools",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"13": {
-		"title": "Taps, Dies, and Extractors"
+		"title": "Taps, Dies, and Extractors",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"14": {
-		"title": "Benders"
+		"title": "Benders",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"15": {
-		"title": "Pullers"
+		"title": "Pullers",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"16": {
-		"title": "Digging Tools"
+		"title": "Digging Tools",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"17": {
-		"title": "Chopping Tools"
+		"title": "Chopping Tools",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"18": {
-		"title": "Timber-Handling Tools"
+		"title": "Timber-Handling Tools",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"19": {
-		"title": "Climbing and Rigging Tools"
+		"title": "Climbing and Rigging Tools",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"20": {
-		"title": "Concrete and Masonry Tools"
+		"title": "Concrete and Masonry Tools",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"21": {
-		"title": "Interior Finish Tools"
+		"title": "Interior Finish Tools",
+		"correctCount": 0,
+		"correctPercent": 0
 	},
 	"22": {
-		"title": "Jacks"
+		"title": "Jacks",
+		"correctCount": 0,
+		"correctPercent": 0
 	}
 }

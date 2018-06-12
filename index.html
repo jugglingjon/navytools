@@ -21,10 +21,6 @@
 </head>
 <body ng-app="myApp" ng-controller="chapterController">
 	<header>
-		<!-- <select ng-model="chapterID" ng-change="openChapter()" style="position: absolute;">
-			<option ng-repeat="n in [].constructor(22) track by $index" value="{{$index+1}}">{{$index+1}}</option>
-		</select> -->
-
 		<div class="topicNav-area">
 			<a href="#" class="topicNav-button">Chapters</a>
 			<div class="topicNav-wrapper">
@@ -39,7 +35,7 @@
 				</div>
 				<ul id="topicNav">
 					<li ng-repeat="chapter in chapters">
-						<a href="#" class="" data-topic="cover" ng-click="openChapter($index+1)" ng-class="(chapter.bookmarked)?'bookmarked':''">{{$index+1}} - {{chapter.title}}</span></a>
+						<a href="#" class="" data-topic="cover" ng-click="openChapter($index+1)" ng-class="(chapter.bookmarked)?'bookmarked':''">{{$index+1}} - {{chapter.title}} ({{(chapter.correctPercent)?chapter.correctPercent:'0'}}%)</span></a>
 					</li>
 				</ul>
 			</div>
@@ -58,7 +54,7 @@
 				<div class="quiz" ng-repeat="question in chapterQuestions">
 					{{question.question}}
 					<div class="quiz-answers" >
-						<a href="#" ng-repeat="answer in question.answers" class="quiz-answer" ng-class="(answer.correct)?'quiz-correct':'quiz-incorrect'">{{answer.answer}}</a>
+						<a href="#" ng-repeat="answer in question.answers" class="quiz-answer" ng-class="(answer.correct)?'quiz-correct':'quiz-incorrect'" ng-click="selectAnswer($event)">{{answer.answer}}</a>
 					</div>
 				</div>
 			</div>

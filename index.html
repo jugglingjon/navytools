@@ -42,6 +42,13 @@
 		</div>
 	</header>
 	
+	<div class="hero">
+		<div class="container text-center">
+			<h1>Chapter {{chapterID}}</h1>
+			<h2>{{chapters[chapterID].title}}</h2>
+			<a href="#" class="bookmark-toggle-btn" ng-click="bookmarkToggle()" ng-class="(chapters[chapterID].bookmarked===true)?'bookmarked':''"><span class="bookmark-toggle-icon"></span> Bookmark</a>
+		</div>
+	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col portal">
@@ -52,9 +59,9 @@
 			<div class="col quiz-area">
 				<h1>Quiz</h1>
 				<div class="quiz" ng-repeat="question in chapterQuestions">
-					{{question.question}}
+					{{chapterID}}-{{$index+1}}. {{question.question}}
 					<div class="quiz-answers" >
-						<a href="#" ng-repeat="answer in question.answers" class="quiz-answer" ng-class="(answer.correct)?'quiz-correct':'quiz-incorrect'" ng-click="selectAnswer($event)">{{answer.answer}}</a>
+						<a href="#" ng-repeat="answer in question.answers" class="quiz-answer" ng-class="(answer.correct)?'quiz-correct':'quiz-incorrect'" ng-click="selectAnswer($event)">{{numbersToLetters[$index]}}. {{answer.answer}}</a>
 					</div>
 				</div>
 			</div>

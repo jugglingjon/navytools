@@ -1,5 +1,12 @@
 app.controller('chapterController', function($scope,$compile,$http) {
 
+	$scope.numbersToLetters={
+		"0": "A",
+		"1": "B",
+		"2": "C",
+		"3": "D",
+	}
+
 	//initialize chapter at 1
 	$scope.startChapter = 1;
 	$scope.chapterID=$scope.startChapter;
@@ -66,15 +73,15 @@ app.controller('chapterController', function($scope,$compile,$http) {
 
 		//initialize current chapter (bookmark button, figures, alerts)
 		function initChapter(){
-			var bookmarked=($scope.chapters[$scope.chapterID].bookmarked===true)?'bookmarked':'';
-			var elementToBeAdded = $(`<a href="#" class="bookmark-toggle-btn ${bookmarked}" ng-click="bookmarkToggle()"><span class="bookmark-toggle-icon"></span> Bookmark</a>`);
-			var elementToBeAddedCompiled = $compile(elementToBeAdded)($scope);
-			$('.portal').prepend(elementToBeAddedCompiled);
+			// var bookmarked=($scope.chapters[$scope.chapterID].bookmarked===true)?'bookmarked':'';
+			// var elementToBeAdded = $(`<a href="#" class="bookmark-toggle-btn ${bookmarked}" ng-click="bookmarkToggle()"><span class="bookmark-toggle-icon"></span> Bookmark</a>`);
+			// var elementToBeAddedCompiled = $compile(elementToBeAdded)($scope);
+			// $('.portal').prepend(elementToBeAddedCompiled);
 
 			$('figure').each(function(){
 				var figure=$(this).attr('data-id');
 
-				$(this).prepend('Figure '+figure+' &mdash; ');
+				$(this).prepend('<span>Figure '+figure+'</span> &mdash; ');
 				$(this).wrapInner('<figcaption></figcaption>');
 				var imageUrl='media/'+figure+'.jpg';
 				var img=$('<img src="'+imageUrl+'">');

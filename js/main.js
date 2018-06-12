@@ -152,6 +152,12 @@ $(document).ready(function(){
 		return false;
 	});
 
+	//figure zoom
+	$('body').on('click','figure',function(){
+		$('#figureModal .modal-title').text($(this).find('figcaption').text());
+		$('#figureModal .modal-body').empty().append($(this).find('img').clone());
+		$('#figureModal').modal();
+	});
 	//clicks to window clear nav dropdowns
 	$(window).click(function() {
 		$('#sectionNav, .topicNav-wrapper').hide();

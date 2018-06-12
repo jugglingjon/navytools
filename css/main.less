@@ -272,7 +272,35 @@ h1,h2,h3,h4,h5,h6{
     }
 }
 
+// ====================================
+//              MODAL
+// ====================================
+#figureModal{
+    .modal-header{
+        background: @highlight;
+        color:white;
+        font-weight:bold;
 
+        .modal-title{
+            margin-right:2rem;
+        }
+
+        .close{
+            color:white;
+            text-shadow:none;
+            opacity:1;
+            font-size:2rem;
+            position: absolute;
+            right:1rem;
+        }
+    }
+    .modal-body{
+        img{
+            width:100%;
+            border-radius: .25rem;
+        }
+    }
+}
 
 // ====================================
 //              HEADER

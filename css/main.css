@@ -256,6 +256,26 @@ h6 {
   margin-left: 0;
   margin-right: 0;
 }
+#figureModal .modal-header {
+  background: #2e7dbb;
+  color: white;
+  font-weight: bold;
+}
+#figureModal .modal-header .modal-title {
+  margin-right: 2rem;
+}
+#figureModal .modal-header .close {
+  color: white;
+  text-shadow: none;
+  opacity: 1;
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+#figureModal .modal-body img {
+  width: 100%;
+  border-radius: .25rem;
+}
 header {
   height: 4rem;
   position: fixed;

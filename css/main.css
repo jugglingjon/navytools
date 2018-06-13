@@ -283,6 +283,9 @@ footer a i::before {
   margin-left: 0;
   margin-right: 0;
 }
+#figureModal .modal-dialog {
+  max-width: 680px;
+}
 #figureModal .modal-header {
   background: #2e7dbb;
   color: white;

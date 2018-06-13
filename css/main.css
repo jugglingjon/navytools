@@ -114,6 +114,12 @@ footer a {
 footer a:hover {
   color: white;
 }
+footer a i::before {
+  font-size: 1.2rem;
+  position: relative;
+  top: 3px;
+  margin-right: 2px;
+}
 .hero {
   padding: 3rem 0 4rem 0;
   margin-bottom: 2rem;

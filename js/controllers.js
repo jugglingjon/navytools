@@ -1,5 +1,5 @@
 app.controller('chapterController', function($scope,$compile,$http) {
-
+	$scope.version="0.5"
 	$scope.numbersToLetters={
 		"0": "A",
 		"1": "B",
@@ -23,12 +23,23 @@ app.controller('chapterController', function($scope,$compile,$http) {
 		}
 		else{
 			$http.get('chapters.json').then(function(response){
+				
 				init(response.data);
 			});
 
 		}
 
 	});
+
+	//resets bookmark and progress data
+	$scope.resetData = function(){
+		if(confirm("This will reset all bookmarks and saved progress, do you want to continue?")){
+			$http.get('chapters.json').then(function(response){
+				$('.quiz-answer').removeClass('selected');
+				init(response.data);
+			});
+		}		
+	}
 
 	//reports current % correct	
 	function reportScores(){
@@ -57,6 +68,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 	//initialize app with data
 	function init(data){
 		$scope.chapters=data;
+		saveData();
 	
 		//toggle bookmark state for chapter in object
 		$scope.bookmarkToggle= function(){

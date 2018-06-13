@@ -102,6 +102,18 @@ h6 {
   clear: both;
   font-weight: normal;
 }
+footer {
+  padding: .5rem 0;
+  background: #373b42;
+  color: white;
+}
+footer a {
+  text-decoration: underline;
+  color: white;
+}
+footer a:hover {
+  color: white;
+}
 .hero {
   padding: 3rem 0 4rem 0;
   margin-bottom: 2rem;

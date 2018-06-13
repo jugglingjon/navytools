@@ -371,6 +371,7 @@ header{
             padding: 15px 12px;
             display:inline-block;
             line-height: 32px;
+            text-transform:uppercase;
             position:relative;
 
             color:white;
@@ -501,6 +502,19 @@ header{
 
                 li{
                     position: relative;
+                    
+                    &.current::before{
+                        position:absolute;
+                        right: 4px;
+                        left: 4px;
+                        top: 3px;
+                        bottom: 3px;
+                        border: 1px solid #ffffff;
+                        border-radius: .25rem;
+                        content: '';
+                        box-shadow: 0 0 4px 0 #2e7dbb;
+                        pointer-events: none;
+                    }
 
                     a{
                         padding: 6px 27px 6px 15px;

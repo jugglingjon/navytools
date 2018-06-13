@@ -94,11 +94,11 @@ app.controller('chapterController', function($scope,$compile,$http) {
 			});
 
 			$('.alert-warning').each(function(){
-				$(this).prepend('<h5>WARNING</h5>');
+				$(this).prepend('<h5><i class="icon mdi mdi-warning"></i>WARNING<i class="icon mdi mdi-warning"></i></h5>');
 			});
 
 			$('.alert-caution').each(function(){
-				$(this).prepend('<h5>CAUTION</h5>');
+				$(this).prepend('<h5><i class="icon mdi mdi-warning"></i>CAUTION<i class="icon mdi mdi-warning"></i></h5>');
 			});
 
 

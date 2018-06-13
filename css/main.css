@@ -183,6 +183,7 @@ h6 {
 .portal .alert,
 .quiz-area .alert {
   clear: both;
+  text-align: center;
 }
 .portal .alert h5,
 .quiz-area .alert h5 {
@@ -205,6 +206,12 @@ h6 {
   background: #f8d7da;
   border-color: #f5c6cb;
   color: #721c24;
+}
+.portal .alert .icon,
+.quiz-area .alert .icon {
+  font-size: 1.8rem;
+  margin: 0 3px;
+  top: 5px;
 }
 .portal figure,
 .quiz-area figure {

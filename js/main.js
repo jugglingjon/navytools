@@ -105,7 +105,7 @@ function resetTopicNav(){
 	$('#topicNav-search').val('');
 	$('#topicNav li').show().removeClass('even');
 	$('#topicNav li:even').addClass('even');
-	$('.icon').hide();
+	$('#topicNav .icon-wrapper .icon').hide();
 	$('.mdi-search').show();
 	$('.topicNav-bookmarks-btn').removeClass('filter-selected');
 	$('#topicNav-search').removeAttr('disabled');

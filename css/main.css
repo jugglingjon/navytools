@@ -129,16 +129,18 @@ h6 {
   border-radius: 4px;
 }
 .hero .bookmark-toggle-btn .bookmark-toggle-icon::before {
-  content: "\f097";
+  content: "\e867";
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
+  position: relative;
+  font: normal normal normal 14px/1 'Material Design Icons';
+  font-size: 1.2rem;
+  top: 4px;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 .hero .bookmark-toggle-btn.bookmark-toggle-btn.bookmarked .bookmark-toggle-icon::before {
-  content: "\f02e";
+  content: "\e866";
 }
 .portal h1,
 .quiz-area h1,
@@ -302,12 +304,12 @@ header .topicNav-area .topicNav-button {
   color: white;
 }
 header .topicNav-area .topicNav-button::before {
-  content: "\f078";
+  content: "\e313";
   display: inline-block;
   position: absolute;
-  bottom: 2px;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
+  bottom: -1px;
+  font: normal normal normal 14px/1 'Material Design Icons';
+  font-size: 1.5rem;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   left: 50%;
@@ -316,7 +318,7 @@ header .topicNav-area .topicNav-button::before {
 header .topicNav-area .topicNav-wrapper {
   display: none;
   position: absolute;
-  width: 400px;
+  width: 480px;
   left: 50%;
   transform: translateX(-50%);
   margin-top: 20px;
@@ -353,16 +355,26 @@ header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper {
   border-bottom: 1px solid #ccc;
   margin-bottom: 15px;
 }
-header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .fa {
-  color: #373b42;
-}
 header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .icon-wrapper {
   display: block;
-  width: 320px;
+  position: relative;
+  width: 400px;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .icon-wrapper .icon {
+  position: absolute;
+  top: 50%;
+  right: 0.6rem;
+  transform: translateY(-50%);
+  font-size: 1.4rem;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .icon-wrapper .icon#topicNav-search-clear {
+  transform: translateY(-50%) rotate(45deg);
+  cursor: pointer;
 }
 header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper #topicNav-search {
   display: block;
   width: 100%;
+  height: 34px;
 }
 header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .topicNav-bookmarks-btn {
   display: block;
@@ -373,13 +385,13 @@ header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .topicNav-bookm
   float: right;
 }
 header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .topicNav-bookmarks-btn::before {
-  content: "\f097";
+  content: "\e867";
   color: #2e7dbb;
   position: relative;
-  top: 4px;
+  top: 6px;
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
+  font: normal normal normal 14px/1 "Material Design Icons";
+  font-size: 1.3rem;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -388,7 +400,7 @@ header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .topicNav-bookm
   background-color: #2e7dbb;
 }
 header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .topicNav-bookmarks-btn.filter-selected::before {
-  content: "\f02e";
+  content: "\e866";
   color: white;
 }
 header .topicNav-area .topicNav-wrapper #topicNav {
@@ -397,31 +409,51 @@ header .topicNav-area .topicNav-wrapper #topicNav {
   overflow: scroll;
   z-index: 100;
 }
+header .topicNav-area .topicNav-wrapper #topicNav li {
+  position: relative;
+}
 header .topicNav-area .topicNav-wrapper #topicNav li a {
-  padding: 6px 15px 6px 15px;
+  padding: 6px 27px 6px 15px;
   display: block;
   color: #2e7dbb;
   text-align: left;
+  padding-left: 2.5rem;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li a .chapter-number {
+  position: absolute;
+  left: .85rem;
+  font-weight: bold;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li a .chapter-percent {
+  position: absolute;
+  right: .5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: .25rem;
+  color: #2e7cbc;
+  padding: 3px 4px;
+  opacity: 0.7;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li a .chapterProgress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #84afde4f;
+  z-index: 0;
+  display: none;
 }
 header .topicNav-area .topicNav-wrapper #topicNav li a.bookmarked::before {
-  content: "\f02e";
-  position: relative;
-  top: 4px;
+  content: "\e866";
+  position: absolute;
+  top: 6px;
+  right: 3.1rem;
   display: inline-block;
-  float: right;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
+  font: normal normal normal 14px/1 "Material Design Icons";
+  font-size: 1.5rem;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-header .topicNav-area .topicNav-wrapper #topicNav li a span {
-  display: none;
-  float: none;
-  text-align: left;
-  font-size: 14px;
-  color: gray;
-  padding-left: 16px;
 }
 header .topicNav-area .topicNav-wrapper #topicNav li.even a {
   background: #f3f3f3;

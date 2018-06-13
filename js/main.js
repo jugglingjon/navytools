@@ -72,16 +72,16 @@ $('#topicNav-search').keyup(function(){
 
 	if($('#topicNav-search').val()!=''){
 		$('#topicNav li').hide();
-		$('#topicNav li a span').css('display','block');
+		//$('#topicNav li a span').css('display','block');
 		$('#topicNav li a:containsIN("'+$(this).val()+'")').parent().show();
-		$('#topicNav-search-clear').show().siblings('.fa').hide();
+		$('#topicNav-search-clear').show().siblings('.icon').hide();
 		$('#topicNav li:visible:even').addClass('even');
 		$('#topicNav li:visible:odd').removeClass('even');
 	}
 	else{
 		$('#topicNav li').show();
-		$('#topicNav li a span').css('display','none');
-		$('#topicNav-search-clear').hide().siblings('.fa').show();
+		//$('#topicNav li a span').css('display','none');
+		$('#topicNav-search-clear').hide().siblings('.icon').show();
 		resetTopicNav();
 	}
 
@@ -94,7 +94,7 @@ $('.topicNav-search-wrapper').click(function(event){
 	//if click to search clear button, clear search box
 	if(targ.is('#topicNav-search-clear')){
 		resetTopicNav();
-		$('#topicNav-search-clear').hide().siblings('.fa').show();
+		$('#topicNav-search-clear').hide().siblings('.icon').show();
 	}
 
 	event.stopPropagation();
@@ -149,6 +149,7 @@ $(document).ready(function(){
 	//topicNav button
 	$('.topicNav-button').click(function(){
 		$('.topicNav-wrapper, .shroud').toggle();
+		resetTopicNav();
 		return false;
 	});
 

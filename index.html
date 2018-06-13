@@ -28,14 +28,15 @@
 					<a href="#" class="topicNav-bookmarks-btn"></a>
 					<div class="icon-wrapper">
 						<input type="text" class="form-control" ng-model="searchTerm" id="topicNav-search" placeholder="Search chapters">
-						<i class="fa fa-search"></i>
-						<i class="fa fa-times-circle" id="topicNav-search-clear" style="display:none;"></i>
+						<i class="icon mdi mdi-search"></i>
+						<i class="icon mdi mdi-add-circle" id="topicNav-search-clear" style="display:none;"></i>
 					</div>
 
 				</div>
 				<ul id="topicNav">
 					<li ng-repeat="chapter in chapters">
-						<a href="#" class="" data-topic="cover" ng-click="openChapter($index+1)" ng-class="(chapter.bookmarked)?'bookmarked':''">{{$index+1}} - {{chapter.title}} ({{(chapter.correctPercent)?chapter.correctPercent:'0'}}%)</span></a>
+						<a href="#" class="" data-topic="cover" ng-click="openChapter($index+1)" ng-class="(chapter.bookmarked)?'bookmarked':''"><div class="chapterProgress" style="width:{{(chapter.correctPercent)?chapter.correctPercent:'0'}}%"></div>
+							<span class="chapter-number">{{$index+1}}</span>{{chapter.title}}<span class="chapter-percent">{{(chapter.correctPercent)?chapter.correctPercent:'0'}}%</span></a>
 					</li>
 				</ul>
 			</div>

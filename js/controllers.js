@@ -146,9 +146,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 			return false;
 		};
 
-		$('body').on('click','.quiz-answer',function(){
-			return false;
-		});
+		
 
 
 		//open starting chapter

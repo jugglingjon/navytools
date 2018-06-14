@@ -473,6 +473,16 @@ header .topicNav-area .topicNav-wrapper #topicNav li.current::before {
   content: '';
   box-shadow: 0 0 4px 0 #2e7dbb;
   pointer-events: none;
+  background-color: #2e7dbb;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li.current a {
+  color: white;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li.current a .chapter-title {
+  position: relative;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li.current a .chapter-percent {
+  color: white;
 }
 header .topicNav-area .topicNav-wrapper #topicNav li a {
   padding: 6px 27px 6px 15px;

@@ -36,7 +36,7 @@
 				<ul id="topicNav">
 					<li ng-repeat="chapter in chapters" ng-class="(chapterID===$index+1)?'current':''">
 						<a href="#" class="" data-topic="cover" ng-click="openChapter($index+1)" ng-class="(chapter.bookmarked)?'bookmarked':''"><div class="chapterProgress" style="width:{{(chapter.correctPercent)?chapter.correctPercent:'0'}}%"></div>
-							<span class="chapter-number">{{$index+1}}</span>{{chapter.title}}<span class="chapter-percent">{{(chapter.correctPercent)?chapter.correctPercent:'0'}}%</span></a>
+							<span class="chapter-number">{{$index+1}}</span><span class="chapter-title">{{chapter.title}}</span><span class="chapter-percent">{{(chapter.correctPercent)?chapter.correctPercent:'0'}}%</span></a>
 					</li>
 				</ul>
 			</div>

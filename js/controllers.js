@@ -85,11 +85,9 @@ app.controller('chapterController', function($scope,$compile,$http) {
 
 		//initialize current chapter (bookmark button, figures, alerts)
 		function initChapter(){
-			// var bookmarked=($scope.chapters[$scope.chapterID].bookmarked===true)?'bookmarked':'';
-			// var elementToBeAdded = $(`<a href="#" class="bookmark-toggle-btn ${bookmarked}" ng-click="bookmarkToggle()"><span class="bookmark-toggle-icon"></span> Bookmark</a>`);
-			// var elementToBeAddedCompiled = $compile(elementToBeAdded)($scope);
-			// $('.portal').prepend(elementToBeAddedCompiled);
 
+			$('#search').val('').trigger('keyup');
+			
 			$('figure').each(function(){
 				var figure=$(this).attr('data-id');
 

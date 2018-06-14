@@ -7,9 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- Angular -->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-sanitize.js"></script>
+	<script src="js/vendor/angular.min.js"></script>
+	<script src="js/vendor/angular-animate.js"></script>
+	<script src="js/vendor/angular-sanitize.js"></script>
 	
 	<!-- Framework Styles -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -19,18 +19,92 @@
 	<link rel="stylesheet" href="css/main.css">
 
 </head>
-<body ng-app="">
+<body ng-app="myApp" ng-controller="chapterController">
+	<header>
+		<div class="topicNav-area">
+			<a href="#" class="topicNav-button">Chapters</a>
+			<div class="topicNav-wrapper">
+				<div class="topicNav-search-wrapper">
+					<a href="#" class="topicNav-bookmarks-btn"></a>
+					<div class="icon-wrapper">
+						<input type="text" class="form-control" ng-model="searchTerm" id="topicNav-search" placeholder="Search chapters">
+						<i class="icon mdi mdi-search"></i>
+						<i class="icon mdi mdi-add-circle" id="topicNav-search-clear" style="display:none;"></i>
+					</div>
+
+				</div>
+				<ul id="topicNav">
+					<li ng-repeat="chapter in chapters" ng-class="(chapterID===$index+1)?'current':''">
+						<a href="#" class="" data-topic="cover" ng-click="openChapter($index+1)" ng-class="(chapter.bookmarked)?'bookmarked':''"><div class="chapterProgress" style="width:{{(chapter.correctPercent)?chapter.correctPercent:'0'}}%"></div>
+							<span class="chapter-number">{{$index+1}}</span>{{chapter.title}}<span class="chapter-percent">{{(chapter.correctPercent)?chapter.correctPercent:'0'}}%</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
 	
+	<div class="hero">
+		<div class="container text-center">
+			<h1>Chapter {{chapterID}}</h1>
+			<h2>{{chapters[chapterID].title}}</h2>
+			<a href="#" class="bookmark-toggle-btn" ng-click="bookmarkToggle()" ng-class="(chapters[chapterID].bookmarked===true)?'bookmarked':''"><span class="bookmark-toggle-icon"></span> Bookmark</a>
+		</div>
+	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col portal" ng-include="'9.html'">
+			<div class="col portal">
 				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col quiz-area">
+				<h3>QUIZ</h3>
+				<div class="quiz" ng-repeat="question in chapterQuestions">
+					<div class="quiz-question">
+						<span>{{chapterID}}-{{$index+1}}. </span>{{question.question}}
+					</div>
+					<div class="quiz-answers" >
+						<a href="#" ng-repeat="answer in question.answers" class="quiz-answer" ng-class="(answer.correct)?'quiz-correct':'quiz-incorrect'" ng-click="selectAnswer($event)"><span>{{numbersToLetters[$index]}}</span>{{answer.answer}}</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	
 
+
+
+	<div class="shroud"></div>
+
+	<div class="modal" id="figureModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="mdi mdi-close"></i>
+					</button>
+				</div>
+				<div class="modal-body">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<span class="version">Version {{version}}</span>
+				</div>
+				<div class="col text-right">
+					<a href="#" class="btn-reset" ng-click="resetData()"><i class="mdi mdi-warning"></i>Reset Data</a>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
 
 	<!-- Framework Scripts -->
 	<script src="js/vendor/jquery-3.2.1.min.js"></script>

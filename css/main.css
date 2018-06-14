@@ -3,24 +3,24 @@
 
 Examples:
 ```````````````````````````````````````````
-.gradient(#F5F5F5, #EEE, #FFF); 			
-.bw-gradient(#EEE, 230, 255); 				
-.bordered(#EEE, #E5E5E5, #DDD, #E5E5E5); 	
-.drop-shadow(0, 1px, 2px, 0.2); 			
-.rounded(5px); 								
-.border-radius(5px, 0, 0, 5px); 			
-.opacity(0.8); 								
-.transition-duration(0.2s); 				
-.rotation(15deg); 							
-.scale(2); 									
-.transition(2s, ease-out); 					
-.inner-shadow(0, 1px, 2px, 0.4); 			
-.box-shadow(0 1px 2px #999); 				
-.columns(50px, 0, 50px, #EEE, solid, 1px); 	
-.translate(10px, 20px); 					
+.gradient(#F5F5F5, #EEE, #FFF);             
+.bw-gradient(#EEE, 230, 255);               
+.bordered(#EEE, #E5E5E5, #DDD, #E5E5E5);    
+.drop-shadow(0, 1px, 2px, 0.2);             
+.rounded(5px);                              
+.border-radius(5px, 0, 0, 5px);             
+.opacity(0.8);                              
+.transition-duration(0.2s);                 
+.rotation(15deg);                           
+.scale(2);                                  
+.transition(2s, ease-out);                  
+.inner-shadow(0, 1px, 2px, 0.4);            
+.box-shadow(0 1px 2px #999);                
+.columns(50px, 0, 50px, #EEE, solid, 1px);  
+.translate(10px, 20px);                     
 .box-sizing(content-box);
-.background-size(cover) 					
-.user-select(none); 	
+.background-size(cover)                     
+.user-select(none);     
 .animation-delay(2s)
 
 */
@@ -53,52 +53,45 @@ Examples:
   font-weight: 600;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 body {
+  font-family: 'Roboto', Helvetica, Arial, Sans-serif;
+  padding-top: 4rem;
   background: #fff;
+  color: #404040;
+  -webkit-font-smoothing: antialiased;
 }
-.alert {
-  clear: both;
-}
-.alert.alert-note {
-  background: #ccc;
-}
-.alert.alert-caution {
-  background: #fff3cd;
-}
-.alert.alert-warning {
-  background: #f8d7da;
-}
-figure {
-  max-width: 40%;
-  padding: 15px;
-  border: 1px solid gray;
-  margin: 0 20px 20px 20px;
-  float: right;
-  clear: right;
-  margin-right: 0;
-}
-figure img {
-  max-width: 100%;
-}
-figure.float-right {
-  margin-right: 0;
-}
-figure.float-left {
-  margin-left: 0;
-}
-figure.fullWidth {
-  max-width: 100%;
-  float: none;
-  margin-left: 0;
-  margin-right: 0;
-}
-figure.large {
-  max-width: 50%;
-}
-.portal .col figure {
-  max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
+a:hover {
+  text-decoration: none;
 }
 h1,
 h2,
@@ -107,5 +100,471 @@ h4,
 h5,
 h6 {
   clear: both;
+  font-weight: normal;
+}
+footer {
+  padding: .5rem 0;
+  background: #373b42;
+  color: white;
+}
+footer a {
+  text-decoration: underline;
+  color: white;
+}
+footer a:hover {
+  color: white;
+}
+footer a i::before {
+  font-size: 1.2rem;
+  position: relative;
+  top: 3px;
+  margin-right: 2px;
+}
+.hero {
+  padding: 3rem 0 4rem 0;
+  margin-bottom: 2rem;
+  position: relative;
+  background: #373b42;
+  color: white;
+}
+.hero h1 {
+  font-weight: normal;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.hero h2 {
+  font-weight: 100;
+  font-size: 3rem;
+}
+.hero .bookmark-toggle-btn {
+  position: absolute;
+  display: inline-block;
+  right: 2rem;
+  bottom: 20px;
+  color: white;
+  padding: 6px 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.hero .bookmark-toggle-btn .bookmark-toggle-icon::before {
+  content: "\e867";
+  display: inline-block;
+  position: relative;
+  font: normal normal normal 14px/1 'Material Design Icons';
+  font-size: 1.2rem;
+  top: 4px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hero .bookmark-toggle-btn.bookmark-toggle-btn.bookmarked .bookmark-toggle-icon::before {
+  content: "\e866";
+}
+.portal h1,
+.quiz-area h1,
+.portal h2,
+.quiz-area h2 {
+  display: none;
+  font-weight: 100;
+}
+.portal h3,
+.quiz-area h3 {
+  color: #2e7dbb;
+}
+.portal h3,
+.quiz-area h3,
+.portal h4,
+.quiz-area h4,
+.portal h5,
+.quiz-area h5,
+.portal h6,
+.quiz-area h6 {
+  margin-top: 2rem;
+  text-transform: capitalize;
+}
+.portal h3,
+.quiz-area h3 {
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid rgba(46, 125, 187, 0.4);
+}
+.portal h4,
+.quiz-area h4 {
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+.portal h5,
+.quiz-area h5 {
+  font-weight: 200;
+}
+.portal .alert,
+.quiz-area .alert {
+  clear: both;
+  text-align: center;
+}
+.portal .alert h5,
+.quiz-area .alert h5 {
+  margin-top: 0;
+}
+.portal .alert.alert-note,
+.quiz-area .alert.alert-note {
+  background: #e2e3e5;
+  border-color: #e2e3e5;
+  color: #383d41;
+}
+.portal .alert.alert-caution,
+.quiz-area .alert.alert-caution {
+  background: #fff3cd;
+  border-color: #ffeeba;
+  color: #856404;
+}
+.portal .alert.alert-warning,
+.quiz-area .alert.alert-warning {
+  background: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+.portal .alert .icon,
+.quiz-area .alert .icon {
+  font-size: 1.8rem;
+  margin: 0 3px;
+  top: 5px;
+}
+.portal figure,
+.quiz-area figure {
+  max-width: 40%;
+  border-radius: .25rem;
+  border: 1px solid #dcdcdc;
+  padding: 0;
+  margin: 0 20px 20px 20px;
+  float: right;
+  clear: right;
+  margin-right: 0;
+}
+.portal figure figcaption,
+.quiz-area figure figcaption {
+  background-color: #ececec;
+  color: #424242;
+  border-radius: 0 0 .25rem .25rem;
+  padding: .5rem 1rem;
+}
+.portal figure figcaption span,
+.quiz-area figure figcaption span {
+  font-weight: bold;
+}
+.portal figure img,
+.quiz-area figure img {
+  max-width: 100%;
+  padding: 1rem;
+}
+.portal figure.float-right,
+.quiz-area figure.float-right {
+  margin-right: 0;
+}
+.portal figure.float-left,
+.quiz-area figure.float-left {
+  margin-left: 0;
+}
+.portal figure.fullWidth,
+.quiz-area figure.fullWidth {
+  max-width: 100%;
+  float: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+.portal figure.large,
+.quiz-area figure.large {
+  max-width: 50%;
+}
+.portal .col figure,
+.quiz-area .col figure {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+#figureModal .modal-dialog {
+  max-width: 680px;
+}
+#figureModal .modal-header {
+  background: #2e7dbb;
+  color: white;
+  font-weight: bold;
+}
+#figureModal .modal-header .modal-title {
+  margin-right: 2rem;
+}
+#figureModal .modal-header .close {
+  color: white;
+  text-shadow: none;
+  opacity: 1;
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+#figureModal .modal-body img {
+  width: 100%;
+  border-radius: .25rem;
+}
+header {
+  height: 4rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: #2e7dbb;
+  border-bottom: 1px solid #7bbdf0;
+}
+header .topicNav-area {
+  width: 33%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+header .topicNav-area .topicNav-button {
+  height: 61px;
+  padding: 15px 12px;
+  display: inline-block;
+  line-height: 32px;
+  text-transform: uppercase;
+  position: relative;
+  color: white;
+}
+header .topicNav-area .topicNav-button::before {
+  content: "\e313";
+  display: inline-block;
+  position: absolute;
+  bottom: -1px;
+  font: normal normal normal 14px/1 'Material Design Icons';
+  font-size: 1.5rem;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  left: 50%;
+  transform: translateX(-50%);
+}
+header .topicNav-area .topicNav-wrapper {
+  display: none;
+  position: absolute;
+  width: 480px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  z-index: 9999999;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+header .topicNav-area .topicNav-wrapper:after,
+header .topicNav-area .topicNav-wrapper:before {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+header .topicNav-area .topicNav-wrapper:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #fff;
+  border-width: 15px;
+  margin-left: -15px;
+}
+header .topicNav-area .topicNav-wrapper:before {
+  border-color: rgba(204, 204, 204, 0);
+  border-bottom-color: #ccc;
+  border-width: 16px;
+  margin-left: -16px;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .icon-wrapper {
+  display: block;
+  position: relative;
+  width: 400px;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .icon-wrapper .icon {
+  position: absolute;
+  top: 50%;
+  right: 0.6rem;
+  transform: translateY(-50%);
+  font-size: 1.4rem;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .icon-wrapper .icon#topicNav-search-clear {
+  transform: translateY(-50%) rotate(45deg);
+  cursor: pointer;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper #topicNav-search {
+  display: block;
+  width: 100%;
+  height: 34px;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .topicNav-bookmarks-btn {
+  display: block;
+  width: 34px;
+  height: 34px;
+  border-radius: 4px;
+  border: 1px solid #2e7dbb;
+  float: right;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .topicNav-bookmarks-btn::before {
+  content: "\e867";
+  color: #2e7dbb;
+  position: relative;
+  top: 6px;
+  display: inline-block;
+  font: normal normal normal 14px/1 "Material Design Icons";
+  font-size: 1.3rem;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .topicNav-bookmarks-btn.filter-selected {
+  background-color: #2e7dbb;
+}
+header .topicNav-area .topicNav-wrapper .topicNav-search-wrapper .topicNav-bookmarks-btn.filter-selected::before {
+  content: "\e866";
+  color: white;
+}
+header .topicNav-area .topicNav-wrapper #topicNav {
+  padding: 0;
+  max-height: 550px;
+  overflow: scroll;
+  z-index: 100;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li {
+  position: relative;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li.current::before {
+  position: absolute;
+  right: 4px;
+  left: 4px;
+  top: 3px;
+  bottom: 3px;
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
+  content: '';
+  box-shadow: 0 0 4px 0 #2e7dbb;
+  pointer-events: none;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li a {
+  padding: 6px 27px 6px 15px;
+  display: block;
+  color: #2e7dbb;
+  text-align: left;
+  padding-left: 2.5rem;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li a .chapter-number {
+  position: absolute;
+  left: .85rem;
+  font-weight: bold;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li a .chapter-percent {
+  position: absolute;
+  right: .5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: .25rem;
+  color: #2e7cbc;
+  padding: 3px 4px;
+  opacity: 0.7;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li a .chapterProgress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #84afde4f;
+  z-index: 0;
+  display: none;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li a.bookmarked::before {
+  content: "\e866";
+  position: absolute;
+  top: 6px;
+  right: 3.1rem;
+  display: inline-block;
+  font: normal normal normal 14px/1 "Material Design Icons";
+  font-size: 1.5rem;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header .topicNav-area .topicNav-wrapper #topicNav li.even a {
+  background: #f3f3f3;
+}
+.shroud {
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 8;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.quiz-area .quiz {
+  margin-bottom: 2rem;
+  border-radius: .25rem;
+  padding-left: 3rem;
+}
+.quiz-area .quiz .quiz-question {
+  padding: .5rem 0;
+  font-weight: bold;
+}
+.quiz-area .quiz .quiz-question span {
+  position: absolute;
+  left: 1rem;
+}
+.quiz-area .quiz .quiz-answers .quiz-answer {
+  display: block;
+  position: relative;
+  padding: .5rem 1rem .5rem 2.5rem;
+  margin-bottom: .5rem;
+  border: 1px solid #9c9c9c;
+  color: #404040;
+  border-radius: .25rem;
+}
+.quiz-area .quiz .quiz-answers .quiz-answer span {
+  position: absolute;
+  z-index: 0;
+  color: white;
+  left: 10px;
+  top: 7px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.quiz-area .quiz .quiz-answers .quiz-answer::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0px;
+  bottom: 0px;
+  width: 2rem;
+  border-radius: .25rem 0 0 .25rem;
+  background: #b5b5b5;
+}
+.quiz-area .quiz .quiz-answers .quiz-answer.selected {
+  color: #721c24;
+  background: #f8d7da;
+  border-color: red;
+}
+.quiz-area .quiz .quiz-answers .quiz-answer.selected::before {
+  background-color: red;
+}
+.quiz-area .quiz .quiz-answers .quiz-answer.selected.quiz-correct {
+  background: #d4edda;
+  color: #155724;
+  border-color: green;
+}
+.quiz-area .quiz .quiz-answers .quiz-answer.selected.quiz-correct::before {
+  background-color: green;
 }
 /*# sourceMappingURL=main.css.map */

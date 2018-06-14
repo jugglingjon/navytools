@@ -106,7 +106,7 @@ function resetTopicNav(){
 	$('#topicNav li').show().removeClass('even');
 	$('#topicNav li:even').addClass('even');
 	$('#topicNav .icon-wrapper .icon').hide();
-	$('.mdi-search').show();
+	$('#topicNav .mdi-search').show();
 	$('.topicNav-bookmarks-btn').removeClass('filter-selected');
 	$('#topicNav-search').removeAttr('disabled');
 }
@@ -166,4 +166,53 @@ $(document).ready(function(){
 		$('.shroud').hide();
 		resetTopicNav();
 	});
+
+	// ===========================================
+	//            SEARCH
+	// ===========================================
+
+	//search highlight
+	$('body').on('keyup', '#search', function(){
+		var query=$(this).val();
+		var el=$(this);
+
+
+		if(query.length>0){
+			$('.portal').unhighlight().highlight(query);
+
+			el.siblings('.icon').hide().siblings('#search-clear').show();
+			$('#search-count').text('Found '+$('.portal .highlight').length);
+
+			$(window).scrollTop($('.highlight').first().offset().top-230);
+		}
+		else{
+			$('.portal').unhighlight();
+			$('#search-count').text('');
+			el.siblings('#search-clear').hide().siblings('.icon').show();
+			$('#search-count').text('');
+		}
+
+
+	});
+
+	//clear search
+	$('#search-clear').click(function(){
+		$('#search').val('').trigger('keyup');
+	});
+
+	$('body').on('click','.quiz-answer',function(){
+		return false;
+	});
+});
+
+$(window).scroll(function(){
+	var scrolled=$(window).scrollTop();
+
+	if(scrolled>204){
+		$('.utility-menu').addClass('scroll-sticky');
+	}
+	else{
+		$('.utility-menu').removeClass('scroll-sticky');
+	}
+
 });

@@ -342,6 +342,12 @@ footer a i::before {
   width: 100%;
   border-radius: .25rem;
 }
+header,
+header *,
+.utility-menu,
+.utility-menu * {
+  transform: translate3d(0, 0, 0);
+}
 header {
   height: 4rem;
   position: fixed;
@@ -527,7 +533,7 @@ header .topicNav-area .topicNav-wrapper #topicNav li a.bookmarked::before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-header .topicNav-area .topicNav-wrapper #topicNav li.even a {
+header .topicNav-area .topicNav-wrapper #topicNav li.even {
   background: #f3f3f3;
 }
 .icon-wrapper {

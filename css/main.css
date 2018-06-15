@@ -533,7 +533,7 @@ header .topicNav-area .topicNav-wrapper #topicNav li a.bookmarked::before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-header .topicNav-area .topicNav-wrapper #topicNav li.even a {
+header .topicNav-area .topicNav-wrapper #topicNav li.even {
   background: #f3f3f3;
 }
 .icon-wrapper {

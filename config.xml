@@ -4,7 +4,7 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.bah.navytools"
         versionCode = "10" 
-        version     = "0.5" >
+        version     = "0.6" >
 
     <name>US Navy Tools</name>
     <description>

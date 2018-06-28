@@ -1,5 +1,5 @@
 app.controller('chapterController', function($scope,$compile,$http) {
-	$scope.version="0.7"
+	$scope.version="0.8"
 	$scope.numbersToLetters={
 		"0": "A",
 		"1": "B",
@@ -11,7 +11,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 	$scope.startChapter = 1;
 	$scope.chapterID=$scope.startChapter;
 
-	var namespace='NETCtoolsAlphaChaptersB';
+	var namespace='NETCtoolsAlphaChaptersC';
 
 	//load questions data file
 	$http.get('chapterQuestions.json').then(function(response){
@@ -90,12 +90,25 @@ app.controller('chapterController', function($scope,$compile,$http) {
 			
 			$('figure').each(function(){
 				var figure=$(this).attr('data-id');
+				if($(this).hasClass('video')){
+					$(this).prepend('<span>Figure '+figure+'</span> &mdash; ');
+					$(this).wrapInner('<figcaption></figcaption>');
+					var videoUrl='media/'+figure+'.mp4';
+					var video=$('<video controls src="'+videoUrl+'">');
+					$(this).prepend(video);
+				}
+				else{
+					if($(this).attr('data-frames')){
+						figure=figure+$(this).attr('data-frames').split(',')[0];
+					}
 
-				$(this).prepend('<span>Figure '+figure+'</span> &mdash; ');
-				$(this).wrapInner('<figcaption></figcaption>');
-				var imageUrl='media/'+figure+'.jpg';
-				var img=$('<img src="'+imageUrl+'">');
-				$(this).prepend(img);
+					$(this).prepend('<span>Figure '+figure+'</span> &mdash; ');
+					$(this).wrapInner('<figcaption></figcaption>');
+					var imageUrl='media/'+figure+'.jpg';
+					var img=$('<img src="'+imageUrl+'">');
+					$(this).prepend(img);
+				}
+				
 			});
 			
 
@@ -117,6 +130,13 @@ app.controller('chapterController', function($scope,$compile,$http) {
 		//open chapter with argument ID
 		$scope.openChapter=function(chapterID){
 			$scope.chapterID=chapterID;
+			if($scope.chapterID===23){
+				$scope.translatedChapterID="A1";
+			}
+			else{
+				$scope.translatedChapterID="A2";
+			}
+			
 			$scope.chapterQuestions=$scope.questions[chapterID].questions;
 
 			$('.portal').empty().load(chapterID+'.html',function(){

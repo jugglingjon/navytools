@@ -155,9 +155,22 @@ $(document).ready(function(){
 	});
 
 	//figure zoom
-	$('body').on('click','figure',function(){
+	$('body').on('click','figure:not(.video)',function(){
 		$('#figureModal .modal-title').text($(this).find('figcaption').text());
-		$('#figureModal .modal-body').empty().append($(this).find('img').clone());
+		$('#figureModal .modal-body').empty();
+		var el=$(this);
+
+		if($(this).attr('data-frames')){
+			var frames=$(this).attr('data-frames')?$(this).attr('data-frames').split(','):null;
+
+			$.each(frames,function(){
+				$('#figureModal .modal-body').append($('<img src="media/'+el.attr('data-id')+this+'.jpg">'));
+			});
+		}
+		else{
+			$('#figureModal .modal-body').append($(this).find('img').clone());
+		}
+		
 		$('#figureModal').modal();
 	});
 	//clicks to window clear nav dropdowns

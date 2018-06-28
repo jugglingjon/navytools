@@ -294,6 +294,10 @@ footer a i::before {
   max-width: 100%;
   padding: 1rem;
 }
+.portal figure video,
+.quiz-area figure video {
+  max-width: 100%;
+}
 .portal figure.float-right,
 .quiz-area figure.float-right {
   margin-right: 0;

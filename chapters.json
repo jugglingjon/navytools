@@ -108,5 +108,15 @@
 		"title": "Jacks",
 		"correctCount": 0,
 		"correctPercent": 0
+	},
+	"A1":{
+		"title": "References",
+		"correctCount": 0,
+		"correctPercent": 0
+	},
+	"A2":{
+		"title": "The Metric System and Equivalents",
+		"correctCount": 0,
+		"correctPercent": 0
 	}
 }

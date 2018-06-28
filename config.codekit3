@@ -163,6 +163,20 @@
 		"oAP": "\/9.html",
 		"oF": 0
 		},
+	"\/A1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/A1.html",
+		"oF": 0
+		},
+	"\/A2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/A2.html",
+		"oF": 0
+		},
 	"\/chapterQuestions.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -779,39 +793,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/0-18.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/media\/07-19.jpg": {
-		"ft": 16384,
-		"iS": 27983,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/07-19.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/media\/07-20.jpg": {
-		"ft": 16384,
-		"iS": 57541,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/07-20.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/media\/07-21.jpg": {
-		"ft": 16384,
-		"iS": 129142,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/07-21.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2708,6 +2689,20 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/media\/19-7.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/media\/19-7.mp4",
+		"oF": 0
+		},
+	"\/media\/19-8.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/media\/19-8.mp4",
+		"oF": 0
 		},
 	"\/media\/19-9.jpg": {
 		"ft": 16384,
@@ -4612,12 +4607,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/media\/4-56l.jpg": {
+	"\/media\/4-56.jpg": {
 		"ft": 16384,
 		"iS": 34728,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/media\/4-56l.jpg",
+		"oAP": "\/media\/4-56.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5998,6 +5993,13 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/media\/5-53.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/media\/5-53.mp4",
+		"oF": 0
+		},
 	"\/media\/5-53a.jpg": {
 		"ft": 16384,
 		"iS": 73802,
@@ -6774,6 +6776,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/6-17.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/media\/6-18.jpg": {
+		"ft": 16384,
+		"iS": 35480,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/6-18.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -7714,12 +7727,45 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/media\/7-19.jpg": {
+		"ft": 16384,
+		"iS": 27983,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/7-19.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/media\/7-2.jpg": {
 		"ft": 16384,
 		"iS": 11581,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/7-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/media\/7-20.jpg": {
+		"ft": 16384,
+		"iS": 57541,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/7-20.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/media\/7-21.jpg": {
+		"ft": 16384,
+		"iS": 129142,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/7-21.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -8352,6 +8398,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/media\/A2-1.jpg": {
+		"ft": 16384,
+		"iS": 46204,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/A2-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/media\/ALERTred.png": {
 		"ft": 32768,
 		"iS": 435,
@@ -8373,6 +8430,13 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/media\/Archive.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/media\/Archive.zip",
+		"oF": 0
 		},
 	"\/media\/Cover 01.png": {
 		"ft": 32768,
@@ -8396,12 +8460,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/media\/Cover 03.jpg": {
+	"\/media\/cover.jpg": {
 		"ft": 16384,
 		"iS": 23227,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/media\/Cover 03.jpg",
+		"oAP": "\/media\/cover.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -8435,17 +8499,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/iii 03.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/media\/image1165.jpg": {
-		"ft": 16384,
-		"iS": 46204,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/image1165.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

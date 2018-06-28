@@ -34,9 +34,9 @@
 
 				</div>
 				<ul id="topicNav">
-					<li ng-repeat="chapter in chapters" ng-class="(chapterID===$index+1)?'current':''">
-						<a href="#" class="" data-topic="cover" ng-click="openChapter($index+1)" ng-class="(chapter.bookmarked)?'bookmarked':''"><div class="chapterProgress" style="width:{{(chapter.correctPercent)?chapter.correctPercent:'0'}}%"></div>
-							<span class="chapter-number">{{$index+1}}</span><span class="chapter-title">{{chapter.title}}</span><span class="chapter-percent">{{(chapter.correctPercent)?chapter.correctPercent:'0'}}%</span></a>
+					<li ng-repeat="(key, value) in chapters" ng-class="(chapterID===key)?'current':''">
+						<a href="#" class="" data-topic="cover" ng-click="openChapter(key)" ng-class="(value.bookmarked)?'bookmarked':''"><div class="chapterProgress" style="width:{{(value.correctPercent)?value.correctPercent:'0'}}%"></div>
+							<span class="chapter-number">{{key}}</span><span class="chapter-title">{{value.title}}</span><span class="chapter-percent">{{(value.correctPercent)?value.correctPercent:'0'}}%</span></a>
 					</li>
 				</ul>
 			</div>
@@ -45,7 +45,7 @@
 	
 	<div class="hero">
 		<div class="container text-center">
-			<h1>Chapter {{chapterID}}</h1>
+			<h1>Chapter {{(chapterID>22)?translatedChapterID:chapterID}}</h1>
 			<h2>{{chapters[chapterID].title}}</h2>
 			<a href="#" class="bookmark-toggle-btn" ng-click="bookmarkToggle()" ng-class="(chapters[chapterID].bookmarked===true)?'bookmarked':''"><span class="bookmark-toggle-icon"></span> Bookmark</a>
 		</div>

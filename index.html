@@ -18,6 +18,9 @@
 	<!-- Custom Styles -->
 	<link rel="stylesheet" href="css/main.css">
 
+	<script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(c){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("https://assets.zendesk.com/embeddable_framework/main.js","swmobile.zendesk.com");
+	/*]]>*/</script>
+
 </head>
 <body ng-app="myApp" ng-controller="chapterController">
 	<header>
@@ -100,11 +103,32 @@
 		</div>
 	</div>
 
+	<div class="modal" id="disclaimerModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="modal-body">
+
+						<p>DISCLAIMER OF WARRANTY AND HOLD HARMLESS AGREEMENT FOR US NAVY TOOLS MOBILE APPLICATION</p>
+						<p>By downloading the US NAVY TOOLS mobile application and subsequent updates, you expressly acknowledge and agree that use of the US NAVY TOOLS mobile application is at your sole risk and that you are assuming all possible risks with respect to the quality, performance, and accuracy of the US NAVY TOOLS mobile application.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE US NAVY TOOLS MOBILE APPLICATION IS PROVIDED "AS IS" AND “AS AVAILABLE,” WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND, AND THE DEPARTMENT OF THE NAVY HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH RESPECT TO THE US NAVY TOOLS MOBILE APPLICATION, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES AND/OR CONDITIONS OF MERCHANTABILITY, OF SATISFACTORY QUALITY, OF FITNESS FOR A PARTICULAR PURPOSE, OF ACCURACY, OF QUIET ENJOYMENT, AND OF NON-INFRINGEMENT OF THIRD PARTY RIGHTS.  THE DEPARTMENT OF THE NAVY DOES NOT WARRANT: AGAINST INTERFERENCE WITH YOUR USE OF THE US NAVY TOOLS MOBILE APPLICATION; THAT THE FUNCTIONS CONTAINED IN, OR INFORMATION PROVIDED BY, THE US NAVY TOOLS MOBILE APPLICATION IS CURRENT; THAT SUCH INFORMATION OR FUNCTIONS WILL MEET YOUR REQUIREMENTS; THAT THE OPERATION OF THE US NAVY TOOLS MOBILE APPLICATION WILL BE UNINTERRUPTED OR ERROR-FREE; OR THAT DEFECTS IN THE US NAVY TOOLS MOBILE APPLICATION WILL BE CORRECTED.  No oral or written information or advice concerning the US NAVY TOOLS mobile application shall create a warranty.  Should the US NAVY TOOLS mobile application prove defective, you assume the entire cost of all necessary servicing, repairs, or correction of devices on which you download the US NAVY TOOLS mobile application.  If an applicable jurisdiction does not allow disclaimer of implied warranties or exclusion of statutory consumer rights, these disclaimers and exclusions may not apply to you.  If you are active duty military or a Government employee, any lack of availability or currency of information in the US NAVY TOOLS mobile application does not relieve you from performing all requirements of your duties.</p>
+						<p>By downloading the US NAVY TOOLS mobile application and subsequent updates, you also expressly acknowledge and agree that, to the extent not prohibited by law, you shall indemnify and hold harmless the Department of the Navy and the United States Government for personal injury, or any incidental, special, indirect or consequential damages whatsoever, including (without limitation) damage to devices on which the US NAVY TOOLS mobile application is downloaded and damages for loss of data, loss of profits, business interruption, or any other damages or losses arising out of or related to your use, or inability to use, the US NAVY TOOLS mobile application, however caused, regardless of the theory of liability (contract, tort or otherwise).  If an applicable jurisdiction does not allow limitation of liability for personal injury or for incidental or consequential damages, these limitations may not apply to you. </p>
+						<p>PLEASE NOTE: When submitting feedback (or similar functions), an Internet connection is needed and data rates may apply. </p>
+						
+						
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="#" class="btn btn-primary" data-dismiss="modal">I Understand</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<footer>
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<span class="version">Version {{version}}</span>
+					<span class="version">Version {{version}}</span> <a href="#" onclick="$('#disclaimerModal').modal();return false;" style="color:white;text-decoration:underline;margin-left:10px;">Disclaimer</a> <a href="#" class="feedback">Feedback</a>
 				</div>
 				<div class="col text-right">
 					<a href="#" class="btn-reset" ng-click="resetData()"><i class="mdi mdi-warning"></i>Reset Data</a>

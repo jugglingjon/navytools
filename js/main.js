@@ -145,6 +145,27 @@ $(document).ready(function(){
 
 	resetTopicNav();
 
+	$('#disclaimerModal').modal({backdrop: 'static'});
+
+	//zendesk if online
+	$('.feedback').click(function(){
+		alert('An internet connection is required to submit feedback, please connect your device to the internet and restart the application to submit feedback');
+		return false;
+	});
+
+	if(zE){
+
+
+		zE(function() {
+			zE.hide();
+			$('.feedback').off('click').click(function(){
+				zE.activate({hideOnClose: true});
+				return false;
+			})
+		});
+	}
+	
+
 	
 
 	//topicNav button

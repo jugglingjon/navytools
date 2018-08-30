@@ -343,6 +343,14 @@ footer{
         }
     }
 
+    @media @smartphones{
+        figure{
+            margin-left:0;
+            margin-right:0;
+            max-width: inherit;
+        }
+    }
+
     .col figure{
         max-width:100%;
         margin-left:0;
@@ -624,6 +632,30 @@ header{
         }
 
         
+    }
+
+    @media @smartphones{
+        .topicNav-area{
+            width: 100%;
+
+            .topicNav-wrapper{
+                width: calc(~"100% - 20px");
+
+                .icon-wrapper{
+                    width: calc(~"100% - 40px");
+
+                    input{
+                        width: 100%;
+                    }
+                }
+
+                #topicNav{
+                    max-height: 450px;
+                }
+            }
+
+
+        }
     }
 
 }

@@ -1,5 +1,5 @@
 app.controller('chapterController', function($scope,$compile,$http) {
-	$scope.version="1.0"
+	$scope.version="1.1"
 	$scope.numbersToLetters={
 		"0": "A",
 		"1": "B",

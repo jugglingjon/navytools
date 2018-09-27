@@ -88,6 +88,8 @@ body {
   padding-top: 4rem;
   background: #fff;
   color: #404040;
+  margin-top: constant(safe-area-inset-top);
+  margin-top: env(safe-area-inset-top);
   -webkit-font-smoothing: antialiased;
 }
 a:hover {
@@ -192,6 +194,10 @@ footer a i::before {
   top: 64px;
   width: 100%;
   z-index: 8;
+  margin-top: constant(safe-area-inset-top);
+  /* iOS 11.0 */
+  margin-top: env(safe-area-inset-top);
+  /* iOS 11.2 */
 }
 .highlight {
   background: yellow;
@@ -331,6 +337,10 @@ footer a i::before {
   margin-left: 0;
   margin-right: 0;
 }
+.modal-dialog {
+  margin-top: constant(safe-area-inset-top);
+  margin-top: env(safe-area-inset-top);
+}
 #figureModal .modal-dialog {
   max-width: 680px;
 }
@@ -363,10 +373,14 @@ header *,
 }
 header {
   height: 4rem;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 10;
+  padding-top: constant(safe-area-inset-top);
+  padding-top: env(safe-area-inset-top);
   background: #2e7dbb;
   border-bottom: 1px solid #7bbdf0;
 }

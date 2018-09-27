@@ -4,6 +4,7 @@
     <description>
         Navy Tools
     </description>
+    <preference name="phonegap-version" value="cli-8.0.0" />
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />

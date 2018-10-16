@@ -31,6 +31,155 @@ app.controller('chapterController', function($scope,$compile,$http) {
 
 	});
 
+	$scope.initTest = function(){
+		$scope.testing=true;
+		$http.get('testSHORT.json').then(function(response){
+			
+
+			$scope.allTestData=response.data;
+
+			$scope.testMapping=[];
+			for(key in $scope.allTestData){
+				$scope.testMapping.push(key);
+			}
+			console.log($scope.testMapping);
+
+			$scope.currentTestIndex=0;
+			$scope.currentTestData=$scope.allTestData[$scope.testMapping[$scope.currentTestIndex]];
+		});
+	}
+
+	$scope.modalAlert = function(title,message){
+		$('#alertModal .modal-title').text(title);
+		$('#alertModal .modal-body').text(message);
+		$('#alertModal').modal();
+	}
+
+	$scope.loadTest = function(toIndex){
+		if($('.test-area .quiz').length === $('.test-area .quiz a.selected').length || toIndex < $scope.currentTestIndex){
+			$scope.currentTestIndex=toIndex;
+			$scope.currentTestData=$scope.allTestData[$scope.testMapping[$scope.currentTestIndex]];
+		}
+		else{
+			$scope.modalAlert('Missing Answers','Answer all questions before proceeding.');
+		}
+	}
+
+	$scope.answerClass = function(questionIndex,answerIndex){
+		var outputClass='';
+
+		if($scope.currentTestData.questions[questionIndex].answers[answerIndex].correct){
+			outputClass+='test-correct ';
+		}
+		else{
+			outputClass+='test-incorrect ';
+		}
+
+		if($scope.currentTestData.questions[questionIndex].selected){
+			if($scope.currentTestData.questions[questionIndex].selected===answerIndex){
+				outputClass+='selected ';
+			}
+		}
+
+		return outputClass;
+	}
+
+	function uuidv4() {
+		return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+			var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+			return v.toString(16);
+		});
+	}
+
+	$scope.sendCert = function(){
+		if(device==null){
+			var device={
+				manufacturer: 'Apple',
+				model: 'iphone',
+				platform: 'iOS',
+				version: '11.1'
+			};
+		}
+		var guid=uuidv4();
+		var txt=`<?xml version="1.0" encoding="utf-8"?>
+		<course_completion>
+			<Course_Completion_ID>${guid}</Course_Completion_ID>
+			<DODID>${$scope.dodid}</DODID>
+			<Course_Number>NRTC-NAVEDTRA-14256A-TEST</Course_Number>
+			<Pre_Test_Score>0</Pre_Test_Score>
+			<Post_Test_Score>${$scope.score}</Post_Test_Score>
+			<Completion_Date>${moment().format()}</Completion_Date>
+			<Device_Information>
+				<Device_Manufacturer>${device.manufacturer}</Device_Manufacturer>
+				<Device_Model>${device.model}</Device_Model>
+				<Device_Type>Phone</Device_Type>
+				<Device_OS_Name>${device.platform}</Device_OS_Name>
+				<Device_OS_Version>${device.version}</Device_OS_Version>
+			</Device_Information>
+		</course_completion>`;
+		console.log(txt);
+
+
+
+		var base64 = Base64.encode(txt);
+		var blobx = b64toBlob(base64, 'text/xml');
+		//location.href="data:text/xml;base64," + base64;
+		//saveAs(blobx,'test.xml');
+
+		var zip = new JSZip();
+		zip.file(guid+'.xml',blobx);
+
+		zip.generateAsync({type:"blob"}).then(function (blob) {
+			var reader = new FileReader();
+			reader.readAsDataURL(blob); 
+			reader.onloadend = function() {
+				base64data = reader.result;                
+				//console.log(base64data);
+				console.log( base64data.substr(base64data.indexOf(',')+1) );
+				var b64string = 'base64:'+guid+'.ldk//'+ base64data.substr(base64data.indexOf(',')+1);
+
+				cordova.plugins.email.open({
+				    to:      'jugglingjon@gmail.com',
+				    subject: 'Completion',
+				    body:    'send this file for completion',
+				    attachments: [b64string]
+				});
+			}
+			//saveAs(blob, "test.zip");
+			
+		});
+		return false;
+
+
+	}
+
+	$scope.gradeTest = function(){
+		var fullset=[];
+		for(key in $scope.allTestData){
+			$.each($scope.allTestData[key].questions,function(){
+				fullset.push(this);
+			});
+		}
+
+		var correct=0;
+		var total=fullset.length;
+
+		for(var i=0;i<fullset.length;i++){
+			if(fullset[i].selected){
+				if(fullset[i].answers[fullset[i].selected].correct){
+					correct++;
+				}
+			}
+			
+		}
+		console.log(correct,total,correct/total);
+		$scope.score=correct/total;
+		$scope.passed = ($scope.score>=0)?true:false;
+		$scope.score=Math.floor($scope.score*100);
+		$('#gradeModal').modal({backdrop: 'static'});
+
+	}
+
 	//resets bookmark and progress data
 	$scope.resetData = function(){
 		if(confirm("This will reset all bookmarks and saved progress, do you want to continue?")){
@@ -163,6 +312,22 @@ app.controller('chapterController', function($scope,$compile,$http) {
 			}
 			$scope.chapters[$scope.chapterID].answered[question]=answer;
 			saveData();
+			return false;
+		};
+
+		$scope.testSelectAnswer = function(event,questionIndex,answerIndex){
+			var el=$(event.target);
+			el.addClass('selected').siblings().removeClass('selected');
+
+			$scope.currentTestData.questions[questionIndex].selected=answerIndex;
+
+			// var answer=el.parent().children().index(el);
+			// var question=el.closest('.quiz').index('.quiz');
+			// if(!$scope.chapters[$scope.chapterID].answered){
+			// 	$scope.chapters[$scope.chapterID].answered={};
+			// }
+			// $scope.chapters[$scope.chapterID].answered[question]=answer;
+			// saveData();
 			return false;
 		};
 

@@ -1,0 +1,5298 @@
+{
+	"1": {
+		"title": "Introduction",
+		"questions": [{
+			"question": "What information does the text for this course provide?",
+			"answers": [{
+				"answer": "Extensive repair of selected hand and measuring tools"
+			}, {
+				"answer": "An explanation of the types and uses of hydrostatic tools"
+			}, {
+				"answer": "Safety requirements and limited repair of hydrostatic tools"
+			}, {
+				"answer": "Information on the use and care of selected hand tools and measuring tools ",
+				"correct": true
+			}]
+		}, {
+			"question": "With proper tools and knowledge of how to use them, what action may occur?",
+			"answers": [{
+				"answer": "The user may face injury"
+			}, {
+				"answer": "The user may be more efficient",
+				"correct": true
+			}, {
+				"answer": "The task is accomplished in twice the time"
+			}, {
+				"answer": "The user may collect many unnecessary tools for the job"
+			}]
+		}, {
+			"question": "The introduction to each tool chapter in the text will provide information on how to choose and use the tools, various types of tools available, and what other information?",
+			"answers": [{
+				"answer": "How to check out tools"
+			}, {
+				"answer": "An example of their use",
+				"correct": true
+			}, {
+				"answer": "Location of the repair procedures"
+			}, {
+				"answer": "Where to purchase specific tools"
+			}]
+		}]
+	},
+	"2": {
+		"title": "Safety and Safety Equipment",
+		"questions": [{
+			"question": "What action will result if you use the wrong tool to make an adjustment?",
+			"answers": [{
+				"answer": "Accurate adjustment"
+			}, {
+				"answer": "Unsatisfactory adjustment",
+				"correct": true
+			}, {
+				"answer": "Edges of nuts and wrenches become smooth"
+			}, {
+				"answer": "Multiple positions are available from using a larger tool "
+			}]
+		}, {
+			"question": "What statement is true concerning tools?",
+			"answers": [{
+				"answer": "You should keep an inventory list in shop and check it after each shift"
+			}, {
+				"answer": "Place the extra tools on a flat ledge above the equipment for easy access"
+			}, {
+				"answer": "A worker's efficiency is often a direct result of the condition of the tools being used",
+				"correct": true
+			}, {
+				"answer": "Damaged tools should be saved because they can sometimes be used for purposes other than for which they were designed"
+			}]
+		}, {
+			"question": "Who should a broken tool be returned to?",
+			"answers": [{
+				"answer": "Supervisor"
+			}, {
+				"answer": "Section chief",
+				"correct": true
+			}, {
+				"answer": "Division officer"
+			}, {
+				"answer": "Safety officer"
+			}]
+		}, {
+			"question": "Which of the following types of tools are found in tool boxes?",
+			"answers": [{
+				"answer": "Bench-top"
+			}, {
+				"answer": "Garden"
+			}, {
+				"answer": "Mechanic’s",
+				"correct": true
+			}, {
+				"answer": "Stationary"
+			}]
+		}, {
+			"question": "What type of tool box generally contains specialized automotive tools?",
+			"answers": [{
+				"answer": "Chest",
+				"correct": true
+			}, {
+				"answer": "Combination"
+			}, {
+				"answer": "Portable"
+			}, {
+				"answer": "Stationary"
+			}]
+		}, {
+			"question": "What two types of tool boxes serve similar functions?",
+			"answers": [{
+				"answer": "Mechanic’s chest and truck mounted"
+			}, {
+				"answer": "Tool bags and portable tool boxes",
+				"correct": true
+			}, {
+				"answer": "Tool bags and mechanic’s chest"
+			}, {
+				"answer": "Truck mounted and portable tool boxes"
+			}]
+		}, {
+			"question": "What type of material are tool bags usually constructed of?",
+			"answers": [{
+				"answer": "Fiber"
+			}, {
+				"answer": "Nylon"
+			}, {
+				"answer": "Steel"
+			}, {
+				"answer": "Canvas",
+				"correct": true
+			}]
+		}, {
+			"question": "When working with power tools, you should follow what procedure?",
+			"answers": [{
+				"answer": "Never operate any power equipment unless you are completely familiar with its controls and features",
+				"correct": true
+			}, {
+				"answer": "Clear the jammed power tool as soon as possible after it occurs"
+			}, {
+				"answer": "Before connecting a power tool to a power source, be sure the tool switch is in the \"ON\" position"
+			}, {
+				"answer": "Plug the portable electric tool into the closest outlet; the tool will self-adjust for the voltage"
+			}]
+		}, {
+			"question": "What step will improve your efficiency?",
+			"answers": [{
+				"answer": "Organize your tools so that those used most frequently can be reached easily without sorting through the entire contents of the tool box",
+				"correct": true
+			}, {
+				"answer": "Always place the most expensive tools in the bottom of tool box"
+			}, {
+				"answer": "Clean your tools at the end of the week rather than after each job"
+			}, {
+				"answer": "Store your tools on high shelves where the humidity is lower"
+			}]
+		}, {
+			"question": "What item is placed in safety shoes to protect and prevent injury or loss of toes?",
+			"answers": [{
+				"answer": "Nails"
+			}, {
+				"answer": "Rubber"
+			}, {
+				"answer": "Plastic"
+			}, {
+				"answer": "Steel plates",
+				"correct": true
+			}]
+		}, {
+			"question": "For what reason is proper eye protection the highest importance for all personnel?",
+			"answers": [{
+				"answer": "Dust"
+			}, {
+				"answer": "Electrical shock"
+			}, {
+				"answer": "Audio vibrations"
+			}, {
+				"answer": "Infrared and ultraviolet radiation",
+				"correct": true
+			}]
+		}, {
+			"question": "What material are protective helmets made from?",
+			"answers": [{
+				"answer": "Acrylic"
+			}, {
+				"answer": "Polypropylene"
+			}, {
+				"answer": "Polycarbonate",
+				"correct": true
+			}, {
+				"answer": "Fiberglass"
+			}]
+		}, {
+			"question": "To what maximum voltage must regular hard hats be insulated?",
+			"answers": [{
+				"answer": "2,200",
+				"correct": true
+			}, {
+				"answer": "3,000"
+			}, {
+				"answer": "5,000"
+			}, {
+				"answer": "9,000"
+			}]
+		}, {
+			"question": "What minimum proof-tested voltage are all-purpose helmets for electrical workers capable of withstanding?",
+			"answers": [{
+				"answer": "10,000"
+			}, {
+				"answer": "20,000",
+				"correct": true
+			}, {
+				"answer": "30,000"
+			}, {
+				"answer": "40,000"
+			}]
+		}, {
+			"question": "Personnel working with electricity are usually required to wear gloves made from what material?",
+			"answers": [{
+				"answer": "Cloth"
+			}, {
+				"answer": "Leather"
+			}, {
+				"answer": "Nylon"
+			}, {
+				"answer": "Rubber",
+				"correct": true
+			}]
+		}, {
+			"question": "What material are safety straps made of?",
+			"answers": [{
+				"answer": "Kevlar-reinforced leather"
+			}, {
+				"answer": "Kevlar-reinforced plastic"
+			}, {
+				"answer": "Nylon-reinforced leather",
+				"correct": true
+			}, {
+				"answer": "Teflon-reinforced nylon"
+			}]
+		}]
+	},
+	"3": {
+		"title": "Reading Measuring Scales",
+		"questions": [{
+			"question": "The more common types of rules and tapes are divided in what three ways?",
+			"answers": [{
+				"answer": "Fractions, inches, and feet",
+				"correct": true
+			}, {
+				"answer": "Feet, yards, and miles"
+			}, {
+				"answer": "Feet, yards, and kilometers"
+			}, {
+				"answer": "Inches, meters, and milliliters"
+			}]
+		}, {
+			"question": "What fraction is the reduced value of 3/6?",
+			"answers": [{
+				"answer": "1/8"
+			}, {
+				"answer": "1/4"
+			}, {
+				"answer": "1/2",
+				"correct": true
+			}, {
+				"answer": "2/3"
+			}]
+		}, {
+			"question": "On a machinist’s rule, what indication is provided by the equally spaced and different lengths of lines?",
+			"answers": [{
+				"answer": "Inches of a meter"
+			}, {
+				"answer": "Fractions of an inch",
+				"correct": true
+			}, {
+				"answer": "Millimeters of an inch"
+			}, {
+				"answer": "Centimeters of a foot"
+			}]
+		}, {
+			"question": "If four divisions (4/32) are equal to 1/8-inch, what does 5/8-inch equal in thirty-seconds?",
+			"answers": [{
+				"answer": "16/32"
+			}, {
+				"answer": "20/32",
+				"correct": true
+			}, {
+				"answer": "24/32"
+			}, {
+				"answer": "28/32"
+			}]
+		}, {
+			"question": "On a machinist’s rule edge marked 64, how many divisions are equal to a 1/2-inch?",
+			"answers": [{
+				"answer": "16"
+			}, {
+				"answer": "32",
+				"correct": true
+			}, {
+				"answer": "48"
+			}, {
+				"answer": "64"
+			}]
+		}, {
+			"question": "If sixteen divisions (16/64) are equal to 1/4-inch, what does 3/4-inch equal in sixty fourths?",
+			"answers": [{
+				"answer": "12/64"
+			}, {
+				"answer": "24/64"
+			}, {
+				"answer": "48/64",
+				"correct": true
+			}, {
+				"answer": "56/64"
+			}]
+		}, {
+			"question": "How many millimeters are in a centimeter?",
+			"answers": [{
+				"answer": "10",
+				"correct": true
+			}, {
+				"answer": "20"
+			}, {
+				"answer": "30"
+			}, {
+				"answer": "40"
+			}]
+		}, {
+			"question": "How many centimeters are in a meter?",
+			"answers": [{
+				"answer": "100",
+				"correct": true
+			}, {
+				"answer": "200"
+			}, {
+				"answer": "300"
+			}, {
+				"answer": "400"
+			}]
+		}, {
+			"question": "What indicator is used to measure the pressure in a system?",
+			"answers": [{
+				"answer": "Rule"
+			}, {
+				"answer": "Meter"
+			}, {
+				"answer": "Gauge",
+				"correct": true
+			}, {
+				"answer": "Pointer"
+			}]
+		}]
+	},
+	"4": {
+		"title": "Measuring and Layout Tools",
+		"questions": [{
+			"question": "Dividers are used for which of the following purposes?",
+			"answers": [{
+				"answer": "Spreading metal parts"
+			}, {
+				"answer": "Scribing an arc, radius, or circle",
+				"correct": true
+			}, {
+				"answer": "Measure distances to nearest one-thousandth of an inch"
+			}, {
+				"answer": "Determine the thickness of a surface"
+			}]
+		}, {
+			"question": "Spring dividers are available in what lengths, in inches?",
+			"answers": [{
+				"answer": "2 to 4"
+			}, {
+				"answer": "2 to 6"
+			}, {
+				"answer": "3 to 10",
+				"correct": true
+			}, {
+				"answer": "4 to 15"
+			}]
+		}, {
+			"question": "Calipers are used for what purpose?",
+			"answers": [{
+				"answer": "Fasten metal parts"
+			}, {
+				"answer": "Light torches"
+			}, {
+				"answer": "Make bolt threads"
+			}, {
+				"answer": "Measure diameters",
+				"correct": true
+			}]
+		}, {
+			"question": "Transfer calipers are used for what purpose?",
+			"answers": [{
+				"answer": "Holding glued parts together"
+			}, {
+				"answer": "Measuring chamfered grooves or flanges",
+				"correct": true
+			}, {
+				"answer": "Threading wire through a bulkhead"
+			}, {
+				"answer": "Weighing nuts and bolts"
+			}]
+		}, {
+			"question": "What type of caliper is used for finding shaft centers or locating shoulders?",
+			"answers": [{
+				"answer": "Hermaphrodite",
+				"correct": true
+			}, {
+				"answer": "Outside"
+			}, {
+				"answer": "Slide"
+			}, {
+				"answer": "Vernier"
+			}]
+		}, {
+			"question": "Which of the following types of calipers contain a straight measuring rule?",
+			"answers": [{
+				"answer": "Hermaphrodite"
+			}, {
+				"answer": "Slide",
+				"correct": true
+			}, {
+				"answer": "Spring-joint"
+			}, {
+				"answer": "Transfer"
+			}]
+		}, {
+			"question": "To read a vernier caliper, you must be able to understand which of the following scales?",
+			"answers": [{
+				"answer": "British thermal unit and standard measurements"
+			}, {
+				"answer": "Fahrenheit and Celsius"
+			}, {
+				"answer": "Pressure and vernier"
+			}, {
+				"answer": "Steel rule and vernier",
+				"correct": true
+			}]
+		}, {
+			"question": "On a vernier caliper, what is the difference, in fractions of an inch, between the width of one of the 25 spaces on the vernier scale and one of the 24 spaces on the steel rule?",
+			"answers": [{
+				"answer": "1/1000",
+				"correct": true
+			}, {
+				"answer": "2/1000"
+			}, {
+				"answer": "3/1000"
+			}, {
+				"answer": "4/1000"
+			}]
+		}, {
+			"question": "On a 24-inch or 600 millimeter caliper, what length does 0.300 inch equal, in millimeters?",
+			"answers": [{
+				"answer": "1.22"
+			}, {
+				"answer": "2.44"
+			}, {
+				"answer": "5.66"
+			}, {
+				"answer": "7.62",
+				"correct": true
+			}]
+		}, {
+			"question": "Which of the following types of micrometers is commonly used in the Navy?",
+			"answers": [{
+				"answer": "Carpenter’s"
+			}, {
+				"answer": "Hermaphrodite"
+			}, {
+				"answer": "Screw thread",
+				"correct": true
+			}, {
+				"answer": "Surface"
+			}]
+		}, {
+			"question": "When used with a 1/2-inch spacer, what total range, in inches, does an inside micrometer have?",
+			"answers": [{
+				"answer": "0.500",
+				"correct": true
+			}, {
+				"answer": "0.200"
+			}, {
+				"answer": "0.300"
+			}, {
+				"answer": "0.400"
+			}]
+		}, {
+			"question": "The longest movement possible between the spindle and the anvil of a micrometer is known by which of the following terms?",
+			"answers": [{
+				"answer": "Depth"
+			}, {
+				"answer": "Height"
+			}, {
+				"answer": "Range",
+				"correct": true
+			}, {
+				"answer": "Width"
+			}]
+		}, {
+			"question": "The frames of micrometers are available up to what maximum size, in inches?",
+			"answers": [{
+				"answer": "10"
+			}, {
+				"answer": "15"
+			}, {
+				"answer": "24",
+				"correct": true
+			}, {
+				"answer": "48"
+			}]
+		}, {
+			"question": "To measure a piece of stock that is approximately 3 1/4 inches, you will need a micrometer with what range?",
+			"answers": [{
+				"answer": "1- to 2-inch"
+			}, {
+				"answer": "2- to 3-inch"
+			}, {
+				"answer": "3- to 4-inch",
+				"correct": true
+			}, {
+				"answer": "4- to 5-inch"
+			}]
+		}, {
+			"question": "What does the size of a micrometer indicate?",
+			"answers": [{
+				"answer": "The size of the largest work it will measure",
+				"correct": true
+			}, {
+				"answer": "The size of the smallest work it will measure"
+			}, {
+				"answer": "The total length of the micrometer"
+			}, {
+				"answer": "The total width of the micrometer"
+			}]
+		}, {
+			"question": "A standard micrometer screw has what number of threads per inch?",
+			"answers": [{
+				"answer": "10"
+			}, {
+				"answer": "20"
+			}, {
+				"answer": "30"
+			}, {
+				"answer": "40",
+				"correct": true
+			}]
+		}, {
+			"question": "Vernier micrometers are designed to measure distances to what nearest accuracy, in inches?",
+			"answers": [{
+				"answer": "0.0001",
+				"correct": true
+			}, {
+				"answer": "0.0010"
+			}, {
+				"answer": "0.0100"
+			}, {
+				"answer": "0.1000"
+			}]
+		}, {
+			"question": "On a metric micrometer, one revolution of the spindle advances or withdraws the screw what distance, in millimeters?",
+			"answers": [{
+				"answer": "0.1"
+			}, {
+				"answer": "0.5",
+				"correct": true
+			}, {
+				"answer": "1.0"
+			}, {
+				"answer": "1.5"
+			}]
+		}, {
+			"question": "On a metric micrometer, how many revolutions of the spindle are required to move the barrel 1 millimeter?",
+			"answers": [{
+				"answer": "One"
+			}, {
+				"answer": "Two",
+				"correct": true
+			}, {
+				"answer": "Three"
+			}, {
+				"answer": "Four"
+			}]
+		}, {
+			"question": "Levels are designed for which of the following purposes?",
+			"answers": [{
+				"answer": "To prove whether a surface is at true right angles to other surfaces"
+			}, {
+				"answer": "To prove whether a surface is in the true vertical or true horizontal",
+				"correct": true
+			}, {
+				"answer": "To remove the rough spots on surfaces"
+			}, {
+				"answer": "To use as a supplementary pry bar"
+			}]
+		}, {
+			"question": "Which of the following levels has a main vial that is used to determine true horizontal, and two smaller vials that are used to determine true vertical?",
+			"answers": [{
+				"answer": "Machinist's level"
+			}, {
+				"answer": "Striding level"
+			}, {
+				"answer": "Line level"
+			}, {
+				"answer": "Master precision level",
+				"correct": true
+			}]
+		}, {
+			"question": "What feature on a machinist's level increases its accuracy and sensitivity?",
+			"answers": [{
+				"answer": "Extra-large vial",
+				"correct": true
+			}, {
+				"answer": "Grooved bottom"
+			}, {
+				"answer": "Light weight"
+			}, {
+				"answer": "Metallic coating"
+			}]
+		}, {
+			"question": "Which of the following types of levels is used mostly in the construction industry?",
+			"answers": [{
+				"answer": "Iron bench",
+				"correct": true
+			}, {
+				"answer": "Line"
+			}, {
+				"answer": "Machinist's"
+			}, {
+				"answer": "Striding"
+			}]
+		}, {
+			"question": "Which of the following levels is used to span existing cabling, piping, or similar obstructions?",
+			"answers": [{
+				"answer": "Iron bench"
+			}, {
+				"answer": "Machinist's"
+			}, {
+				"answer": "Master precision"
+			}, {
+				"answer": "Striding",
+				"correct": true
+			}]
+		}, {
+			"question": "Plumb bobs are used by carpenters, surveyors, and what other people?",
+			"answers": [{
+				"answer": "Maintenance technicians",
+				"correct": true
+			}, {
+				"answer": "Mechanics"
+			}, {
+				"answer": "Musicians"
+			}, {
+				"answer": "Photographers"
+			}]
+		}, {
+			"question": "The surveyor's brass plumb bob may be either a spool type or what other type?",
+			"answers": [{
+				"answer": "Adjustable cap",
+				"correct": true
+			}, {
+				"answer": "Flexible cap"
+			}, {
+				"answer": "Permanent cap"
+			}, {
+				"answer": "Reverse cap"
+			}]
+		}, {
+			"question": "The surveyor’s brass plumb bob comes with what minimum length of nylon, silk, or linen cord, in feet?",
+			"answers": [{
+				"answer": "2"
+			}, {
+				"answer": "4"
+			}, {
+				"answer": "7",
+				"correct": true
+			}, {
+				"answer": "9"
+			}]
+		}, {
+			"question": "The surveyor’s brass plumb bob comes in which of the following sizes, in ounces?",
+			"answers": [{
+				"answer": "1, 4, 8, and 9"
+			}, {
+				"answer": "2, 4, 6, and 8"
+			}, {
+				"answer": "3, 5, 7, and 9"
+			}, {
+				"answer": "6, 8, 10, and 16",
+				"correct": true
+			}]
+		}, {
+			"question": "Heavier plumb bobs are better for use in which of the following conditions?",
+			"answers": [{
+				"answer": "Cold areas"
+			}, {
+				"answer": "Hot areas"
+			}, {
+				"answer": "Sandy areas"
+			}, {
+				"answer": "Windy areas",
+				"correct": true
+			}]
+		}, {
+			"question": "In reference to the solid steel plumb bob, which of the following statements is true?",
+			"answers": [{
+				"answer": "It comes in 1, 3, and 10 ounce sizes"
+			}, {
+				"answer": "It is used when extreme accuracy is required"
+			}, {
+				"answer": "The cord must be obtained from a separate source",
+				"correct": true
+			}, {
+				"answer": "The cord comes with the plumb bob"
+			}]
+		}, {
+			"question": "In reference to plumb bobs, which of the following statements is true?",
+			"answers": [{
+				"answer": "Plumb bobs may be used as a lever"
+			}, {
+				"answer": "Plumb bobs should be lightly coated with lubricating oil for long periods of storage"
+			}, {
+				"answer": "Plumb bobs should be stored in a humid protective box"
+			}, {
+				"answer": "Plumb bobs should receive a heavy coat of oil and should be wrapped in oil-soaked paper prior to long periods of storage",
+				"correct": true
+			}]
+		}, {
+			"question": "What are the two basic types of machinist’s scribers?",
+			"answers": [{
+				"answer": "Hard point and soft point"
+			}, {
+				"answer": "Rigid point and flexible point"
+			}, {
+				"answer": "Single point pocket and bent point-straight point",
+				"correct": true
+			}, {
+				"answer": "Straight point and bent point"
+			}]
+		}, {
+			"question": "The carpenter’s square is made up of which of the following parts?",
+			"answers": [{
+				"answer": "The blade and tongue",
+				"correct": true
+			}, {
+				"answer": "The edge and skirt"
+			}, {
+				"answer": "The skirt and tongue"
+			}, {
+				"answer": "The tongue and joint"
+			}]
+		}, {
+			"question": "What part of a carpenter’s square is used to compute the number of board feet in a given piece of lumber?",
+			"answers": [{
+				"answer": "The brace measure"
+			}, {
+				"answer": "The Essex board measure",
+				"correct": true
+			}, {
+				"answer": "The octagon or eight square scale"
+			}, {
+				"answer": "The rafter table"
+			}]
+		}, {
+			"question": "What part of a carpenter’s square is used to find the exact lengths of common braces?",
+			"answers": [{
+				"answer": "The brace measure",
+				"correct": true
+			}, {
+				"answer": "The Essex board measure"
+			}, {
+				"answer": "The rafter table"
+			}, {
+				"answer": "The tongue"
+			}]
+		}, {
+			"question": "Which of the following tools is used to check lines that are at right angles to each other?",
+			"answers": [{
+				"answer": "A digging tool"
+			}, {
+				"answer": "A flaring tool"
+			}, {
+				"answer": "A scriber"
+			}, {
+				"answer": "A try square",
+				"correct": true
+			}]
+		}, {
+			"question": "A right angle is what number of degrees?",
+			"answers": [{
+				"answer": "30"
+			}, {
+				"answer": "60"
+			}, {
+				"answer": "90",
+				"correct": true
+			}, {
+				"answer": "120"
+			}]
+		}, {
+			"question": "Which of the following tools is used for testing bevels and laying out angles?",
+			"answers": [{
+				"answer": "A climbing tool"
+			}, {
+				"answer": "A mattock"
+			}, {
+				"answer": "A plumb bob"
+			}, {
+				"answer": "A T-bevel",
+				"correct": true
+			}]
+		}, {
+			"question": "To transfer measurements to work and to indicate the parallelism of surfaces, you should use which of the following tools?",
+			"answers": [{
+				"answer": "A dial depth gage"
+			}, {
+				"answer": "A micrometer depth gage"
+			}, {
+				"answer": "A surface gage",
+				"correct": true
+			}, {
+				"answer": "A vernier depth gage"
+			}]
+		}, {
+			"question": "Which of the following tools is used to measure the depth of holes, slots, counterbores, and recesses?",
+			"answers": [{
+				"answer": "A rule depth gage",
+				"correct": true
+			}, {
+				"answer": "A snap gage"
+			}, {
+				"answer": "A telescoping gage"
+			}, {
+				"answer": "A two-piece collet die"
+			}]
+		}, {
+			"question": "In reference to a vernier depth gage, which of the following statements is/are true?",
+			"answers": [{
+				"answer": "It cannot be adjusted for wear"
+			}, {
+				"answer": "It cannot enter slots larger than 1/4 inch in diameter"
+			}, {
+				"answer": "It consists of a graduated scale that is either 6 or 12 inches long",
+				"correct": true
+			}, {
+				"answer": "It has a stationary head that is designed to bridge holes and slots"
+			}]
+		}, {
+			"question": "Height gages are normally graduated in which of the following divisions?",
+			"answers": [{
+				"answer": "0.015 inches"
+			}, {
+				"answer": "0.025 inches",
+				"correct": true
+			}, {
+				"answer": "0.500 millimeter"
+			}, {
+				"answer": "0.750 millimeter"
+			}]
+		}, {
+			"question": "In reference to a surface plate, which of the following statements is true?",
+			"answers": [{
+				"answer": "Normally comes in two sizes for portability"
+			}, {
+				"answer": "Often used as a base for surface and height gages to make approximate measurements"
+			}, {
+				"answer": "Provides a true, smooth, plane surface",
+				"correct": true
+			}, {
+				"answer": "Usually made of loose grained cast iron and is circular in shape"
+			}]
+		}, {
+			"question": "Which of the following gage classes indicates that the gage is precision lapped to close tolerances?",
+			"answers": [{
+				"answer": "Y"
+			}, {
+				"answer": "X",
+				"correct": true
+			}, {
+				"answer": "Z"
+			}, {
+				"answer": "ZZ"
+			}]
+		}, {
+			"question": "Which of the following gage classes is used only with ring gages?",
+			"answers": [{
+				"answer": "X"
+			}, {
+				"answer": "Y"
+			}, {
+				"answer": "Z"
+			}, {
+				"answer": "ZZ",
+				"correct": true
+			}]
+		}, {
+			"question": "In reference to ring gages, which of the following statements is true?",
+			"answers": [{
+				"answer": "GO gages are larger than NO GO gages",
+				"correct": true
+			}, {
+				"answer": "GO gages are smaller than NO GO gages"
+			}, {
+				"answer": "GO and NO GO gages cannot be distinguished from each other"
+			}, {
+				"answer": "GO gages and NO Go gages are always the same size "
+			}]
+		}, {
+			"question": "What two types of plain snap gages are available?",
+			"answers": [{
+				"answer": "Adjustable and nonadjustable",
+				"correct": true
+			}, {
+				"answer": "Fixed and flexible"
+			}, {
+				"answer": "Flat and round"
+			}, {
+				"answer": "Square and round"
+			}]
+		}, {
+			"question": "What term describes building gage blocks?",
+			"answers": [{
+				"answer": "Binding them together"
+			}, {
+				"answer": "Bolting them together"
+			}, {
+				"answer": "Welding them together"
+			}, {
+				"answer": "Wringing them together",
+				"correct": true
+			}]
+		}, {
+			"question": "Since changes in temperature have a sizable effect on measurements, what is considered the standard measuring temperature?",
+			"answers": [{
+				"answer": "50 degrees Fahrenheit"
+			}, {
+				"answer": "68 degrees Fahrenheit",
+				"correct": true
+			}, {
+				"answer": "68 degrees centigrade"
+			}, {
+				"answer": "72 degrees centigrade"
+			}]
+		}, {
+			"question": "When using gage blocks, you must consider the source of error resulting from which of the following conditions?",
+			"answers": [{
+				"answer": "Humidity"
+			}, {
+				"answer": "Light"
+			}, {
+				"answer": "Temperature",
+				"correct": true
+			}, {
+				"answer": "Time"
+			}]
+		}, {
+			"question": "Gage blocks are used for which of the following purposes?",
+			"answers": [{
+				"answer": "To check the accuracy of tools, dies, and fixtures",
+				"correct": true
+			}, {
+				"answer": "To determine the humidity in a space"
+			}, {
+				"answer": "To test the outside air temperature"
+			}, {
+				"answer": "To test the strength of electrical wire"
+			}]
+		}, {
+			"question": "Which of the following tools can be used to verify the accuracy and wear of ring and snap gages?",
+			"answers": [{
+				"answer": "Awls"
+			}, {
+				"answer": "Climbing tools"
+			}, {
+				"answer": "Gage blocks",
+				"correct": true
+			}, {
+				"answer": "Scribers"
+			}]
+		}, {
+			"question": "Thickness gages are often referred to by which of the following terms?",
+			"answers": [{
+				"answer": "Feeler gages",
+				"correct": true
+			}, {
+				"answer": "Height gages"
+			}, {
+				"answer": "Length gages"
+			}, {
+				"answer": "Width gages"
+			}]
+		}, {
+			"question": "Center gages are graduated in which of the following increments, in inches?",
+			"answers": [{
+				"answer": "Fourteenths, twentieths, twenty-fourths, and thirty-seconds",
+				"correct": true
+			}, {
+				"answer": "Fifteenths, twenty-seconds, twenty-sixths, and thirty-fourths"
+			}, {
+				"answer": "Seventeenths, twenty-eighths, thirtieths, and thirty-sixths"
+			}, {
+				"answer": "Nineteenths, twenty-fifths, twenty-ninths, and thirty-sevenths"
+			}]
+		}, {
+			"question": "Telescoping gages normally have what maximum measuring capacity, in inches?",
+			"answers": [{
+				"answer": "3"
+			}, {
+				"answer": "6",
+				"correct": true
+			}, {
+				"answer": "9"
+			}, {
+				"answer": "12"
+			}]
+		}, {
+			"question": "Each blade of a fillet and radius gage is normally marked in which of the following increments?",
+			"answers": [{
+				"answer": "Tenths"
+			}, {
+				"answer": "Thirty-seconds"
+			}, {
+				"answer": "Forty-seconds"
+			}, {
+				"answer": "Sixty-fourths",
+				"correct": true
+			}]
+		}, {
+			"question": "What tool consists of a 6-inch hook rule with a 59 degree sliding head?",
+			"answers": [{
+				"answer": "Adjustable parallel"
+			}, {
+				"answer": "Angle plate"
+			}, {
+				"answer": "Drill point gage",
+				"correct": true
+			}, {
+				"answer": "Marking gage"
+			}]
+		}, {
+			"question": "What tool is used for clamping or holding work vertically?",
+			"answers": [{
+				"answer": "Adjustable parallel"
+			}, {
+				"answer": "Angle plate",
+				"correct": true
+			}, {
+				"answer": "Magnetic base indicator holder"
+			}, {
+				"answer": "V-block and clamp assembly"
+			}]
+		}]
+	},
+	"5": {
+		"title": "Fastening and Prying Tools",
+		"questions": [{
+			"question": "Which of the following types of pliers can be used to cut small materials, such as wire and cotter pins?",
+			"answers": [{
+				"answer": "Parallel jaw"
+			}, {
+				"answer": "Flat nose"
+			}, {
+				"answer": "Round nose"
+			}, {
+				"answer": "Diagonal cutting",
+				"correct": true
+			}]
+		}, {
+			"question": "Which of the following types of hammers is used for driving and pulling nails?",
+			"answers": [{
+				"answer": "Claw",
+				"correct": true
+			}, {
+				"answer": "Ball peen"
+			}, {
+				"answer": "Bumping body"
+			}, {
+				"answer": "Cross peen"
+			}]
+		}, {
+			"question": "Which of the following types of hammers is used for riveting, center punching, and bending or shaping soft metal?",
+			"answers": [{
+				"answer": "Carpenter's"
+			}, {
+				"answer": "Ball peen",
+				"correct": true
+			}, {
+				"answer": "Claw"
+			}, {
+				"answer": "Sledge"
+			}]
+		}, {
+			"question": "Which of the following tools is normally used for breaking stones and concrete?",
+			"answers": [{
+				"answer": "Ball peen hammer"
+			}, {
+				"answer": "Bumping hammer"
+			}, {
+				"answer": "Sledge hammer",
+				"correct": true
+			}, {
+				"answer": "Carpenter's mallet"
+			}]
+		}, {
+			"question": "A trimmer's hammer has a round, flat face on one end of the head and what type of face on the other end?",
+			"answers": [{
+				"answer": "Square, flat"
+			}, {
+				"answer": "Round, pointed"
+			}, {
+				"answer": "Tapered chisel",
+				"correct": true
+			}, {
+				"answer": "Curved claw"
+			}]
+		}, {
+			"question": "What four basic types of dead blow hammers are currently in use?",
+			"answers": [{
+				"answer": "Standard head, slimline head, sledgehammer, and ball peen",
+				"correct": true
+			}, {
+				"answer": "Round head, streamline neck, curved back, and rivet face"
+			}, {
+				"answer": "Huge, large, medium, and small"
+			}, {
+				"answer": "Ball peen, curved back, rivet face, and round head"
+			}]
+		}, {
+			"question": "What type of mallets is made by tightly wrapping and staking a sheet of leather?",
+			"answers": [{
+				"answer": "Carpenter's"
+			}, {
+				"answer": "Rubber"
+			}, {
+				"answer": "Tinner's mallet"
+			}, {
+				"answer": "Rawhide",
+				"correct": true
+			}]
+		}, {
+			"question": "Which of the following tools is used to form and shape sheet metal?",
+			"answers": [{
+				"answer": "Carpenter's mallet"
+			}, {
+				"answer": "Tinner's mallet",
+				"correct": true
+			}, {
+				"answer": "Jeweler's hammer"
+			}, {
+				"answer": "Wooden maul"
+			}]
+		}, {
+			"question": "Which of the following types of screwdrivers should you use to drive or remove screws that CANNOT be lined up straight with common screwdrivers, or are located in tight corners?",
+			"answers": [{
+				"answer": "Cross-point"
+			}, {
+				"answer": "Cross-tip"
+			}, {
+				"answer": "Ratchet"
+			}, {
+				"answer": "Offset",
+				"correct": true
+			}]
+		}, {
+			"question": "Which of the following tools is used to make a pilot hole in wood for wood screws?",
+			"answers": [{
+				"answer": "Cross-point screwdriver"
+			}, {
+				"answer": "Flexible screwdriver"
+			}, {
+				"answer": "Screw starter or gimlet",
+				"correct": true
+			}, {
+				"answer": "Two-piece collet die"
+			}]
+		}, {
+			"question": "Wrenches are usually made from which of the following materials?",
+			"answers": [{
+				"answer": "Plastic"
+			}, {
+				"answer": "Copper"
+			}, {
+				"answer": "Tin"
+			}, {
+				"answer": "Steel alloy",
+				"correct": true
+			}]
+		}, {
+			"question": "What type of wrench has a long, smooth shank providing the user with a better gripping surface and is used to reach behind or below blind surfaces?",
+			"answers": [{
+				"answer": "Box"
+			}, {
+				"answer": "Plug"
+			}, {
+				"answer": "Torque"
+			}, {
+				"answer": "Engineer's single open-end",
+				"correct": true
+			}]
+		}, {
+			"question": "By how many degrees is an S-shaped open-end wrench normally offset?",
+			"answers": [{
+				"answer": "22 1/2",
+				"correct": true
+			}, {
+				"answer": "15 1/4"
+			}, {
+				"answer": "12 2/3"
+			}, {
+				"answer": "10 3/4"
+			}]
+		}, {
+			"question": "What type of wrench combines the open-end jaw with a long, tapered shank, providing a wrench/alignment punch combination?",
+			"answers": [{
+				"answer": "Construction",
+				"correct": true
+			}, {
+				"answer": "Ignition"
+			}, {
+				"answer": "Open-end"
+			}, {
+				"answer": "Box"
+			}]
+		}, {
+			"question": "Which of the following types of wrenches is used in the building trades and on heavy objects that require alignment before fastening?",
+			"answers": [{
+				"answer": "Open-end"
+			}, {
+				"answer": "Box"
+			}, {
+				"answer": "Combination"
+			}, {
+				"answer": "Construction",
+				"correct": true
+			}]
+		}, {
+			"question": "In reference to ignition wrenches, which of the following statements is true?",
+			"answers": [{
+				"answer": "Ignition wrenches are usually very large in size"
+			}, {
+				"answer": "Ignition wrenches usually have the same size jaw opening on both ends",
+				"correct": true
+			}, {
+				"answer": "Ignition wrenches are usually used to remove lug nuts from wheels of vehicles"
+			}, {
+				"answer": "Ignition wrenches are usually offset 10 degrees on each end"
+			}]
+		}, {
+			"question": "In reference to box wrenches, which of the following statements is true?",
+			"answers": [{
+				"answer": "Box wrenches are offset from the shank by 15 to 45 degrees"
+			}, {
+				"answer": "The 12-point opening may be used on both square and hexagonal bolt heads",
+				"correct": true
+			}, {
+				"answer": "The length of a box wrench depends upon the degree of offset"
+			}, {
+				"answer": "Some models have an extension capability"
+			}]
+		}, {
+			"question": "Box wrenches surround the nuts, bolt heads, or studs on all sides and are available with which of the following openings?",
+			"answers": [{
+				"answer": "4-point"
+			}, {
+				"answer": "9-point"
+			}, {
+				"answer": "12-point",
+				"correct": true
+			}, {
+				"answer": "16-point"
+			}]
+		}, {
+			"question": "Hex key wrenches are usually what shape?",
+			"answers": [{
+				"answer": "T"
+			}, {
+				"answer": "Circular"
+			}, {
+				"answer": "Square"
+			}, {
+				"answer": "L",
+				"correct": true
+			}]
+		}, {
+			"question": "The stillson wrench, the strap wrench, and the chain wrench come under what general category of wrenches?",
+			"answers": [{
+				"answer": "Combination"
+			}, {
+				"answer": "Torque"
+			}, {
+				"answer": "Pipe",
+				"correct": true
+			}, {
+				"answer": "Box"
+			}]
+		}, {
+			"question": "In reference to socket wrenches, which of the following statements is true?",
+			"answers": [{
+				"answer": "A socket wrench consists of a square metal sleeve with a round opening in one end for insertion of a handle"
+			}, {
+				"answer": "The length of a socket determines its size"
+			}, {
+				"answer": "The drive end of a socket may vary in size from 1/4 to 1 inch",
+				"correct": true
+			}, {
+				"answer": "A socket wrench has a 9- or 18-point opening at the other end of the handle"
+			}]
+		}, {
+			"question": "What tool is used to convert a nonratcheting socket wrench handle into a ratchet drive?",
+			"answers": [{
+				"answer": "Ratcheting adapter",
+				"correct": true
+			}, {
+				"answer": "Socket wrench adapter"
+			}, {
+				"answer": "Socket wrench extension"
+			}, {
+				"answer": "Sliding T-bar handle"
+			}]
+		}, {
+			"question": "Which of the following tools is usually used to remove or install vehicle wheel stud nuts?",
+			"answers": [{
+				"answer": "Sliding T-bar handle"
+			}, {
+				"answer": "Combination wrench"
+			}, {
+				"answer": "Four-way socket wrench",
+				"correct": true
+			}, {
+				"answer": "Open-end wrench"
+			}]
+		}, {
+			"question": "In reference to stud removers, which of the following statements is true?",
+			"answers": [{
+				"answer": "Some stud removers can be adjusted to remove studs of different sizes",
+				"correct": true
+			}, {
+				"answer": "Most stud removers are electrically driven"
+			}, {
+				"answer": "There is only one type of stud remover"
+			}, {
+				"answer": "Stud removers are usually used to remove tiny screws from sensitive instruments"
+			}]
+		}, {
+			"question": "A wedge-type stud remover is normally made of a socket housing and what total number of wedges?",
+			"answers": [{
+				"answer": "Two",
+				"correct": true
+			}, {
+				"answer": "Three"
+			}, {
+				"answer": "Four"
+			}, {
+				"answer": "Five"
+			}]
+		}, {
+			"question": "What three basic types of plug wrenches are available?",
+			"answers": [{
+				"answer": "Bar, socket, and multiple plug",
+				"correct": true
+			}, {
+				"answer": "Socket, ball, and multiple plug"
+			}, {
+				"answer": "Bar, ball, and socket"
+			}, {
+				"answer": "Ball, gate, and multiple plug"
+			}]
+		}, {
+			"question": "Which of the following tools is used to remove or install drain plugs?",
+			"answers": [{
+				"answer": "Crowfoot wrench"
+			}, {
+				"answer": "T-bar handle"
+			}, {
+				"answer": "Box wrench"
+			}, {
+				"answer": "Plug wrench",
+				"correct": true
+			}]
+		}, {
+			"question": "What tool is designed to measure the specific degree of tightness of nuts or bolts?",
+			"answers": [{
+				"answer": "Torque wrench",
+				"correct": true
+			}, {
+				"answer": "Open-end wrench"
+			}, {
+				"answer": "Pipe wrench"
+			}, {
+				"answer": "Reamer"
+			}]
+		}, {
+			"question": "Which of the following tools is a precision instrument?",
+			"answers": [{
+				"answer": "Strap wrench"
+			}, {
+				"answer": "Torque wrench",
+				"correct": true
+			}, {
+				"answer": "Bolt cutter"
+			}, {
+				"answer": "Box wrench"
+			}]
+		}, {
+			"question": "A power torque wrench is operated by the use of what type of power?",
+			"answers": [{
+				"answer": "Hydraulic"
+			}, {
+				"answer": "Electrical"
+			}, {
+				"answer": "Magnetic"
+			}, {
+				"answer": "Manual",
+				"correct": true
+			}]
+		}, {
+			"question": "What type of wrench is used to tighten nuts and bolts requiring 200 or more foot pounds of torque?",
+			"answers": [{
+				"answer": "Spanner"
+			}, {
+				"answer": "Plug"
+			}, {
+				"answer": "Box"
+			}, {
+				"answer": "Power torque",
+				"correct": true
+			}]
+		}, {
+			"question": "Spanner wrenches are available in what two basic types?",
+			"answers": [{
+				"answer": "Hook and pin",
+				"correct": true
+			}, {
+				"answer": "Round-face and square-face"
+			}, {
+				"answer": "Adjustable and fixed"
+			}, {
+				"answer": "Flexible and rigid"
+			}]
+		}, {
+			"question": "Bars usually come in which of the following lengths, in inches?",
+			"answers": [{
+				"answer": "12 to 72",
+				"correct": true
+			}, {
+				"answer": "14 to 76"
+			}, {
+				"answer": "18 to 80"
+			}, {
+				"answer": "24 to 96"
+			}]
+		}, {
+			"question": "Which of the following tools is used for demolition, to pull nails, and to rip wood?",
+			"answers": [{
+				"answer": "Crowbar"
+			}, {
+				"answer": "Dead blow hammer"
+			}, {
+				"answer": "Lever punch"
+			}, {
+				"answer": "Wrecking bar",
+				"correct": true
+			}]
+		}]
+	},
+	"6": {
+		"title": "Sawing and Cutting Tools",
+		"questions": [{
+			"question": "What type of saw comes in a turret head model to be rotated and locked in several positions?",
+			"answers": [{
+				"answer": "Coping"
+			}, {
+				"answer": "Hacksaw"
+			}, {
+				"answer": "Keyhole",
+				"correct": true
+			}, {
+				"answer": "Nest-of saws"
+			}]
+		}, {
+			"question": "What type of saw consists of a wooden handle to which different blades can be attached, making up different types of saws?",
+			"answers": [{
+				"answer": "Coping"
+			}, {
+				"answer": "Hacksaw"
+			}, {
+				"answer": "Keyhole"
+			}, {
+				"answer": "Nest-of saws",
+				"correct": true
+			}]
+		}, {
+			"question": "Which of the following types of blades are used on hacksaws?",
+			"answers": [{
+				"answer": "Flexible and soft"
+			}, {
+				"answer": "Hard and flexible",
+				"correct": true
+			}, {
+				"answer": "Hard and rigid"
+			}, {
+				"answer": "Rigid and soft"
+			}]
+		}, {
+			"question": "What is a two-man crosscut saw used for?",
+			"answers": [{
+				"answer": "Cutting intricate designs"
+			}, {
+				"answer": "Cutting joints and smaller sections of lumber to length"
+			}, {
+				"answer": "Extra heavy cutting jobs",
+				"correct": true
+			}, {
+				"answer": "Trim molding and furniture repair"
+			}]
+		}, {
+			"question": "In reference to handsaws, which of the following statements is true?",
+			"answers": [{
+				"answer": "Crosscut saws consist of a thick blade with a steel handle"
+			}, {
+				"answer": "Crosscut saws have large chisel-shaped teeth, usually 5 ½ teeth per inch"
+			}, {
+				"answer": "Ripsaws are designed to cut with the grain",
+				"correct": true
+			}, {
+				"answer": "Ripsaws have teeth shaped like knife points to crumble out wood between cuts "
+			}]
+		}, {
+			"question": "What type of saw is designed to cut metal?",
+			"answers": [{
+				"answer": "Hacksaw",
+				"correct": true
+			}, {
+				"answer": "Handsaw"
+			}, {
+				"answer": "One-man crosscut saw"
+			}, {
+				"answer": "Two-man crosscut saw"
+			}]
+		}, {
+			"question": "On a saw, who should set the teeth?",
+			"answers": [{
+				"answer": "A qualified professional",
+				"correct": true
+			}, {
+				"answer": "The operator"
+			}, {
+				"answer": "The tool issue personnel"
+			}, {
+				"answer": "The workcenter supervisor"
+			}]
+		}, {
+			"question": "The handsaw teeth should be kept away from which of the following materials?",
+			"answers": [{
+				"answer": "Metal",
+				"correct": true
+			}, {
+				"answer": "Plastic"
+			}, {
+				"answer": "Rubber"
+			}, {
+				"answer": "Wood"
+			}]
+		}, {
+			"question": "When heavy objects are placed on a saw, which of the following is the result?",
+			"answers": [{
+				"answer": "The blade will buckle"
+			}, {
+				"answer": "The blade will distort",
+				"correct": true
+			}, {
+				"answer": "The objects straighten the blade"
+			}, {
+				"answer": "The teeth are sharpened"
+			}]
+		}, {
+			"question": "What substance should be applied to the saw blade to prevent rust?",
+			"answers": [{
+				"answer": "Grease"
+			}, {
+				"answer": "Machine oil",
+				"correct": true
+			}, {
+				"answer": "Talcum powder"
+			}, {
+				"answer": "Wax"
+			}]
+		}, {
+			"question": "When cutting longer stock, what safety precaution should be adhered to?",
+			"answers": [{
+				"answer": "Keep the blade sharp"
+			}, {
+				"answer": "Lay the saw down gently"
+			}, {
+				"answer": "Loosen the blade tension on a hacksaw when not in use"
+			}, {
+				"answer": "Properly support the stock",
+				"correct": true
+			}]
+		}, {
+			"question": "When steadying or securing loose material to be cut, what device should be used?",
+			"answers": [{
+				"answer": "Clamp",
+				"correct": true
+			}, {
+				"answer": "Hand"
+			}, {
+				"answer": "Heavy object"
+			}, {
+				"answer": "Strap"
+			}]
+		}, {
+			"question": "What tool should you use to cut holes in flat stock and cut V-grooves?",
+			"answers": [{
+				"answer": "Center punch"
+			}, {
+				"answer": "Diamond point chisel",
+				"correct": true
+			}, {
+				"answer": "Staybolt tap"
+			}, {
+				"answer": "Thread cutting tool"
+			}]
+		}, {
+			"question": "What type of chisel has a beveled point on one end, a flat face on the other end, is 10 ½ inches long, and weighs 5 ½ pounds?",
+			"answers": [{
+				"answer": "Machinist's chisel"
+			}, {
+				"answer": "Rivet buster chisel"
+			}, {
+				"answer": "Track chisel",
+				"correct": true
+			}, {
+				"answer": "Woodworker's chisel"
+			}]
+		}, {
+			"question": "In reference to a woodworker's chisel, which of the following statements is true?",
+			"answers": [{
+				"answer": "Both hands should be in back of the cutting edge at all times",
+				"correct": true
+			}, {
+				"answer": "Cuts should always be made away from the person doing the cutting"
+			}, {
+				"answer": "Rough cuts should be made with the bevel side up"
+			}, {
+				"answer": "Smooth finishing cuts should be made with the bevel side down"
+			}]
+		}, {
+			"question": "What angle should the blade of a woodworker’s chisel be beveled to, in degrees?",
+			"answers": [{
+				"answer": "15"
+			}, {
+				"answer": "25",
+				"correct": true
+			}, {
+				"answer": "40"
+			}, {
+				"answer": "60"
+			}]
+		}, {
+			"question": "What are the two general types of center punches?",
+			"answers": [{
+				"answer": "Iron and copper"
+			}, {
+				"answer": "Spindle and bevel"
+			}, {
+				"answer": "Hand-held and automatic",
+				"correct": true
+			}, {
+				"answer": "Wedge-shape and circular"
+			}]
+		}, {
+			"question": "What tool is used to mark centers on metal or wood without the use of a hammer?",
+			"answers": [{
+				"answer": "Catapunch",
+				"correct": true
+			}, {
+				"answer": "Micrometer"
+			}, {
+				"answer": "Gage block"
+			}, {
+				"answer": "Gimlet"
+			}]
+		}, {
+			"question": "What tool is used to mark soft metal?",
+			"answers": [{
+				"answer": "Fillet"
+			}, {
+				"answer": "Lever punch"
+			}, {
+				"answer": "Prick punch",
+				"correct": true
+			}, {
+				"answer": "Tinmen's hollow punch"
+			}]
+		}, {
+			"question": "What tool is used to form the flange on grommets installed along the edges of flags, sails, mail bags, and similar items?",
+			"answers": [{
+				"answer": "Catapunch"
+			}, {
+				"answer": "Grommet-inserting punch",
+				"correct": true
+			}, {
+				"answer": "Mason's hammer"
+			}, {
+				"answer": "Metal cutting punch"
+			}]
+		}, {
+			"question": "What is the tinmen's hollow punch used for?",
+			"answers": [{
+				"answer": "Align sections of tin"
+			}, {
+				"answer": "Mark rivets"
+			}, {
+				"answer": "Punch holes through thin sheet metal",
+				"correct": true
+			}, {
+				"answer": "Remove bolts"
+			}]
+		}, {
+			"question": "What tool should you use to punch small round holes near the edges of metal or leather material?",
+			"answers": [{
+				"answer": "Catapunch"
+			}, {
+				"answer": "Lever punch",
+				"correct": true
+			}, {
+				"answer": "Prick punch"
+			}, {
+				"answer": "Reamer"
+			}]
+		}, {
+			"question": "On a compass-style circle gasket cutter, what device is used to adjust the diameter?",
+			"answers": [{
+				"answer": "Hammer"
+			}, {
+				"answer": "Knurled thumb screw",
+				"correct": true
+			}, {
+				"answer": "Round split adjustable die"
+			}, {
+				"answer": "Straight slot screwdriver"
+			}]
+		}, {
+			"question": "What device is used to adjust the diameter of a bit brace circle gasket cutter?",
+			"answers": [{
+				"answer": "Hex wrench",
+				"correct": true
+			}, {
+				"answer": "Machinist's level"
+			}, {
+				"answer": "Open-end wrench"
+			}, {
+				"answer": "Straight slot screwdriver"
+			}]
+		}, {
+			"question": "What type of gasket cutter has a tapered square shank?",
+			"answers": [{
+				"answer": "Compass-style circle gasket cutter"
+			}, {
+				"answer": "Bit brace circle gasket cutter",
+				"correct": true
+			}, {
+				"answer": "Heavy duty bench mount gasket cutter"
+			}, {
+				"answer": "Hollow gasket cutter"
+			}]
+		}, {
+			"question": "A hollow gasket cutter is also referred to by what term?",
+			"answers": [{
+				"answer": "Hard punch"
+			}, {
+				"answer": "Hollow punch",
+				"correct": true
+			}, {
+				"answer": "Solid punch"
+			}, {
+				"answer": "Square punch"
+			}]
+		}, {
+			"question": "What tool is used to make straight cuts on glass?",
+			"answers": [{
+				"answer": "Circle glass cutter"
+			}, {
+				"answer": "Pillar file"
+			}, {
+				"answer": "Track chisel"
+			}, {
+				"answer": "Wheel glass cutter",
+				"correct": true
+			}]
+		}, {
+			"question": "What tool is used to cut wallboard, paper, cardboard, linoleum, canvas, and upholstery materials?",
+			"answers": [{
+				"answer": "Saddler's knife"
+			}, {
+				"answer": "Scratch awl"
+			}, {
+				"answer": "Scriber"
+			}, {
+				"answer": "Shop knife",
+				"correct": true
+			}]
+		}, {
+			"question": "What tool is used for light cutting, sharpening pencils, cutting string, and whittling?",
+			"answers": [{
+				"answer": "Pocket knife",
+				"correct": true
+			}, {
+				"answer": "Saddler's knife"
+			}, {
+				"answer": "Scratch awl"
+			}, {
+				"answer": "Shop knife"
+			}]
+		}, {
+			"question": "When carrying a knife in your pocket, the blade should be in what condition?",
+			"answers": [{
+				"answer": "Closed",
+				"correct": true
+			}, {
+				"answer": "Half open"
+			}, {
+				"answer": "Open"
+			}, {
+				"answer": "Wrapped in a rag"
+			}]
+		}, {
+			"question": "What tools are considered security items and should be secured when not in use?",
+			"answers": [{
+				"answer": "Bolt cutters",
+				"correct": true
+			}, {
+				"answer": "Jeweler's hammers"
+			}, {
+				"answer": "Master precision levels"
+			}, {
+				"answer": "Open-end wrenches"
+			}]
+		}, {
+			"question": "In reference to a center cut cutter, which of the following statements is true?",
+			"answers": [{
+				"answer": "It is used to cut hard steel only"
+			}, {
+				"answer": "The cutting edges are in the center of the jaw between equal levels",
+				"correct": true
+			}, {
+				"answer": "The handles range from 3 to 9 inches in length"
+			}, {
+				"answer": "The shorter the handle, the greater the cutting capacity {"
+			}]
+		}, {
+			"question": "What tools are used to cut lead and rubber-covered cable?",
+			"answers": [{
+				"answer": "Clamp pliers"
+			}, {
+				"answer": "Machinist's scribers"
+			}, {
+				"answer": "Mattocks"
+			}, {
+				"answer": "Shear cut cable cutters",
+				"correct": true
+			}]
+		}, {
+			"question": "Shear cut, flat bar, and strip cutters jaws pass each other in the manner of what tool?",
+			"answers": [{
+				"answer": "Nippers"
+			}, {
+				"answer": "Pliers"
+			}, {
+				"answer": "Scissors",
+				"correct": true
+			}, {
+				"answer": "Tinmen’s punch"
+			}]
+		}, {
+			"question": "Angular cut cutters have the cutting edges offset by what number of degrees from the handles?",
+			"answers": [{
+				"answer": "10"
+			}, {
+				"answer": "20"
+			}, {
+				"answer": "30",
+				"correct": true
+			}, {
+				"answer": "40"
+			}]
+		}, {
+			"question": "When sharpening bolt cutter blades, what thickness should you leave the cutting edges, in inches?",
+			"answers": [{
+				"answer": "1/64",
+				"correct": true
+			}, {
+				"answer": "1/32"
+			}, {
+				"answer": "1/16"
+			}, {
+				"answer": "1/8"
+			}]
+		}, {
+			"question": "What maximum size pipe can a pipe cutter cut, in inches",
+			"answers": [{
+				"answer": "2"
+			}, {
+				"answer": "4",
+				"correct": true
+			}, {
+				"answer": "6"
+			}, {
+				"answer": "8"
+			}]
+		}, {
+			"question": "Which of the following materials can pipe cutters cut?",
+			"answers": [{
+				"answer": "Copper and wrought iron only"
+			}, {
+				"answer": "Lead and aluminum only"
+			}, {
+				"answer": "Steel and brass only"
+			}, {
+				"answer": "Steel, brass, copper, wrought iron, and lead",
+				"correct": true
+			}]
+		}, {
+			"question": "To protect you from getting cut on the sharp ends, pipe often comes with what items?",
+			"answers": [{
+				"answer": "Wooden plugs"
+			}, {
+				"answer": "Rubber plugs"
+			}, {
+				"answer": "Protective caps",
+				"correct": true
+			}, {
+				"answer": "Plastic inserts"
+			}]
+		}, {
+			"question": "Where should pipe threading sets be stored?",
+			"answers": [{
+				"answer": "In a basket"
+			}, {
+				"answer": "In a box",
+				"correct": true
+			}, {
+				"answer": "On a shelf"
+			}, {
+				"answer": "On a work bench"
+			}]
+		}, {
+			"question": "Tube cutters are usually designed to cut tubing up to what maximum size, in inches?",
+			"answers": [{
+				"answer": "1"
+			}, {
+				"answer": "2 5/8",
+				"correct": true
+			}, {
+				"answer": "3 1/2"
+			}, {
+				"answer": "4"
+			}]
+		}, {
+			"question": "What are the two basic types of flaring tools?",
+			"answers": [{
+				"answer": "Hard and soft"
+			}, {
+				"answer": "Long and short"
+			}, {
+				"answer": "Single and double",
+				"correct": true
+			}, {
+				"answer": "Soft and brittle"
+			}]
+		}, {
+			"question": "Which of the following hand snips have curved blades for cutting circles?",
+			"answers": [{
+				"answer": "Bulldog"
+			}, {
+				"answer": "Circle",
+				"correct": true
+			}, {
+				"answer": "Pipe and Duct"
+			}, {
+				"answer": "Trojan"
+			}]
+		}, {
+			"question": "What tools are used to cut metal with minimal distortion?",
+			"answers": [{
+				"answer": "Center cut cutters"
+			}, {
+				"answer": "Flat-nose pliers"
+			}, {
+				"answer": "Nibblers",
+				"correct": true
+			}, {
+				"answer": "Wire strippers"
+			}]
+		}, {
+			"question": "What tools are used to cut heavy sheet metal?",
+			"answers": [{
+				"answer": "Clamp pliers"
+			}, {
+				"answer": "Nippers"
+			}, {
+				"answer": "Slip-joint pliers"
+			}, {
+				"answer": "Tinner's bench shears",
+				"correct": true
+			}]
+		}, {
+			"question": "A metal shearing machine is normally operated by which of the following sources of power?",
+			"answers": [{
+				"answer": "Electrical"
+			}, {
+				"answer": "Hydraulic"
+			}, {
+				"answer": "Foot",
+				"correct": true
+			}, {
+				"answer": "Magnetic"
+			}]
+		}, {
+			"question": "The shear blades on metal shearing machines are normally what length, in inches?",
+			"answers": [{
+				"answer": "36",
+				"correct": true
+			}, {
+				"answer": "42"
+			}, {
+				"answer": "51"
+			}, {
+				"answer": "73"
+			}]
+		}, {
+			"question": "Metal shearing machines will normally cut iron up to what maximum thickness, in inches?",
+			"answers": [{
+				"answer": "1/2"
+			}, {
+				"answer": "1/8",
+				"correct": true
+			}, {
+				"answer": "1/16"
+			}, {
+				"answer": "1/32"
+			}]
+		}, {
+			"question": "Shears will become useless after what total number of times of sharpening?",
+			"answers": [{
+				"answer": "1"
+			}, {
+				"answer": "2"
+			}, {
+				"answer": "3",
+				"correct": true
+			}, {
+				"answer": "4"
+			}]
+		}, {
+			"question": "What tool is used for cutting underbrush, shrubs, tree branches, vines, and tall grass?",
+			"answers": [{
+				"answer": "Brush hook",
+				"correct": true
+			}, {
+				"answer": "Nest-of-saw"
+			}, {
+				"answer": "Nibbler"
+			}, {
+				"answer": "Shop knife"
+			}]
+		}, {
+			"question": "The machete used in the military is typically what size, in inches?",
+			"answers": [{
+				"answer": "10"
+			}, {
+				"answer": "15"
+			}, {
+				"answer": "18",
+				"correct": true
+			}, {
+				"answer": "30"
+			}]
+		}]
+	},
+	"7": {
+		"title": "Boring and Clamping Tools",
+		"questions": [{
+			"question": "Which of the following types of drills is made up of a head, crank, crank handle, ratchet mechanism, and chuck?",
+			"answers": [{
+				"answer": "Auger"
+			}, {
+				"answer": "Cordless"
+			}, {
+				"answer": "Hand",
+				"correct": true
+			}, {
+				"answer": "Push"
+			}]
+		}, {
+			"question": "Which of the following drills rotates counterclockwise when the handle springs up?",
+			"answers": [{
+				"answer": "Auger"
+			}, {
+				"answer": "Cordless"
+			}, {
+				"answer": "Hand"
+			}, {
+				"answer": "Push",
+				"correct": true
+			}]
+		}, {
+			"question": "In which of the following positions should the hand drill or bit brace be held?",
+			"answers": [{
+				"answer": "Diagonal"
+			}, {
+				"answer": "Horizontal"
+			}, {
+				"answer": "Oblique"
+			}, {
+				"answer": "Vertical",
+				"correct": true
+			}]
+		}, {
+			"question": "Which of the following precautions is true concerning the care of manual drills?",
+			"answers": [{
+				"answer": "Clean gear teeth of dirt, and wood and metal shavings and apply a light coat of oil",
+				"correct": true
+			}, {
+				"answer": "Periodically place a drop of oil on the fixed parts of the tools"
+			}, {
+				"answer": "Place a piece of scrap metal under the work piece"
+			}, {
+				"answer": "Place manual drills in a tool box when not in use"
+			}]
+		}, {
+			"question": "To enlarge a hole, you should use which of the following tools?",
+			"answers": [{
+				"answer": "Jeweler's hammer"
+			}, {
+				"answer": "Reamer",
+				"correct": true
+			}, {
+				"answer": "Scriber"
+			}, {
+				"answer": "Vernier caliper"
+			}]
+		}, {
+			"question": "Which of the following are the three parts of a reamer?",
+			"answers": [{
+				"answer": "Blades, flange, and rim"
+			}, {
+				"answer": "Body, shank, and blades",
+				"correct": true
+			}, {
+				"answer": "Body, stem, and flange"
+			}, {
+				"answer": "Shank, flange, and wheel"
+			}]
+		}, {
+			"question": "Where can you find the size of a reamer?",
+			"answers": [{
+				"answer": "Painted on the body of the tool"
+			}, {
+				"answer": "Scribed on the body of the tool"
+			}, {
+				"answer": "Stamped between the blades of the tool"
+			}, {
+				"answer": "Stamped on the shank of the tool",
+				"correct": true
+			}]
+		}, {
+			"question": "Solid taper-pin reamers are made with what standard taper, in inches per foot?",
+			"answers": [{
+				"answer": "1/8"
+			}, {
+				"answer": "1/4",
+				"correct": true
+			}, {
+				"answer": "1/2"
+			}, {
+				"answer": "3/4"
+			}]
+		}, {
+			"question": "An expansion reamer is made from which of the following materials?",
+			"answers": [{
+				"answer": "Carbon steel",
+				"correct": true
+			}, {
+				"answer": "Copper"
+			}, {
+				"answer": "Lead"
+			}, {
+				"answer": "Plastic"
+			}]
+		}, {
+			"question": "Pipe reamers come in how many sizes?",
+			"answers": [{
+				"answer": "1"
+			}, {
+				"answer": "2"
+			}, {
+				"answer": "3",
+				"correct": true
+			}, {
+				"answer": "4"
+			}]
+		}, {
+			"question": "If the reamer edges are slightly dull, what action, if anything, can be performed to restore the sharpness?",
+			"answers": [{
+				"answer": "Hone the edges with a file"
+			}, {
+				"answer": "Hone the edges with an oilstone",
+				"correct": true
+			}, {
+				"answer": "Use sandpaper to clean the edges"
+			}, {
+				"answer": "Nothing, the blades must be replaced"
+			}]
+		}, {
+			"question": "For short term storage, what item should be wrapped around the reamer?",
+			"answers": [{
+				"answer": "Aluminum foil"
+			}, {
+				"answer": "Oily rag",
+				"correct": true
+			}, {
+				"answer": "Paper towel"
+			}, {
+				"answer": "Waxed paper"
+			}]
+		}, {
+			"question": "The pin vise is a special purpose vise designed to hold material from 0 to what maximum diameter, in inches?",
+			"answers": [{
+				"answer": "0.187",
+				"correct": true
+			}, {
+				"answer": "0.397"
+			}, {
+				"answer": "3.254"
+			}, {
+				"answer": "8.134"
+			}]
+		}, {
+			"question": "The pipe vise will hold pipe with what maximum diameter, in inches?",
+			"answers": [{
+				"answer": "2"
+			}, {
+				"answer": "4"
+			}, {
+				"answer": "6"
+			}, {
+				"answer": "8",
+				"correct": true
+			}]
+		}, {
+			"question": "The piston holding vise is a special purpose vise that can hold engine pistons up to and including what maximum diameter, in inches?",
+			"answers": [{
+				"answer": "3 1/2"
+			}, {
+				"answer": "5 1/2",
+				"correct": true
+			}, {
+				"answer": "7 2/3"
+			}, {
+				"answer": "9 3/8"
+			}]
+		}, {
+			"question": "The handsaw filing vise has jaws that are normally between 9 1/2 and what maximum number of inches?",
+			"answers": [{
+				"answer": "5"
+			}, {
+				"answer": "7"
+			}, {
+				"answer": "11",
+				"correct": true
+			}, {
+				"answer": "32"
+			}]
+		}, {
+			"question": "Which of the following safety precautions is true concerning vises?",
+			"answers": [{
+				"answer": "Never strike a vise with a heavy object",
+				"correct": true
+			}, {
+				"answer": "Oil the jaws to prevent slippage"
+			}, {
+				"answer": "Oil the swivel base for increased holding power"
+			}, {
+				"answer": "Use a small vise to hold large work"
+			}]
+		}, {
+			"question": "When not in use, the jaws of the vise should be in what position?",
+			"answers": [{
+				"answer": "Fully open"
+			}, {
+				"answer": "Half open"
+			}, {
+				"answer": "Lightly together",
+				"correct": true
+			}, {
+				"answer": "Torqued shut"
+			}]
+		}, {
+			"question": "In reference to hand screw clamps, which of the following statements is true?",
+			"answers": [{
+				"answer": "Is available in a 90 degree angle only"
+			}, {
+				"answer": "Is usually made up of three jaws"
+			}, {
+				"answer": "Should be tightened with a wrench or bar"
+			}, {
+				"answer": "Is used for holding wood, metal, plastic, and fabric",
+				"correct": true
+			}]
+		}, {
+			"question": "Which of the following clamps is used when moderate pressure is needed?",
+			"answers": [{
+				"answer": "Bar"
+			}, {
+				"answer": "Pipe"
+			}, {
+				"answer": "Spring",
+				"correct": true
+			}, {
+				"answer": "V-block and clamp assembly"
+			}]
+		}, {
+			"question": "Which of the following clamps can be converted to use as a spreader?",
+			"answers": [{
+				"answer": "Bar"
+			}, {
+				"answer": "Pipe",
+				"correct": true
+			}, {
+				"answer": "Spring"
+			}, {
+				"answer": "V-block and clamp assembly"
+			}]
+		}, {
+			"question": "Which of the following clamps will support round, square, and rectangular shaped work?",
+			"answers": [{
+				"answer": "Bar"
+			}, {
+				"answer": "Pipe"
+			}, {
+				"answer": "Spring"
+			}, {
+				"answer": "V-block and clamp assembly",
+				"correct": true
+			}]
+		}, {
+			"question": "What action, if anything, can occur to a clamp that is overloaded?",
+			"answers": [{
+				"answer": "The clamp will break",
+				"correct": true
+			}, {
+				"answer": "The clamp will slip"
+			}, {
+				"answer": "The gipping teeth become dull"
+			}, {
+				"answer": "Nothing, clamps are designed to handle any load"
+			}]
+		}, {
+			"question": "In which of the following locations should clamps be stored?",
+			"answers": [{
+				"answer": "In a locker"
+			}, {
+				"answer": "In a tool box drawer"
+			}, {
+				"answer": "On a rack",
+				"correct": true
+			}, {
+				"answer": "On top of the work bench"
+			}]
+		}]
+	},
+	"8": {
+		"title": "Smoothing Tools (Wood and Metal Surfaces)",
+		"questions": [{
+			"question": "A jointer plane is usually what maximum length, in inches?",
+			"answers": [{
+				"answer": "6"
+			}, {
+				"answer": "12"
+			}, {
+				"answer": "24",
+				"correct": true
+			}, {
+				"answer": "30"
+			}]
+		}, {
+			"question": "What type of plane is used in diagonal strokes across the face of a board?",
+			"answers": [{
+				"answer": "Block"
+			}, {
+				"answer": "Jack"
+			}, {
+				"answer": "Jointer"
+			}, {
+				"answer": "Scrub",
+				"correct": true
+			}]
+		}, {
+			"question": "What type of plane is 15 inches long with a blade that has a moderately curved edge?",
+			"answers": [{
+				"answer": "Block"
+			}, {
+				"answer": "Jack",
+				"correct": true
+			}, {
+				"answer": "Jointer"
+			}, {
+				"answer": "Scrub"
+			}]
+		}, {
+			"question": "A smooth plane is usually what maximum length, in inches?",
+			"answers": [{
+				"answer": "5"
+			}, {
+				"answer": "10",
+				"correct": true
+			}, {
+				"answer": "15"
+			}, {
+				"answer": "20"
+			}]
+		}, {
+			"question": "What type of plane is used to shave thin pieces of wood in awkward areas?",
+			"answers": [{
+				"answer": "Block",
+				"correct": true
+			}, {
+				"answer": "Jack"
+			}, {
+				"answer": "Jointer"
+			}, {
+				"answer": "Scrub"
+			}]
+		}, {
+			"question": "What feature on a block plane is used when additional pressure is needed?",
+			"answers": [{
+				"answer": "Hand hold"
+			}, {
+				"answer": "Pressure lever"
+			}, {
+				"answer": "Spring adjustment"
+			}, {
+				"answer": "Toe knob",
+				"correct": true
+			}]
+		}, {
+			"question": "When using a plane, what step must be accomplished first?",
+			"answers": [{
+				"answer": "Create a chamfer to prevent the grain from splitting"
+			}, {
+				"answer": "Make sure the plane is sharp and properly adjusted"
+			}, {
+				"answer": "Place the plane on the board with the right hand on the handle"
+			}, {
+				"answer": "Secure the work with a vise or clamp ",
+				"correct": true
+			}]
+		}, {
+			"question": "All cutting tools should be in what condition?",
+			"answers": [{
+				"answer": "Fair"
+			}, {
+				"answer": "Good",
+				"correct": true
+			}, {
+				"answer": "Poor"
+			}, {
+				"answer": "Weathered"
+			}]
+		}, {
+			"question": "When not in use, a plane should be placed in what position?",
+			"answers": [{
+				"answer": "On its cutting edge"
+			}, {
+				"answer": "On its front end"
+			}, {
+				"answer": "On its handle"
+			}, {
+				"answer": "On its side",
+				"correct": true
+			}]
+		}, {
+			"question": "What substance should be applied to all metal parts of a plane to prevent rusting?",
+			"answers": [{
+				"answer": "Chalk"
+			}, {
+				"answer": "Graphite"
+			}, {
+				"answer": "Oil",
+				"correct": true
+			}, {
+				"answer": "Rubber"
+			}]
+		}, {
+			"question": "What tool is used to clean cylinder heads?",
+			"answers": [{
+				"answer": "Bearing scraper"
+			}, {
+				"answer": "Bench grinder"
+			}, {
+				"answer": "Carbon scraper",
+				"correct": true
+			}, {
+				"answer": "Mill file"
+			}]
+		}, {
+			"question": "What tool is made to remove paint, stencil markings, and other coatings from various surfaces?",
+			"answers": [{
+				"answer": "File"
+			}, {
+				"answer": "Plane"
+			}, {
+				"answer": "Saw"
+			}, {
+				"answer": "Scraper",
+				"correct": true
+			}]
+		}, {
+			"question": "What tool is used as a floor scraper?",
+			"answers": [{
+				"answer": "Bearing scraper"
+			}, {
+				"answer": "Bench grinder"
+			}, {
+				"answer": "Box scraper",
+				"correct": true
+			}, {
+				"answer": "Round file"
+			}]
+		}, {
+			"question": "On a box scraper, what action adjusts the blade?",
+			"answers": [{
+				"answer": "Adding more pressure to the toe of the scraper"
+			}, {
+				"answer": "Exchanging the blade for the appropriate size"
+			}, {
+				"answer": "Extending or withdrawing the blade from the holder",
+				"correct": true
+			}, {
+				"answer": "Extending or withdrawing the thumbscrew from the holder "
+			}]
+		}, {
+			"question": "What tool is used to scrape Babbitt metal bearings?",
+			"answers": [{
+				"answer": "Babbitt reamer"
+			}, {
+				"answer": "Bearing scraper",
+				"correct": true
+			}, {
+				"answer": "Carbon scraper"
+			}, {
+				"answer": "Wire brush"
+			}]
+		}, {
+			"question": "The triangular blade scrapers are used to remove what type of spots from flat or curved surfaces?",
+			"answers": [{
+				"answer": "High",
+				"correct": true
+			}, {
+				"answer": "Low"
+			}, {
+				"answer": "Scratched"
+			}, {
+				"answer": "Swirled"
+			}]
+		}, {
+			"question": "Concerning the care of scrapers, which of the following statements is true?",
+			"answers": [{
+				"answer": "A scraper is a suitable substitute for a screwdriver"
+			}, {
+				"answer": "Scrapers should be hung together for ease of location"
+			}, {
+				"answer": "All scrapers except carbon scrapers should be kept sharp",
+				"correct": true
+			}, {
+				"answer": "When a scraper is not in use, the blade should be coated with chalk "
+			}]
+		}, {
+			"question": "Why should carbon scrapers remain dull?",
+			"answers": [{
+				"answer": "To avoid cutting the hand"
+			}, {
+				"answer": "To keep from removing excessive material"
+			}, {
+				"answer": "To keep from scoring a piston or cylinder wall",
+				"correct": true
+			}, {
+				"answer": "To keep scraper from slipping on metal surfaces"
+			}]
+		}, {
+			"question": "What result occurs when scrapers are thrown in with other tools?",
+			"answers": [{
+				"answer": "Other tools are cleaned"
+			}, {
+				"answer": "The cutting edge is damaged",
+				"correct": true
+			}, {
+				"answer": "Excess paint is removed from the blade"
+			}, {
+				"answer": "The blade is sharpened"
+			}]
+		}, {
+			"question": "The point, edge, face, heel, and tang are the five parts of what tool?",
+			"answers": [{
+				"answer": "File",
+				"correct": true
+			}, {
+				"answer": "Machinist's chisel"
+			}, {
+				"answer": "Screwdriver"
+			}, {
+				"answer": "Torque wrench"
+			}]
+		}, {
+			"question": "What file grade is used for quick removal of metal and rough work?",
+			"answers": [{
+				"answer": "Curved-tooth"
+			}, {
+				"answer": "Dead smooth-cut"
+			}, {
+				"answer": "Double-cut",
+				"correct": true
+			}, {
+				"answer": "Single-cut"
+			}]
+		}, {
+			"question": "The length of the file is measured between what two areas?",
+			"answers": [{
+				"answer": "Face and tang"
+			}, {
+				"answer": "Face and point"
+			}, {
+				"answer": "Tip and heel",
+				"correct": true
+			}, {
+				"answer": "Shoulder and tang"
+			}]
+		}, {
+			"question": "What type of file is used to file concave surfaces?",
+			"answers": [{
+				"answer": "Curved-tooth"
+			}, {
+				"answer": "Pillar"
+			}, {
+				"answer": "Round",
+				"correct": true
+			}, {
+				"answer": "Three-square"
+			}]
+		}, {
+			"question": "What type of file is used to file rectangular slots and keyways?",
+			"answers": [{
+				"answer": "Curved-tooth"
+			}, {
+				"answer": "Square",
+				"correct": true
+			}, {
+				"answer": "Three-square"
+			}, {
+				"answer": "Warding"
+			}]
+		}, {
+			"question": "What type of file should be used to file internal angles and to clean out square corners?",
+			"answers": [{
+				"answer": "Curved-tooth"
+			}, {
+				"answer": "Mill"
+			}, {
+				"answer": "Round"
+			}, {
+				"answer": "Three-square",
+				"correct": true
+			}]
+		}, {
+			"question": "What type of file pattern is primarily used as a finishing tool on delicate parts?",
+			"answers": [{
+				"answer": "American"
+			}, {
+				"answer": "Smooth cut"
+			}, {
+				"answer": "Swiss",
+				"correct": true
+			}, {
+				"answer": "Triple-cut"
+			}]
+		}, {
+			"question": "In a Swiss pattern file set, the most common set consists of how many files?",
+			"answers": [{
+				"answer": "Ten"
+			}, {
+				"answer": "Twelve",
+				"correct": true
+			}, {
+				"answer": "Fourteen"
+			}, {
+				"answer": "Sixteen"
+			}]
+		}, {
+			"question": "When filing soft metal with a second-cut file first, what type of file should be used to finish?",
+			"answers": [{
+				"answer": "Bastard-cut"
+			}, {
+				"answer": "Course double-cut"
+			}, {
+				"answer": "Smooth-cut",
+				"correct": true
+			}, {
+				"answer": "Standard-cut curved-tooth"
+			}]
+		}, {
+			"question": "After using a new file, what happens to the teeth?",
+			"answers": [{
+				"answer": "They break off"
+			}, {
+				"answer": "They clog up",
+				"correct": true
+			}, {
+				"answer": "They get sharper"
+			}, {
+				"answer": "They turn blue"
+			}]
+		}, {
+			"question": "One way to prevent pinning is to rub what substance on the teeth before filing?",
+			"answers": [{
+				"answer": "Chalk",
+				"correct": true
+			}, {
+				"answer": "Graphite"
+			}, {
+				"answer": "Grease"
+			}, {
+				"answer": "Rust-preventive compound"
+			}]
+		}]
+	},
+	"9": {
+		"title": "Brushes",
+		"questions": [{
+			"question": "To paint a small surface, which of the following brushes should be used?",
+			"answers": [{
+				"answer": "Acid"
+			}, {
+				"answer": "Fitch"
+			}, {
+				"answer": "Flat",
+				"correct": true
+			}, {
+				"answer": "Lettering"
+			}]
+		}, {
+			"question": "A paintbrush consists of what two components?",
+			"answers": [{
+				"answer": "Ferule and bristles"
+			}, {
+				"answer": "Handle and bristles",
+				"correct": true
+			}, {
+				"answer": "Handle and ferule"
+			}, {
+				"answer": "Synthetic and wire bristles"
+			}]
+		}, {
+			"question": "What brush is an abrasive tool used to clean rust and remove paint from surfaces?",
+			"answers": [{
+				"answer": "Acid"
+			}, {
+				"answer": "Flap"
+			}, {
+				"answer": "Pastry"
+			}, {
+				"answer": "Wire",
+				"correct": true
+			}]
+		}, {
+			"question": "The acid brush is used for gluing, pasting, and what other type of application?",
+			"answers": [{
+				"answer": "Cleaning files"
+			}, {
+				"answer": "Large space painting"
+			}, {
+				"answer": "Soldering",
+				"correct": true
+			}, {
+				"answer": "Stencil painting"
+			}]
+		}, {
+			"question": "What type of brush is popular for one-time use?",
+			"answers": [{
+				"answer": "Acid",
+				"correct": true
+			}, {
+				"answer": "Flap"
+			}, {
+				"answer": "Pastry"
+			}, {
+				"answer": "Wire"
+			}]
+		}, {
+			"question": "The flap brush if used for what purpose?",
+			"answers": [{
+				"answer": "Mechanically removing paint",
+				"correct": true
+			}, {
+				"answer": "Polishing sheet metal"
+			}, {
+				"answer": "Preparing the surface for chemical conversion"
+			}, {
+				"answer": "Smoothing the wire brush marks"
+			}]
+		}, {
+			"question": "In relation to the surface being painted, at what angle should the brush be held?",
+			"answers": [{
+				"answer": "Acute"
+			}, {
+				"answer": "Obtuse"
+			}, {
+				"answer": "Reflex"
+			}, {
+				"answer": "Right",
+				"correct": true
+			}]
+		}, {
+			"question": "While using the laying on and laying off method on a vertical surface, in which of the following directions should you lay on the paint?",
+			"answers": [{
+				"answer": "Circular"
+			}, {
+				"answer": "Diagonal"
+			}, {
+				"answer": "Horizontal",
+				"correct": true
+			}, {
+				"answer": "Vertical"
+			}]
+		}, {
+			"question": "After using a paintbrush with a water-based paint, what substance should you use to clean the brush?",
+			"answers": [{
+				"answer": "Diesel fuel"
+			}, {
+				"answer": "Nitrogen"
+			}, {
+				"answer": "Soapy water",
+				"correct": true
+			}, {
+				"answer": "Solvent"
+			}]
+		}, {
+			"question": "What motion should be used to remove the excess cleaner from the brush?",
+			"answers": [{
+				"answer": "Flipping"
+			}, {
+				"answer": "Linear"
+			}, {
+				"answer": "Shaking"
+			}, {
+				"answer": "Spinning",
+				"correct": true
+			}]
+		}, {
+			"question": "If the original packaging is NOT available, you should wrap the brush in what type of material to retain the shape?",
+			"answers": [{
+				"answer": "Cloth rag"
+			}, {
+				"answer": "Newspaper"
+			}, {
+				"answer": "Shrink wrap"
+			}, {
+				"answer": "Wax paper",
+				"correct": true
+			}]
+		}, {
+			"question": "Which of the following chemicals should be used to clean a brush used for shellac?",
+			"answers": [{
+				"answer": "Alcohol",
+				"correct": true
+			}, {
+				"answer": "Lacquer thinner"
+			}, {
+				"answer": "Mineral spirits"
+			}, {
+				"answer": "Water"
+			}]
+		}]
+	},
+	"10": {
+		"title": "Shop Tools",
+		"questions": [{
+			"question": "Which of the following factors is the primary difference between the radial arm saw and other saws of the same type?",
+			"answers": [{
+				"answer": "Location of the controls",
+				"correct": true
+			}, {
+				"answer": "Number of cutting degrees"
+			}, {
+				"answer": "Size of blades"
+			}, {
+				"answer": "Type of attachments"
+			}]
+		}, {
+			"question": "What shop tools uses a diamond-tipped circular blade cooled by a continuous stream of water?",
+			"answers": [{
+				"answer": "Band saw"
+			}, {
+				"answer": "Bench grinder"
+			}, {
+				"answer": "Sharpening stone"
+			}, {
+				"answer": "Tile saw",
+				"correct": true
+			}]
+		}, {
+			"question": "What shop tool uses a looplike blade in various widths and strengths?",
+			"answers": [{
+				"answer": "Band saw",
+				"correct": true
+			}, {
+				"answer": "Bench grinder"
+			}, {
+				"answer": "Sharpening stone"
+			}, {
+				"answer": "Tile saw"
+			}]
+		}, {
+			"question": "What shop tool is capable of changing the desired spindle speed without removing the motor from the mounting brackets?",
+			"answers": [{
+				"answer": "Band saw"
+			}, {
+				"answer": "Drill press",
+				"correct": true
+			}, {
+				"answer": "Shaper"
+			}, {
+				"answer": "Tile saw"
+			}]
+		}, {
+			"question": "A typical shop lathe has a bed, headstock, and what component?",
+			"answers": [{
+				"answer": "Depth gauge lock"
+			}, {
+				"answer": "Gauge block"
+			}, {
+				"answer": "Tool rest",
+				"correct": true
+			}, {
+				"answer": "Work table"
+			}]
+		}, {
+			"question": "A jointer has a cutting head of what maximum size?",
+			"answers": [{
+				"answer": "4 inches"
+			}, {
+				"answer": "0.4 meter"
+			}, {
+				"answer": "36 inches",
+				"correct": true
+			}, {
+				"answer": "3.6 meters"
+			}]
+		}, {
+			"question": "A bench grinder consists of a rest, an abrasive wheel, and what other item?",
+			"answers": [{
+				"answer": "Encased gear assembly",
+				"correct": true
+			}, {
+				"answer": "Polishing cloth"
+			}, {
+				"answer": "V-belt spindle"
+			}, {
+				"answer": "Wire brush"
+			}]
+		}, {
+			"question": "A valve grinder consists of a handle, cutting blades, and what other component?",
+			"answers": [{
+				"answer": "Interchangeable blades"
+			}, {
+				"answer": "Interchangeable shafts",
+				"correct": true
+			}, {
+				"answer": "Suction cup"
+			}, {
+				"answer": "Tool rest"
+			}]
+		}, {
+			"question": "A sharpening stone usually has what types of faces?",
+			"answers": [{
+				"answer": "One artificial and one extra fine"
+			}, {
+				"answer": "One coarse and one extra coarse"
+			}, {
+				"answer": "One coarse and one fine",
+				"correct": true
+			}, {
+				"answer": "One natural and one extra coarse"
+			}]
+		}, {
+			"question": "What type of sharpening stone removes nicks and reshapes a tool being sharpened?",
+			"answers": [{
+				"answer": "Artificial stone with a coarse edge",
+				"correct": true
+			}, {
+				"answer": "Artificial stone with a fine edge"
+			}, {
+				"answer": "Natural stone with a fine edge"
+			}, {
+				"answer": "Natural stone with and extra-fine edge"
+			}]
+		}, {
+			"question": "When ripping stock, you should feed the stock through using what component as a guide?",
+			"answers": [{
+				"answer": "Cutoff gauge"
+			}, {
+				"answer": "Hand clamp"
+			}, {
+				"answer": "Metric gauge"
+			}, {
+				"answer": "Rip fence",
+				"correct": true
+			}]
+		}, {
+			"question": "When using the tilt-arbor table saw to cut a mitered corner, what component should you use as a guide?",
+			"answers": [{
+				"answer": "Cutoff gauge",
+				"correct": true
+			}, {
+				"answer": "Hand clamp"
+			}, {
+				"answer": "Metric gauge"
+			}, {
+				"answer": "Rip fence"
+			}]
+		}, {
+			"question": "A tilt-arbor table saw can cut stock in what way?",
+			"answers": [{
+				"answer": "Decorative cuts and mortise-and-tenon"
+			}, {
+				"answer": "Miter and mortise-and-tenon"
+			}, {
+				"answer": "Ripping and cutting",
+				"correct": true
+			}, {
+				"answer": "Ripping and decorative cuts"
+			}]
+		}, {
+			"question": "On a tilt-arbor table saw, what component is removed when it is necessary to remove the saw blade?",
+			"answers": [{
+				"answer": "Arbor slot"
+			}, {
+				"answer": "Compound miter gauge"
+			}, {
+				"answer": "Dado slot"
+			}, {
+				"answer": "Throat plate",
+				"correct": true
+			}]
+		}, {
+			"question": "On a bench grinder, what component is loosened to adjust the tool rest?",
+			"answers": [{
+				"answer": "Mounting clamp"
+			}, {
+				"answer": "Spring clamp"
+			}, {
+				"answer": "T-slot key"
+			}, {
+				"answer": "Wing nut",
+				"correct": true
+			}]
+		}, {
+			"question": "What bench grinder component should support the tool to be ground?",
+			"answers": [{
+				"answer": "Abrasive wheel"
+			}, {
+				"answer": "Encased gear assembly"
+			}, {
+				"answer": "Suction cups"
+			}, {
+				"answer": "Tool rest",
+				"correct": true
+			}]
+		}, {
+			"question": "When using a sharpening stone, you should hold the blade handle in one hand and keep the fingers of your other hand in what position?",
+			"answers": [{
+				"answer": "Holding the sharpening stone"
+			}, {
+				"answer": "In your pocket to prevent shock"
+			}, {
+				"answer": "On top of the hand holding the handle"
+			}, {
+				"answer": "Pressing down on the blade",
+				"correct": true
+			}]
+		}, {
+			"question": "What action should occur after several strokes of the blade are made on sharpening stone?",
+			"answers": [{
+				"answer": "Check the sharpness of the blade"
+			}, {
+				"answer": "Reverse the blade and stroke the other side",
+				"correct": true
+			}, {
+				"answer": "Soak the sharpening stone in oil"
+			}, {
+				"answer": "Wash the blade and sharpening stone"
+			}]
+		}, {
+			"question": "Which of the following safety precautions applies to all shop tools?",
+			"answers": [{
+				"answer": "Avoid wearing loose clothing and anything that can get caught in a power tool",
+				"correct": true
+			}, {
+				"answer": "Only shape small pieces of wood at a time"
+			}, {
+				"answer": "Reduce electricity usage by feeding the wood faster than the tool can cut"
+			}, {
+				"answer": "Take heavy cuts to avoid ripping out pieces of material"
+			}]
+		}, {
+			"question": "Which of the following statements is true about replacing a saw blade?",
+			"answers": [{
+				"answer": "Choose a saw blade larger than the saw can handle"
+			}, {
+				"answer": "Clean the motor with high-pressure air"
+			}, {
+				"answer": "Make sure it is set to rotate in the proper direction",
+				"correct": true
+			}, {
+				"answer": "Use a ripping blade when crosscutting for a smoother cut"
+			}]
+		}, {
+			"question": "When using a woodworking lathe, when should you adjust the tool rest?",
+			"answers": [{
+				"answer": "After turning the switch on"
+			}, {
+				"answer": "At the beginning of each day"
+			}, {
+				"answer": "At the end of each day"
+			}, {
+				"answer": "Before turning the switch on",
+				"correct": true
+			}]
+		}, {
+			"question": "When a surfacer is in use, what component should cover the cutting head?",
+			"answers": [{
+				"answer": "Metal guards",
+				"correct": true
+			}, {
+				"answer": "Plastic guards"
+			}, {
+				"answer": "Push sticks"
+			}, {
+				"answer": "Rip fence"
+			}]
+		}, {
+			"question": "Which of the following statements is true about using shapers?",
+			"answers": [{
+				"answer": "Always shape small pieces of wood"
+			}, {
+				"answer": "Check all adjustments before turning on the power",
+				"correct": true
+			}, {
+				"answer": "Make extremely deep cuts"
+			}, {
+				"answer": "Make sure the shaper cutters rotate away from the pressure bar "
+			}]
+		}, {
+			"question": "Concerning sharpening stones, which of the following statements is true?",
+			"answers": [{
+				"answer": "Clean the stone with soap and water after each use"
+			}, {
+				"answer": "Prevent glazing of the stone by washing it with soap and water"
+			}, {
+				"answer": "Store in a clean dry place wrapped in an oil-soaked cloth"
+			}, {
+				"answer": "Wipe excess oil and grit from the stone after each use",
+				"correct": true
+			}]
+		}]
+	},
+	"11": {
+		"title": "Portable Hand Tools",
+		"questions": [{
+			"question": "What portable power drill feature enables the drill to be used as an electric screwdriver?",
+			"answers": [{
+				"answer": "Clutch drive chuck",
+				"correct": true
+			}, {
+				"answer": "Interchangeable drill bit"
+			}, {
+				"answer": "Level sight gage"
+			}, {
+				"answer": "Reversible motor"
+			}]
+		}, {
+			"question": "Which of the following items determines the size of power drill?",
+			"answers": [{
+				"answer": "Diameter of the largest drill shank that will fit into the chuck",
+				"correct": true
+			}, {
+				"answer": "Diameter of the largest hole the drill can make"
+			}, {
+				"answer": "Length of the power cord"
+			}, {
+				"answer": "Size of the accessory handle"
+			}]
+		}, {
+			"question": "Which of the following tools has a strong spring to move a steel piston back and forth in a pounding motion?",
+			"answers": [{
+				"answer": "Impact wrench"
+			}, {
+				"answer": "Hammer drill",
+				"correct": true
+			}, {
+				"answer": "Manual hand drill"
+			}, {
+				"answer": "Rotary powder drill"
+			}]
+		}, {
+			"question": "Which of the following tools has a driving-anvil inside the muzzle of the housing?",
+			"answers": [{
+				"answer": "Hammer drill"
+			}, {
+				"answer": "Impact wrench",
+				"correct": true
+			}, {
+				"answer": "Manual hand drill"
+			}, {
+				"answer": "Rotary powder drill"
+			}]
+		}, {
+			"question": "To keep a drill bit from bouncing or slipping away from the spot where the hole is to be drilled, what action should be completed?",
+			"answers": [{
+				"answer": "Make a small prick point",
+				"correct": true
+			}, {
+				"answer": "Tighten the drill chuck"
+			}, {
+				"answer": "Use a smaller drill"
+			}, {
+				"answer": "Use extra pressure to hold the drill steady"
+			}]
+		}, {
+			"question": "When using a power drill, the power cord should be inspected for what condition?",
+			"answers": [{
+				"answer": "Correct resistance value"
+			}, {
+				"answer": "Correct wire gauge"
+			}, {
+				"answer": "Damaged insulation",
+				"correct": true
+			}, {
+				"answer": "Proper connections"
+			}]
+		}, {
+			"question": "When working with power drills, at what drill location should the drill or bit be installed?",
+			"answers": [{
+				"answer": "Loosely mounted in the chuck"
+			}, {
+				"answer": "Placed in the existing hole"
+			}, {
+				"answer": "Securely fastened to the side"
+			}, {
+				"answer": "Securely mounted in the chuck",
+				"correct": true
+			}]
+		}, {
+			"question": "When drilling holes, which of the following types of hole will the drill need to be cleaned several times?",
+			"answers": [{
+				"answer": "Deep",
+				"correct": true
+			}, {
+				"answer": "Large diameter"
+			}, {
+				"answer": "Shallow"
+			}, {
+				"answer": "Small diameter"
+			}]
+		}, {
+			"question": "The size of a circular saw is determined by which of the following characteristics?",
+			"answers": [{
+				"answer": "Amount of amperes it uses"
+			}, {
+				"answer": "Cutting depth"
+			}, {
+				"answer": "Largest blade it can use",
+				"correct": true
+			}, {
+				"answer": "Size of the arbor"
+			}]
+		}, {
+			"question": "Which of the following saw blade sizes, in inches, are the most commonly used?",
+			"answers": [{
+				"answer": "3 1/2"
+			}, {
+				"answer": "4 1/4"
+			}, {
+				"answer": "7 1/4",
+				"correct": true
+			}, {
+				"answer": "10 1/2"
+			}]
+		}, {
+			"question": "What type of saw needs a starter hole to begin work?",
+			"answers": [{
+				"answer": "Chain"
+			}, {
+				"answer": "Circular"
+			}, {
+				"answer": "Reciprocating"
+			}, {
+				"answer": "Saber",
+				"correct": true
+			}]
+		}, {
+			"question": "Reciprocating saw blades vary in length from 2 1/2 inches to what total length?",
+			"answers": [{
+				"answer": "12 centimeters"
+			}, {
+				"answer": "21 centimeters"
+			}, {
+				"answer": "12 inches",
+				"correct": true
+			}, {
+				"answer": "21 inches"
+			}]
+		}, {
+			"question": "When using a circular saw to make a pocket cut, what component must be retracted?",
+			"answers": [{
+				"answer": "Front base"
+			}, {
+				"answer": "Lower guard",
+				"correct": true
+			}, {
+				"answer": "Power cord"
+			}, {
+				"answer": "Upper guard"
+			}]
+		}, {
+			"question": "When using a reciprocating saw, what type of pressure should be used?",
+			"answers": [{
+				"answer": "Constant",
+				"correct": true
+			}, {
+				"answer": "Excessive"
+			}, {
+				"answer": "Moderate"
+			}, {
+				"answer": "Varied"
+			}]
+		}, {
+			"question": "Before using an electric chain saw, you should check the teeth to ensure they are in which of the following conditions?",
+			"answers": [{
+				"answer": "Dull and damaged"
+			}, {
+				"answer": "Dull and undamaged"
+			}, {
+				"answer": "Sharp and damaged"
+			}, {
+				"answer": "Sharp and undamaged",
+				"correct": true
+			}]
+		}, {
+			"question": "How often should the power cord of a circular saw be inspected for cuts or breaks?",
+			"answers": [{
+				"answer": "Daily",
+				"correct": true
+			}, {
+				"answer": "Weekly"
+			}, {
+				"answer": "Monthly"
+			}, {
+				"answer": "Annually"
+			}]
+		}, {
+			"question": "When using a circular saw, you should inspect the material to ensure it is free of what type of objects?",
+			"answers": [{
+				"answer": "Knots"
+			}, {
+				"answer": "Nails",
+				"correct": true
+			}, {
+				"answer": "Paper labels"
+			}, {
+				"answer": "Splinters"
+			}]
+		}, {
+			"question": "When using a saber saw, what means controls the forward and turning movements?",
+			"answers": [{
+				"answer": "Blade guide"
+			}, {
+				"answer": "Free hand",
+				"correct": true
+			}, {
+				"answer": "Saw base"
+			}, {
+				"answer": "Self-guiding wheel"
+			}]
+		}, {
+			"question": "While using an electric chain saw, what substance may damage the saw chain?",
+			"answers": [{
+				"answer": "Dirt",
+				"correct": true
+			}, {
+				"answer": "Knot"
+			}, {
+				"answer": "Leaves"
+			}, {
+				"answer": "Small log"
+			}]
+		}, {
+			"question": "The router motor will slide into the base in what position?",
+			"answers": [{
+				"answer": "Diagonal"
+			}, {
+				"answer": "Horizontal"
+			}, {
+				"answer": "Parallel"
+			}, {
+				"answer": "Vertical",
+				"correct": true
+			}]
+		}, {
+			"question": "Routers vary in size from 1/4 to what total horsepower?",
+			"answers": [{
+				"answer": "1 1/2"
+			}, {
+				"answer": "2"
+			}, {
+				"answer": "2 1/2",
+				"correct": true
+			}, {
+				"answer": "3"
+			}]
+		}, {
+			"question": "Router bits have what number of classifications?",
+			"answers": [{
+				"answer": "One"
+			}, {
+				"answer": "Two",
+				"correct": true
+			}, {
+				"answer": "Three"
+			}, {
+				"answer": "Four"
+			}]
+		}, {
+			"question": "A portable power plane is capable of exact cutting to what total depth, in inches?",
+			"answers": [{
+				"answer": "3/32"
+			}, {
+				"answer": "3/16",
+				"correct": true
+			}, {
+				"answer": "3/8"
+			}, {
+				"answer": "3/4"
+			}]
+		}, {
+			"question": "A power plane has which of the following type of blades?",
+			"answers": [{
+				"answer": "Curved or spiral"
+			}, {
+				"answer": "Spiral or square"
+			}, {
+				"answer": "Square or triangle"
+			}, {
+				"answer": "Straight or spiral",
+				"correct": true
+			}]
+		}, {
+			"question": "A belt sander is usually identified by what characteristic?",
+			"answers": [{
+				"answer": "Dust collector style"
+			}, {
+				"answer": "Size of the motor"
+			}, {
+				"answer": "Weight of the sander"
+			}, {
+				"answer": "Width of the sanding belt",
+				"correct": true
+			}]
+		}, {
+			"question": "Depending on the belt sander’s make and model, the belt will vary from 21 to what length, in inches?",
+			"answers": [{
+				"answer": "23"
+			}, {
+				"answer": "25"
+			}, {
+				"answer": "27",
+				"correct": true
+			}, {
+				"answer": "29"
+			}]
+		}, {
+			"question": "For best results of a disk sander, what position should the machine be in?",
+			"answers": [{
+				"answer": "Horizontal"
+			}, {
+				"answer": "Lightly tipped",
+				"correct": true
+			}, {
+				"answer": "Perpendicular to the work"
+			}, {
+				"answer": "Vertical"
+			}]
+		}, {
+			"question": "While using a disk sander, what type of motion should be used?",
+			"answers": [{
+				"answer": "Long jerking"
+			}, {
+				"answer": "Long sweeping",
+				"correct": true
+			}, {
+				"answer": "Short jerking"
+			}, {
+				"answer": "Short sweeping"
+			}]
+		}, {
+			"question": "When sanding material, what type of pressure should be applied?",
+			"answers": [{
+				"answer": "Excessive"
+			}, {
+				"answer": "Heavy"
+			}, {
+				"answer": "Intermittent"
+			}, {
+				"answer": "Light",
+				"correct": true
+			}]
+		}, {
+			"question": "While sanding, at what location should the electrical cord be positioned?",
+			"answers": [{
+				"answer": "Away from the area being sanded",
+				"correct": true
+			}, {
+				"answer": "In the free hand of the operator"
+			}, {
+				"answer": "Over the should of the operator"
+			}, {
+				"answer": "Right next to the area being sanded"
+			}]
+		}, {
+			"question": "The portable grinder light-duty brushes are made of what material?",
+			"answers": [{
+				"answer": "Braided wire"
+			}, {
+				"answer": "Crimped nylon"
+			}, {
+				"answer": "Crimped wire",
+				"correct": true
+			}, {
+				"answer": "Twisted nylon"
+			}]
+		}, {
+			"question": "The rotary scaling and chipping tool has a bundle of what items?",
+			"answers": [{
+				"answer": "Abrasive mats"
+			}, {
+				"answer": "Cutters",
+				"correct": true
+			}, {
+				"answer": "Needles"
+			}, {
+				"answer": "Wire ties"
+			}]
+		}, {
+			"question": "Before operating a portable grinder, the operator should ensure what item is installed first?",
+			"answers": [{
+				"answer": "Additional weight"
+			}, {
+				"answer": "Proper disk",
+				"correct": true
+			}, {
+				"answer": "Spark arrester"
+			}, {
+				"answer": "Vacuum hose"
+			}]
+		}, {
+			"question": "While using a grinder, how should the operator hold the tool?",
+			"answers": [{
+				"answer": "Firmly",
+				"correct": true
+			}, {
+				"answer": "Insecurely"
+			}, {
+				"answer": "Loosely"
+			}, {
+				"answer": "With one hand"
+			}]
+		}, {
+			"question": "Powder-actuated tools are used in construction to join materials to which of the following types of substrates?",
+			"answers": [{
+				"answer": "Concrete",
+				"correct": true
+			}, {
+				"answer": "Copper tubing"
+			}, {
+				"answer": "Plastic piping"
+			}, {
+				"answer": "Wood"
+			}]
+		}, {
+			"question": "In a powder-actuated tool, a small charge of what substance is ignited and blows the fastener into place?",
+			"answers": [{
+				"answer": "Ammonium"
+			}, {
+				"answer": "Gunpowder",
+				"correct": true
+			}, {
+				"answer": "Helium"
+			}, {
+				"answer": "Nitrogen"
+			}]
+		}, {
+			"question": "In a low-velocity powder actuated tool, what component drives the fastener into the substrate?",
+			"answers": [{
+				"answer": "Barrel"
+			}, {
+				"answer": "Handle"
+			}, {
+				"answer": "Piston",
+				"correct": true
+			}, {
+				"answer": "Trigger"
+			}]
+		}, {
+			"question": "Which of the following organizations requires safety training must be completed by the user before using powder-actuated tools?",
+			"answers": [{
+				"answer": "American Welding Society"
+			}, {
+				"answer": "International Organization for Standardization"
+			}, {
+				"answer": "Occupational Safety and Health Administration",
+				"correct": true
+			}, {
+				"answer": "Society of Automotive Engineers"
+			}]
+		}, {
+			"question": "Powder-actuated tools shall NOT be used in which of the following areas?",
+			"answers": [{
+				"answer": "Building construction"
+			}, {
+				"answer": "Explosive atmosphere",
+				"correct": true
+			}, {
+				"answer": "Superstructure of the ship"
+			}, {
+				"answer": "Under water"
+			}]
+		}, {
+			"question": "While using a powder-actuated tool to fasten materials such as a 2 inch by 4 inch board to a concrete surface, what maximum shank diameter, in inches, should be used?",
+			"answers": [{
+				"answer": "1/8"
+			}, {
+				"answer": "7/32",
+				"correct": true
+			}, {
+				"answer": "1/4"
+			}, {
+				"answer": "9/32"
+			}]
+		}, {
+			"question": "Powder-actuated fasteners shall not be driven through existing holes unless what component is used to secure accurate alignment?",
+			"answers": [{
+				"answer": "Armored plate"
+			}, {
+				"answer": "Metalsmith hammer"
+			}, {
+				"answer": "Positive guide",
+				"correct": true
+			}, {
+				"answer": "Wooden back stop"
+			}]
+		}, {
+			"question": "If a powder-actuated tool defect occurs during use, what action must be performed?",
+			"answers": [{
+				"answer": "Inspect the tool for the defect"
+			}, {
+				"answer": "Notify the supervisor",
+				"correct": true
+			}, {
+				"answer": "Reload the tool and test the operation"
+			}, {
+				"answer": "Wait 15 seconds and clear the defect"
+			}]
+		}]
+	},
+	"12": {
+		"title": "Pneumatic Tools",
+		"questions": [{
+			"question": "What type of pneumatic tool is used for roofing?",
+			"answers": [{
+				"answer": "Coil-fed nailer",
+				"correct": true
+			}, {
+				"answer": "Finish nailer"
+			}, {
+				"answer": "Pneumatic drill"
+			}, {
+				"answer": "Pneumatic impact wrench"
+			}]
+		}, {
+			"question": "When inserting fasteners into the power nailer, in which direction should you point the contact tip?",
+			"answers": [{
+				"answer": "Away from the floor"
+			}, {
+				"answer": "Away from you",
+				"correct": true
+			}, {
+				"answer": "Towards the floor"
+			}, {
+				"answer": "Towards you"
+			}]
+		}, {
+			"question": "What hose rating should you use for power nailers?",
+			"answers": [{
+				"answer": "Maximum working pressure of the air compressor"
+			}, {
+				"answer": "Maximum working pressure of the tool",
+				"correct": true
+			}, {
+				"answer": "Minimum working pressure of the air compressor"
+			}, {
+				"answer": "Minimum working pressure of the tool"
+			}]
+		}, {
+			"question": "How many times per minute does the needle gun scaler’s assembly of needles impact the surface?",
+			"answers": [{
+				"answer": "Tens"
+			}, {
+				"answer": "Hundreds",
+				"correct": true
+			}, {
+				"answer": "Thousands"
+			}, {
+				"answer": "Millions"
+			}]
+		}, {
+			"question": "Which of the following surfaces will the needle gun scaler’s impacting needles pit?",
+			"answers": [{
+				"answer": "Armored steel"
+			}, {
+				"answer": "Cast iron"
+			}, {
+				"answer": "Heavy metal"
+			}, {
+				"answer": "Light metal",
+				"correct": true
+			}]
+		}, {
+			"question": "What pneumatic tool is primarily intended for applying and removing nuts, bolts, and screws?",
+			"answers": [{
+				"answer": "Grinder"
+			}, {
+				"answer": "Impact wrench",
+				"correct": true
+			}, {
+				"answer": "Needle gun scaler"
+			}, {
+				"answer": "Sander"
+			}]
+		}, {
+			"question": "Concerning pneumatic drills, which of the following safety precautions is true?",
+			"answers": [{
+				"answer": "Disconnect the air supply before making adjustments",
+				"correct": true
+			}, {
+				"answer": "Test the drill by drilling sample holes first"
+			}, {
+				"answer": "Wear eye protection only when drilling holes in metal"
+			}, {
+				"answer": "Wear hearing protection only in enclosed spaces"
+			}]
+		}, {
+			"question": "What pneumatic tool is designed for medium-duty applications, such as sanding, polishing, and finishing?",
+			"answers": [{
+				"answer": "Drill"
+			}, {
+				"answer": "Grinder"
+			}, {
+				"answer": "Inline sander"
+			}, {
+				"answer": "Orbital sander",
+				"correct": true
+			}]
+		}, {
+			"question": "What pneumatic tool provides a swirl-free sanded surface and is ideal for edging, metal preparation, and finish work on body filler?",
+			"answers": [{
+				"answer": "Drill"
+			}, {
+				"answer": "Dual-action sander",
+				"correct": true
+			}, {
+				"answer": "Grinder"
+			}, {
+				"answer": "Needle gun scaler"
+			}]
+		}, {
+			"question": "Before placing the pneumatic sander on the work surface, you should perform what action?",
+			"answers": [{
+				"answer": "Clean the sanding surface"
+			}, {
+				"answer": "Clean the shop"
+			}, {
+				"answer": "Depress the switch",
+				"correct": true
+			}, {
+				"answer": "Turn the air supply off"
+			}]
+		}, {
+			"question": "The angle grinder’s handle or handles are set at what angle to the motor and spindle axis?",
+			"answers": [{
+				"answer": "Acute"
+			}, {
+				"answer": "Obtuse"
+			}, {
+				"answer": "Reflex"
+			}, {
+				"answer": "Right",
+				"correct": true
+			}]
+		}, {
+			"question": "Concerning pneumatic grinders, which of the following safety precautions is true?",
+			"answers": [{
+				"answer": "All pneumatic grinders must have a safety breaker to prevent electrical shock"
+			}, {
+				"answer": "Always wear loose clothing to prevent heat stress"
+			}, {
+				"answer": "Keep the work area clean and well lighted",
+				"correct": true
+			}, {
+				"answer": "Wear hearing protection only in enclosed spaces"
+			}]
+		}, {
+			"question": "Which of the following Office of the Chief of Naval Personnel instructions provides detailed information on safety precautions?",
+			"answers": [{
+				"answer": "1857.25(series)"
+			}, {
+				"answer": "1923.57(series)"
+			}, {
+				"answer": "5100.19(series)",
+				"correct": true
+			}, {
+				"answer": "5200.23(series)"
+			}]
+		}]
+	},
+	"13": {
+		"title": "Taps, Dies, and Extractors",
+		"questions": [{
+			"question": "Taps are made of hardened steel and have a square end, a round shank, and what other component?",
+			"answers": [{
+				"answer": "Body",
+				"correct": true
+			}, {
+				"answer": "Foot"
+			}, {
+				"answer": "Head"
+			}, {
+				"answer": "Tail"
+			}]
+		}, {
+			"question": "The square end of a tap can be turned by what type of tool?",
+			"answers": [{
+				"answer": "Hammer"
+			}, {
+				"answer": "Pliers"
+			}, {
+				"answer": "Screwdriver"
+			}, {
+				"answer": "T-handled wrench",
+				"correct": true
+			}]
+		}, {
+			"question": "What type of tap is used for tapping hard materials?",
+			"answers": [{
+				"answer": "Bottoming",
+				"correct": true
+			}, {
+				"answer": "Plug"
+			}, {
+				"answer": "Staybolt"
+			}, {
+				"answer": "Taper"
+			}]
+		}, {
+			"question": "The staybolt tap has what number of threaded areas?",
+			"answers": [{
+				"answer": "One"
+			}, {
+				"answer": "Two",
+				"correct": true
+			}, {
+				"answer": "Three"
+			}, {
+				"answer": "Four"
+			}]
+		}, {
+			"question": "The mud hand tap is used to cut threads in what type of holes?",
+			"answers": [{
+				"answer": "Cast iron piping"
+			}, {
+				"answer": "Mud nest opening"
+			}, {
+				"answer": "Mud plug drain",
+				"correct": true
+			}, {
+				"answer": "Nickel coated blowdown"
+			}]
+		}, {
+			"question": "What term also describes round adjustable dies?",
+			"answers": [{
+				"answer": "Button dies",
+				"correct": true
+			}, {
+				"answer": "Pin dies"
+			}, {
+				"answer": "Snap dies"
+			}, {
+				"answer": "Zipper dies"
+			}]
+		}, {
+			"question": "Round adjustable split die stocks can be used by what two methods?",
+			"answers": [{
+				"answer": "Hand diestocks or machine holders",
+				"correct": true
+			}, {
+				"answer": "Hand diestocks or pliers"
+			}, {
+				"answer": "Pliers or machine holders"
+			}, {
+				"answer": "Pliers or socket wrenches"
+			}]
+		}, {
+			"question": "The adjustment of the round adjustable split die is made by how many screws?",
+			"answers": [{
+				"answer": "Two"
+			}, {
+				"answer": "Three",
+				"correct": true
+			}, {
+				"answer": "Four"
+			}, {
+				"answer": "Five"
+			}]
+		}, {
+			"question": "Screw extractors are available in what maximum size, in inches?",
+			"answers": [{
+				"answer": "3/8"
+			}, {
+				"answer": "1/2",
+				"correct": true
+			}, {
+				"answer": "5/8"
+			}, {
+				"answer": "3/4"
+			}]
+		}, {
+			"question": "Spiral tapered extractors will remove screws and bolts to what maximum outside diameter, in inches?",
+			"answers": [{
+				"answer": "1 1/8"
+			}, {
+				"answer": "2"
+			}, {
+				"answer": "2 1/8",
+				"correct": true
+			}, {
+				"answer": "3"
+			}]
+		}, {
+			"question": "The tap extractor is usually of the flute type and requires what tool to turn the tap?",
+			"answers": [{
+				"answer": "Drill"
+			}, {
+				"answer": "Hammer"
+			}, {
+				"answer": "Screwdriver"
+			}, {
+				"answer": "Wrench",
+				"correct": true
+			}]
+		}, {
+			"question": "Before using a spiral taper screw extractor, what action must you do first?",
+			"answers": [{
+				"answer": "Clean the surrounding area"
+			}, {
+				"answer": "Drill a hole",
+				"correct": true
+			}, {
+				"answer": "Lightly oil the extractor"
+			}, {
+				"answer": "Sharpen the drill"
+			}]
+		}]
+	},
+	"14": {
+		"title": "Benders",
+		"questions": [{
+			"question": "Which of the following benders permits bending small-diameter soft copper and aluminum tubing by hand without collapsing the tubing?",
+			"answers": [{
+				"answer": "Electrical conduit"
+			}, {
+				"answer": "Hand tube"
+			}, {
+				"answer": "Mechanical tube"
+			}, {
+				"answer": "Spring tube",
+				"correct": true
+			}]
+		}, {
+			"question": "What bender has a bending range from 0 to 180 degrees?",
+			"answers": [{
+				"answer": "Electrical conduit"
+			}, {
+				"answer": "Hand tube",
+				"correct": true
+			}, {
+				"answer": "Mechanical tube"
+			}, {
+				"answer": "Spring tube"
+			}]
+		}, {
+			"question": "The hand tube bender is used to bend copper, brass, and what other type of tubing to specific angles?",
+			"answers": [{
+				"answer": "Aluminum",
+				"correct": true
+			}, {
+				"answer": "Cast iron"
+			}, {
+				"answer": "Platinum"
+			}, {
+				"answer": "Stainless-steel"
+			}]
+		}, {
+			"question": "The mechanical tube bender is used to bend which of the following types of tubing?",
+			"answers": [{
+				"answer": "Cloth-impregnated composite"
+			}, {
+				"answer": "High-strength stainless-steel",
+				"correct": true
+			}, {
+				"answer": "Light-duty copper"
+			}, {
+				"answer": "Low-strength cast iron"
+			}]
+		}, {
+			"question": "What bender has precise grooves to ensure a smooth bend?",
+			"answers": [{
+				"answer": "Electrical conduit",
+				"correct": true
+			}, {
+				"answer": "Hand tube"
+			}, {
+				"answer": "Mechanical tube"
+			}, {
+				"answer": "Spring tube"
+			}]
+		}, {
+			"question": "What item on the electrical conduit hand bender prevents the conduit from slipping as it is being bent?",
+			"answers": [{
+				"answer": "Concave base"
+			}, {
+				"answer": "Foot rest"
+			}, {
+				"answer": "Handle"
+			}, {
+				"answer": "Retaining hook",
+				"correct": true
+			}]
+		}, {
+			"question": "The mechanical tube bender is used to bend which of the following types of tubing?",
+			"answers": [{
+				"answer": "Cloth-impregnated composite"
+			}, {
+				"answer": "High-strength stainless-steel",
+				"correct": true
+			}, {
+				"answer": "Light-duty copper"
+			}, {
+				"answer": "Low-strength cast iron"
+			}]
+		}, {
+			"question": "If you jerk the handle while using an electrical conduit hand bender, what result can occur?",
+			"answers": [{
+				"answer": "Formation of external cracks and ridges"
+			}, {
+				"answer": "Formation of internal cracks and ridges",
+				"correct": true
+			}, {
+				"answer": "Marking on the tubing for duplication"
+			}, {
+				"answer": "Prevention of arm fatigue from constant pressure"
+			}]
+		}, {
+			"question": "When you obtain the desired bend with an electrical conduit hand bender, what change, if any, should occur to the pressure in the conduit?",
+			"answers": [{
+				"answer": "Increase"
+			}, {
+				"answer": "Release",
+				"correct": true
+			}, {
+				"answer": "Surge"
+			}, {
+				"answer": "None"
+			}]
+		}]
+	},
+	"15": {
+		"title": "Pullers",
+		"questions": [{
+			"question": "The gear and bearing puller is used to pull gears, bearings, pinions and which other components?",
+			"answers": [{
+				"answer": "Axle hub"
+			}, {
+				"answer": "Pulleys",
+				"correct": true
+			}, {
+				"answer": "Shaft sleeves"
+			}, {
+				"answer": "Steering wheel"
+			}]
+		}, {
+			"question": "The gear and bearing puller has a maximum spread of what distance, in inches?",
+			"answers": [{
+				"answer": "5"
+			}, {
+				"answer": "5 1/2",
+				"correct": true
+			}, {
+				"answer": "6"
+			}, {
+				"answer": "6 1/2"
+			}]
+		}, {
+			"question": "The electrical unit bearing puller plates are in what location to the bearings to be pulled?",
+			"answers": [{
+				"answer": "Behind",
+				"correct": true
+			}, {
+				"answer": "In front"
+			}, {
+				"answer": "On top"
+			}, {
+				"answer": "One in front and one behind"
+			}]
+		}, {
+			"question": "The push and pull puller consist of a 13 1/2 inch steel bar, which is slotted to receive two legs of what length, in inches?",
+			"answers": [{
+				"answer": "5"
+			}, {
+				"answer": "5 1/2"
+			}, {
+				"answer": "9"
+			}, {
+				"answer": "9 1/2",
+				"correct": true
+			}]
+		}, {
+			"question": "The cylinder sleeve puller is used to pull cylinder sleeves from what items?",
+			"answers": [{
+				"answer": "Actuators"
+			}, {
+				"answer": "Engine blocks",
+				"correct": true
+			}, {
+				"answer": "Pump casings"
+			}, {
+				"answer": "Rams"
+			}]
+		}, {
+			"question": "The slide hammer’s small jaws can be inserted through what minimum size opening?",
+			"answers": [{
+				"answer": "1/2 centimeter"
+			}, {
+				"answer": "1 centimeter"
+			}, {
+				"answer": "1/2 inch",
+				"correct": true
+			}, {
+				"answer": "1 inch"
+			}]
+		}, {
+			"question": "The cotter pin puller is in the shape of what letter?",
+			"answers": [{
+				"answer": "C"
+			}, {
+				"answer": "L"
+			}, {
+				"answer": "S",
+				"correct": true
+			}, {
+				"answer": "T"
+			}]
+		}, {
+			"question": "Blocks are constructed for use with which two types of material?",
+			"answers": [{
+				"answer": "Fiber line and wire rope",
+				"correct": true
+			}, {
+				"answer": "Plastic rope and chain links"
+			}, {
+				"answer": "Plastic cords and steel pipe"
+			}, {
+				"answer": "Plastic line and chain cords"
+			}]
+		}, {
+			"question": "How often should pullers be cleaned?",
+			"answers": [{
+				"answer": "After each use",
+				"correct": true
+			}, {
+				"answer": "Monthly"
+			}, {
+				"answer": "Quarterly"
+			}, {
+				"answer": "Annually"
+			}]
+		}, {
+			"question": "What action should occur to a damaged chain link?",
+			"answers": [{
+				"answer": "Disconnect"
+			}, {
+				"answer": "Remove"
+			}, {
+				"answer": "Replace",
+				"correct": true
+			}, {
+				"answer": "Weld"
+			}]
+		}, {
+			"question": "When storing pullers for long periods, what substance should be applied?",
+			"answers": [{
+				"answer": "Grease"
+			}, {
+				"answer": "Paint"
+			}, {
+				"answer": "Rust preventative compound",
+				"correct": true
+			}, {
+				"answer": "Wax"
+			}]
+		}]
+	},
+	"16": {
+		"title": "Digging Tools",
+		"questions": [{
+			"question": "What tool is especially useful to throw or move dirt a substantial distance?",
+			"answers": [{
+				"answer": "Long-handled shovel",
+				"correct": true
+			}, {
+				"answer": "D-handled shovel"
+			}, {
+				"answer": "Posthole digger"
+			}, {
+				"answer": "Spade"
+			}]
+		}, {
+			"question": "What tool may have a D- or T-shaped handgrip?",
+			"answers": [{
+				"answer": "Long-handled shovel"
+			}, {
+				"answer": "D-handled shovel"
+			}, {
+				"answer": "Posthole digger"
+			}, {
+				"answer": "Spade",
+				"correct": true
+			}]
+		}, {
+			"question": "What tool has two concave blades fastened to a long wooden handle?",
+			"answers": [{
+				"answer": "Long-handled shovel"
+			}, {
+				"answer": "D-handled shovel"
+			}, {
+				"answer": "Posthole digger",
+				"correct": true
+			}, {
+				"answer": "Spade"
+			}]
+		}, {
+			"question": "When using a long-handled shovel, what can be used if extra force is necessary?",
+			"answers": [{
+				"answer": "Extra hand"
+			}, {
+				"answer": "Foot",
+				"correct": true
+			}, {
+				"answer": "Hydraulic cylinder"
+			}, {
+				"answer": "Sledgehammer"
+			}]
+		}, {
+			"question": "After breaking the dirt loose with a spade, where should you slide one hand?",
+			"answers": [{
+				"answer": "Middle of the handle"
+			}, {
+				"answer": "Closer to the blade",
+				"correct": true
+			}, {
+				"answer": "Bottom of the blade"
+			}, {
+				"answer": "Top of the handle"
+			}]
+		}, {
+			"question": "When using a posthole digger, what action should occur to grasp the soil out of the hole?",
+			"answers": [{
+				"answer": "Fasten the lock to keep the handles from separating"
+			}, {
+				"answer": "Pull the handles apart",
+				"correct": true
+			}, {
+				"answer": "Squeeze the handles together"
+			}, {
+				"answer": "Twist the handles to lock the blades"
+			}]
+		}, {
+			"question": "The metal parts of digging tools should be oiled before what event?",
+			"answers": [{
+				"answer": "Use"
+			}, {
+				"answer": "Overhaul"
+			}, {
+				"answer": "Polishing"
+			}, {
+				"answer": "Storing",
+				"correct": true
+			}]
+		}, {
+			"question": "When should defective digging tool handles be replaced?",
+			"answers": [{
+				"answer": "Immediately",
+				"correct": true
+			}, {
+				"answer": "Before next use"
+			}, {
+				"answer": "During overhaul"
+			}, {
+				"answer": "At next inspection"
+			}]
+		}, {
+			"question": "For long-term storage, the mattock head should be coated with what substance?",
+			"answers": [{
+				"answer": "Anti-seize compound"
+			}, {
+				"answer": "Grease"
+			}, {
+				"answer": "Rust preventative compound",
+				"correct": true
+			}, {
+				"answer": "Wax"
+			}]
+		}]
+	},
+	"17": {
+		"title": "Chopping Tools",
+		"questions": [{
+			"question": "What ax is used to cut down or prune trees?",
+			"answers": [{
+				"answer": "Crash"
+			}, {
+				"answer": "Double-bit"
+			}, {
+				"answer": "Hatchet"
+			}, {
+				"answer": "Single-bit",
+				"correct": true
+			}]
+		}, {
+			"question": "What ax has a steel cutting blade on one end and a spike-like extension on the other?",
+			"answers": [{
+				"answer": "Crash",
+				"correct": true
+			}, {
+				"answer": "Double-bit"
+			}, {
+				"answer": "Hatchet"
+			}, {
+				"answer": "Single-bit"
+			}]
+		}, {
+			"question": "What chopping tool is used for chopping and smoothing logs where a great deal of wood is to be removed?",
+			"answers": [{
+				"answer": "Adz",
+				"correct": true
+			}, {
+				"answer": "Hatchet"
+			}, {
+				"answer": "Maul"
+			}, {
+				"answer": "Timber wedge"
+			}]
+		}, {
+			"question": "What tool is commonly used with a sledge to split logs and timber?",
+			"answers": [{
+				"answer": "Adz"
+			}, {
+				"answer": "Hatchet"
+			}, {
+				"answer": "Maul"
+			}, {
+				"answer": "Timber wedge",
+				"correct": true
+			}]
+		}, {
+			"question": "When using a single-bit ax, how should your feet be positioned?",
+			"answers": [{
+				"answer": "Close to each other"
+			}, {
+				"answer": "Comfortable distance apart",
+				"correct": true
+			}, {
+				"answer": "One in front of the other"
+			}, {
+				"answer": "One on top of the other"
+			}]
+		}, {
+			"question": "When using an adz, what type of strokes should be used?",
+			"answers": [{
+				"answer": "Long and choppy"
+			}, {
+				"answer": "Long and steady"
+			}, {
+				"answer": "Short and choppy",
+				"correct": true
+			}, {
+				"answer": "Short and steady"
+			}]
+		}, {
+			"question": "You should never use a tool that is in what condition?",
+			"answers": [{
+				"answer": "Defective",
+				"correct": true
+			}, {
+				"answer": "Oiled"
+			}, {
+				"answer": "Painted"
+			}, {
+				"answer": "Sharp"
+			}]
+		}, {
+			"question": "In very cold weather, a chopping tool should only be used in what circumstance?",
+			"answers": [{
+				"answer": "After sunrise"
+			}, {
+				"answer": "After sunset"
+			}, {
+				"answer": "The blade is cold"
+			}, {
+				"answer": "The blade is warm",
+				"correct": true
+			}]
+		}, {
+			"question": "When changing the handle on all chopping tools, the new handle should be coated with what substance?",
+			"answers": [{
+				"answer": "Anti-seize compound"
+			}, {
+				"answer": "Grease"
+			}, {
+				"answer": "Linseed oil",
+				"correct": true
+			}, {
+				"answer": "Wax"
+			}]
+		}]
+	},
+	"18": {
+		"title": "Timber-Handling Tools",
+		"questions": [{
+			"question": "How long is the large wooden handles of the timber carrier?",
+			"answers": [{
+				"answer": "Two feet"
+			}, {
+				"answer": "Four feet",
+				"correct": true
+			}, {
+				"answer": "Two meters"
+			}, {
+				"answer": "Four meters"
+			}]
+		}, {
+			"question": "The timber carrier can carry logs and can be used to perform what action?",
+			"answers": [{
+				"answer": "Cut timbers in shorter pieces"
+			}, {
+				"answer": "Lift timbers from one level to another",
+				"correct": true
+			}, {
+				"answer": "Roll timbers to the saw mill"
+			}, {
+				"answer": "Spin logs on the horizontal axis"
+			}]
+		}, {
+			"question": "The cant hook is similar to what timber-handling tool?",
+			"answers": [{
+				"answer": "Peavey",
+				"correct": true
+			}, {
+				"answer": "Splitting maul"
+			}, {
+				"answer": "Timber carrier"
+			}, {
+				"answer": "Timber wedge"
+			}]
+		}, {
+			"question": "The toe hook on the cant hook provides what advantage?",
+			"answers": [{
+				"answer": "Foot rest"
+			}, {
+				"answer": "Mounting hole for storage"
+			}, {
+				"answer": "Pointed gouge for wedges"
+			}, {
+				"answer": "Second biting edge",
+				"correct": true
+			}]
+		}, {
+			"question": "The timber carrier’s points should be in what condition?",
+			"answers": [{
+				"answer": "Corroded"
+			}, {
+				"answer": "Dull"
+			}, {
+				"answer": "Sharp",
+				"correct": true
+			}, {
+				"answer": "Straight"
+			}]
+		}, {
+			"question": "To keep the timber-handling metal parts in good condition, what substance should be applied?",
+			"answers": [{
+				"answer": "Oil",
+				"correct": true
+			}, {
+				"answer": "Wax"
+			}, {
+				"answer": "Grease"
+			}, {
+				"answer": "Anti-seize compound"
+			}]
+		}, {
+			"question": "When using a timber-handling tool, how should the hooks be placed in the log to be carried?",
+			"answers": [{
+				"answer": "Attached below"
+			}, {
+				"answer": "Attached to the embedded eyelet"
+			}, {
+				"answer": "Securely embedded",
+				"correct": true
+			}, {
+				"answer": "Wrapped securely around"
+			}]
+		}, {
+			"question": "Which of the following conditions may occur if a timber-handling tool is mishandled?",
+			"answers": [{
+				"answer": "Injures someone",
+				"correct": true
+			}, {
+				"answer": "Creates a breeze"
+			}, {
+				"answer": "Sharpens the points"
+			}, {
+				"answer": "Clears the carrying path"
+			}]
+		}, {
+			"question": "Timber-handling tool handles should be coated with what substance to prevent drying out?",
+			"answers": [{
+				"answer": "Wax"
+			}, {
+				"answer": "Grease"
+			}, {
+				"answer": "Linseed oil",
+				"correct": true
+			}, {
+				"answer": "Anti-seize compound"
+			}]
+		}]
+	},
+	"19": {
+		"title": "Climbing and Rigging Tools",
+		"questions": [{
+			"question": "The lineman’s belt is made up of how many parts?",
+			"answers": [{
+				"answer": "One"
+			}, {
+				"answer": "Two"
+			}, {
+				"answer": "Three"
+			}, {
+				"answer": "Four",
+				"correct": true
+			}]
+		}, {
+			"question": "What method is the only safe way to ensure that the safety belt snap is securely fastened to the D-rings?",
+			"answers": [{
+				"answer": "Actually looking at the D-ring",
+				"correct": true
+			}, {
+				"answer": "Leaning back after connecting the D-ring"
+			}, {
+				"answer": "Listening for the snap when the D-ring is connected"
+			}, {
+				"answer": "Touching the D-ring latch"
+			}]
+		}, {
+			"question": "The hardhat will protect your head from accidental contact with which of the following elements?",
+			"answers": [{
+				"answer": "Electrical circuit",
+				"correct": true
+			}, {
+				"answer": "Electrical insulators"
+			}, {
+				"answer": "Heated insulators"
+			}, {
+				"answer": "Heated valves"
+			}]
+		}, {
+			"question": "If concerned about the serviceability of climbing gloves, what action should you take?",
+			"answers": [{
+				"answer": "Add a patch to the holes"
+			}, {
+				"answer": "Place electrical tape over the damaged area"
+			}, {
+				"answer": "Replace the broken thread"
+			}, {
+				"answer": "Replace them",
+				"correct": true
+			}]
+		}, {
+			"question": "The hardhat shell should be inspected for dirt, cracks, and what other markings?",
+			"answers": [{
+				"answer": "Paint"
+			}, {
+				"answer": "Burns",
+				"correct": true
+			}, {
+				"answer": "Name tags"
+			}, {
+				"answer": "Scuff marks"
+			}]
+		}, {
+			"question": "What item should be used to clean leather items?",
+			"answers": [{
+				"answer": "Carbon scraper"
+			}, {
+				"answer": "Oil soaked rag"
+			}, {
+				"answer": "Soft, dampened cloth",
+				"correct": true
+			}, {
+				"answer": "Wire brush"
+			}]
+		}, {
+			"question": "When should climbing tool stitching be repaired?",
+			"answers": [{
+				"answer": "Immediately",
+				"correct": true
+			}, {
+				"answer": "Quarterly"
+			}, {
+				"answer": "Semiannually"
+			}, {
+				"answer": "Biannually"
+			}]
+		}, {
+			"question": "What substance should be used to clean the climbing hardhat shell?",
+			"answers": [{
+				"answer": "Dry-cleaning solvent"
+			}, {
+				"answer": "Mild soap and water",
+				"correct": true
+			}, {
+				"answer": "Mild soap and wax"
+			}, {
+				"answer": "Tongue oil and water"
+			}]
+		}, {
+			"question": "What substance should be applied to all metal parts before storing?",
+			"answers": [{
+				"answer": "Oil",
+				"correct": true
+			}, {
+				"answer": "Soap"
+			}, {
+				"answer": "Water"
+			}, {
+				"answer": "Wax"
+			}]
+		}, {
+			"question": "What rigging tool is used to raise and lower relatively lightweight tools?",
+			"answers": [{
+				"answer": "Block and tackle"
+			}, {
+				"answer": "Hand line",
+				"correct": true
+			}, {
+				"answer": "Shackle"
+			}, {
+				"answer": "Wire rope"
+			}]
+		}, {
+			"question": "While rigging, you should use hand chain hoists generally rated at what minimum weight, in tons?",
+			"answers": [{
+				"answer": "1/2"
+			}, {
+				"answer": "1"
+			}, {
+				"answer": "1 1/2",
+				"correct": true
+			}, {
+				"answer": "2"
+			}]
+		}, {
+			"question": "The hooks on a chain hoist generally have what feature so the load cannot accidentally come off the hook?",
+			"answers": [{
+				"answer": "Cotter pins"
+			}, {
+				"answer": "Mousing"
+			}, {
+				"answer": "Safety lock"
+			}, {
+				"answer": "Safety snap",
+				"correct": true
+			}]
+		}, {
+			"question": "When loads are too heavy for hooks to handle, what rigging tool should be used?",
+			"answers": [{
+				"answer": "Block"
+			}, {
+				"answer": "Shackle",
+				"correct": true
+			}, {
+				"answer": "Tackle"
+			}, {
+				"answer": "Wire rope"
+			}]
+		}, {
+			"question": "What technique is often used to close the open section of a hook to keep slings and straps from slipping off the hook?",
+			"answers": [{
+				"answer": "Blocking"
+			}, {
+				"answer": "Mousing",
+				"correct": true
+			}, {
+				"answer": "Rattail"
+			}, {
+				"answer": "Tagging"
+			}]
+		}, {
+			"question": "When a four-legged bridle sling lifts a rigid load, what minimum number of legs can support the full load?",
+			"answers": [{
+				"answer": "One"
+			}, {
+				"answer": "Two",
+				"correct": true
+			}, {
+				"answer": "Three"
+			}, {
+				"answer": "Four"
+			}]
+		}, {
+			"question": "To protect a fiber or wire rope sling from exposure to sharp edges at the corner of the load, what item should be used?",
+			"answers": [{
+				"answer": "Protective pad",
+				"correct": true
+			}, {
+				"answer": "Rolled rag"
+			}, {
+				"answer": "Shackles"
+			}, {
+				"answer": "Steel plates"
+			}]
+		}, {
+			"question": "The ropes should be inspected for breaks, cuts, abrasion, and melted or fused fibers at what interval?",
+			"answers": [{
+				"answer": "Every use",
+				"correct": true
+			}, {
+				"answer": "Every second use"
+			}, {
+				"answer": "Every third use"
+			}, {
+				"answer": "Every fourth use"
+			}]
+		}, {
+			"question": "When wire ropes are stored, the wire rope should be flaked or coiled in what manner?",
+			"answers": [{
+				"answer": "Excessively twisted"
+			}, {
+				"answer": "Figure 8"
+			}, {
+				"answer": "Loosely",
+				"correct": true
+			}, {
+				"answer": "Tightly"
+			}]
+		}, {
+			"question": "What action should you take when a chain hoist link is distorted?",
+			"answers": [{
+				"answer": "Remove the distorted link"
+			}, {
+				"answer": "Replace the chain hoist",
+				"correct": true
+			}, {
+				"answer": "Replace the distorted link"
+			}, {
+				"answer": "Replace the lifting chain"
+			}]
+		}]
+	},
+	"20": {
+		"title": "Concrete and Masonry Tools",
+		"questions": [{
+			"question": "The concrete vibrator will remove what characteristic from the concrete mix?",
+			"answers": [{
+				"answer": "Air pockets",
+				"correct": true
+			}, {
+				"answer": "Excess water"
+			}, {
+				"answer": "Large stones"
+			}, {
+				"answer": "Small stones"
+			}]
+		}, {
+			"question": "What type of motion should be used while pulling the wood screed board toward the end of the poured area?",
+			"answers": [{
+				"answer": "Sawing",
+				"correct": true
+			}, {
+				"answer": "Circular"
+			}, {
+				"answer": "Dragging"
+			}, {
+				"answer": "Pounding"
+			}]
+		}, {
+			"question": "The bull float is approximately what minimum length, in inches?",
+			"answers": [{
+				"answer": "24"
+			}, {
+				"answer": "42",
+				"correct": true
+			}, {
+				"answer": "240"
+			}, {
+				"answer": "420"
+			}]
+		}, {
+			"question": "A darby float is usually made of which of the following materials?",
+			"answers": [{
+				"answer": "Aluminum or titanium"
+			}, {
+				"answer": "Chromium or magnesium"
+			}, {
+				"answer": "Magnesium or aluminum",
+				"correct": true
+			}, {
+				"answer": "Titanium or chromium"
+			}]
+		}, {
+			"question": "The edging is done mostly on patios, curbs, and what other concrete project to give a tight, clean-looking edge that resists chipping?",
+			"answers": [{
+				"answer": "Bridge"
+			}, {
+				"answer": "Foundation"
+			}, {
+				"answer": "Highway"
+			}, {
+				"answer": "Sidewalk",
+				"correct": true
+			}]
+		}, {
+			"question": "What operation is used to create a nonskid concrete surface?",
+			"answers": [{
+				"answer": "Brooming",
+				"correct": true
+			}, {
+				"answer": "Cutting"
+			}, {
+				"answer": "Edging"
+			}, {
+				"answer": "Grinding"
+			}]
+		}, {
+			"question": "In what condition should the edges of concrete tools be kept?",
+			"answers": [{
+				"answer": "Crimped"
+			}, {
+				"answer": "Dull"
+			}, {
+				"answer": "Polished"
+			}, {
+				"answer": "Sharp",
+				"correct": true
+			}]
+		}, {
+			"question": "Other than a hard hat and eye protection, what other personal protective equipment should be worn while working with concrete?",
+			"answers": [{
+				"answer": "Hearing protection"
+			}, {
+				"answer": "Nonslip sandals"
+			}, {
+				"answer": "Safety harness"
+			}, {
+				"answer": "Skin protection",
+				"correct": true
+			}]
+		}, {
+			"question": "The pointing trowel has what maximum length?",
+			"answers": [{
+				"answer": "4 centimeters"
+			}, {
+				"answer": "7 centimeters"
+			}, {
+				"answer": "4 inches"
+			}, {
+				"answer": "7 inches",
+				"correct": true
+			}]
+		}, {
+			"question": "The convex jointer has which of the following popular sizes, in inches?",
+			"answers": [{
+				"answer": "1/4"
+			}, {
+				"answer": "5/16"
+			}, {
+				"answer": "3/8"
+			}, {
+				"answer": "1/2",
+				"correct": true
+			}]
+		}, {
+			"question": "What design feature allows the rake out jointer to throw mortar out as you rake the joint?",
+			"answers": [{
+				"answer": "Corner angle"
+			}, {
+				"answer": "Offset",
+				"correct": true
+			}, {
+				"answer": "Straight line"
+			}, {
+				"answer": "Twisted handle"
+			}]
+		}, {
+			"question": "When holding a pointing trowel, where should the user’s thumb be?",
+			"answers": [{
+				"answer": "Bottom of the handle"
+			}, {
+				"answer": "Circling the handle"
+			}, {
+				"answer": "On top of the handle",
+				"correct": true
+			}, {
+				"answer": "On top of the index finger"
+			}]
+		}, {
+			"question": "When spreading a bed of mortar, what total number of brick lengths is the best?",
+			"answers": [{
+				"answer": "One"
+			}, {
+				"answer": "Two"
+			}, {
+				"answer": "Three"
+			}, {
+				"answer": "Four",
+				"correct": true
+			}]
+		}, {
+			"question": "When spreading a bed of mortar, the thickness of the bed should be what depth, in inches?",
+			"answers": [{
+				"answer": "1/2"
+			}, {
+				"answer": "1",
+				"correct": true
+			}, {
+				"answer": "1 1/2"
+			}, {
+				"answer": "2"
+			}]
+		}, {
+			"question": "If the masonry tool is not cleaned, what result may occur?",
+			"answers": [{
+				"answer": "Increased efficiency"
+			}, {
+				"answer": "Mortar build-up",
+				"correct": true
+			}, {
+				"answer": "Sharp edges"
+			}, {
+				"answer": "Stained blade"
+			}]
+		}, {
+			"question": "To protect the tool and yourself, what action should you perform to the tip of the pointing tool?",
+			"answers": [{
+				"answer": "Cover the tip",
+				"correct": true
+			}, {
+				"answer": "Grind the tip to remove the point"
+			}, {
+				"answer": "Paint the tip orange"
+			}, {
+				"answer": "Polish the tip"
+			}]
+		}]
+	},
+	"21": {
+		"title": "Interior Finish Tools",
+		"questions": [{
+			"question": "The drywall lifter can also be referred to by what name?",
+			"answers": [{
+				"answer": "Board lifter",
+				"correct": true
+			}, {
+				"answer": "Foot wedge"
+			}, {
+				"answer": "Height adjuster"
+			}, {
+				"answer": "Sheetrock assistant"
+			}]
+		}, {
+			"question": "The finish knife is used in drywall work to perform what action?",
+			"answers": [{
+				"answer": "Cut holes and smooth edges"
+			}, {
+				"answer": "Make dimples and fill holes"
+			}, {
+				"answer": "Mixing and holding mud"
+			}, {
+				"answer": "Smooth mud and tape seams",
+				"correct": true
+			}]
+		}, {
+			"question": "The inside corner tool is a one-piece, flexible, stainless tool with what degree angle that flexes to 90 degrees?",
+			"answers": [{
+				"answer": "103",
+				"correct": true
+			}, {
+				"answer": "130"
+			}, {
+				"answer": "301"
+			}, {
+				"answer": "310"
+			}]
+		}, {
+			"question": "The outside corner tool is a one-piece, flexible, stainless tool with what degree angle that flexes to 90 degrees?",
+			"answers": [{
+				"answer": "60"
+			}, {
+				"answer": "80",
+				"correct": true
+			}, {
+				"answer": "100"
+			}, {
+				"answer": "120"
+			}]
+		}, {
+			"question": "As you nail drywall to the framing, what action is important to perform for each nail?",
+			"answers": [{
+				"answer": "Apply lubrication"
+			}, {
+				"answer": "Leave the nail head exposed"
+			}, {
+				"answer": "Make a dimple",
+				"correct": true
+			}, {
+				"answer": "Nail the bottom first"
+			}]
+		}, {
+			"question": "At what location should you begin attaching sheets of drywall?",
+			"answers": [{
+				"answer": "Ceiling",
+				"correct": true
+			}, {
+				"answer": "Floor"
+			}, {
+				"answer": "Wall farthest from the door"
+			}, {
+				"answer": "Wall closest to the door"
+			}]
+		}, {
+			"question": "Nail or screw drywall in what manner?",
+			"answers": [{
+				"answer": "From bottom to the top of the sheet"
+			}, {
+				"answer": "From center of the sheet outward",
+				"correct": true
+			}, {
+				"answer": "From sides of the sheet inward"
+			}, {
+				"answer": "From top to the bottom of the sheet"
+			}]
+		}, {
+			"question": "Drywall on the walls should have nails at what maximum distance apart, in inches?",
+			"answers": [{
+				"answer": "2"
+			}, {
+				"answer": "4"
+			}, {
+				"answer": "6"
+			}, {
+				"answer": "8",
+				"correct": true
+			}]
+		}, {
+			"question": "When finishing an inside corner, the joint compound should be feathered to what distance from the edge of the tape, in inches?",
+			"answers": [{
+				"answer": "1"
+			}, {
+				"answer": "2",
+				"correct": true
+			}, {
+				"answer": "3"
+			}, {
+				"answer": "4"
+			}]
+		}, {
+			"question": "When finishing an outside corner, the joint compound should be feathered to what distance from the nose of the bead, in inches?",
+			"answers": [{
+				"answer": "2"
+			}, {
+				"answer": "4",
+				"correct": true
+			}, {
+				"answer": "6"
+			}, {
+				"answer": "8"
+			}]
+		}, {
+			"question": "Keep interior finish tools in which of the following conditions?",
+			"answers": [{
+				"answer": "Coarse"
+			}, {
+				"answer": "Dry",
+				"correct": true
+			}, {
+				"answer": "Polished"
+			}, {
+				"answer": "Wet"
+			}]
+		}, {
+			"question": "What result may occur if the interior finish tool’s points are not covered when not in use?",
+			"answers": [{
+				"answer": "Damages the tool",
+				"correct": true
+			}, {
+				"answer": "Decreases corrosion"
+			}, {
+				"answer": "Sharpens the points"
+			}, {
+				"answer": "Stains the blade"
+			}]
+		}]
+	},
+	"22": {
+		"title": "Jacks",
+		"questions": [{
+			"question": "Screw jacks can be used to lift vehicles, heavy crates, and what other type of item?",
+			"answers": [{
+				"answer": "Aircraft"
+			}, {
+				"answer": "Ship"
+			}, {
+				"answer": "Small building",
+				"correct": true
+			}, {
+				"answer": "Tank"
+			}]
+		}, {
+			"question": "Which of the following jacks has a rack bar that is raised or lowered?",
+			"answers": [{
+				"answer": "Porta power"
+			}, {
+				"answer": "Ratchet lever",
+				"correct": true
+			}, {
+				"answer": "Service jack"
+			}, {
+				"answer": "Vertical screw"
+			}]
+		}, {
+			"question": "Which of the following jacks is automatically lowered by releasing pressure?",
+			"answers": [{
+				"answer": "Outrigger"
+			}, {
+				"answer": "Ratchet lever"
+			}, {
+				"answer": "Service",
+				"correct": true
+			}, {
+				"answer": "Vertical screw"
+			}]
+		}, {
+			"question": "The push-pull hydraulic jacks are furnished with what items to enable pushing, pulling, and lifting operations?",
+			"answers": [{
+				"answer": "Abundance of instructions"
+			}, {
+				"answer": "Abundance of markers"
+			}, {
+				"answer": "Assortment of attachments",
+				"correct": true
+			}, {
+				"answer": "Assortment of cleaning rags"
+			}]
+		}, {
+			"question": "Which of the following are the two types of tripod jacks?",
+			"answers": [{
+				"answer": "Fixed height and portable"
+			}, {
+				"answer": "Fixed height and variable height",
+				"correct": true
+			}, {
+				"answer": "Stationary and portable"
+			}, {
+				"answer": "Variable height and stationary"
+			}]
+		}, {
+			"question": "When using a vertical screw jack, what step should occur first?",
+			"answers": [{
+				"answer": "Identify the lifting location",
+				"correct": true
+			}, {
+				"answer": "Insert blocks or jack stands"
+			}, {
+				"answer": "Insert the handle in the appropriate location"
+			}, {
+				"answer": "Turn the handle clockwise to raise the load"
+			}]
+		}, {
+			"question": "Before removing a jack, what device should be inserted to support the load?",
+			"answers": [{
+				"answer": "Jack roller"
+			}, {
+				"answer": "Jack stand",
+				"correct": true
+			}, {
+				"answer": "Lifting harness"
+			}, {
+				"answer": "Tie down strap"
+			}]
+		}, {
+			"question": "What condition can be hazardous to the jack?",
+			"answers": [{
+				"answer": "Operating on a solid surface"
+			}, {
+				"answer": "Overfilled oil reservoir"
+			}, {
+				"answer": "Overloading",
+				"correct": true
+			}, {
+				"answer": "Underloading"
+			}]
+		}, {
+			"question": "For long periods of storage, what chemical should be applied to the jack?",
+			"answers": [{
+				"answer": "Lithium"
+			}, {
+				"answer": "Rust-preventive compound",
+				"correct": true
+			}, {
+				"answer": "Rust-provoking compound"
+			}, {
+				"answer": "Silicon"
+			}]
+		}, {
+			"question": "The operator should ensure there is no visible evidence of what condition before using a hydraulic jack?",
+			"answers": [{
+				"answer": "Cleaning solution"
+			}, {
+				"answer": "Corrosion"
+			}, {
+				"answer": "Oil leak",
+				"correct": true
+			}, {
+				"answer": "Paint chipping"
+			}]
+		}, {
+			"question": "The ratchet lever jack bushings should be filled with what substance?",
+			"answers": [{
+				"answer": "Grease",
+				"correct": true
+			}, {
+				"answer": "Paint"
+			}, {
+				"answer": "Soap"
+			}, {
+				"answer": "Wax"
+			}]
+		}, {
+			"question": "What area on a ratchet lever jack should NOT have grease?",
+			"answers": [{
+				"answer": "Rack sides"
+			}, {
+				"answer": "Rack teeth",
+				"correct": true
+			}, {
+				"answer": "Ratchet guides"
+			}, {
+				"answer": "Ratchet lever"
+			}]
+		}]
+	}
+}

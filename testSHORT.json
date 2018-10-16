@@ -1,0 +1,83 @@
+{
+	"1": {
+		"title": "Introduction",
+		"questions": [{
+			"question": "What information does the text for this course provide?",
+			"answers": [{
+				"answer": "Extensive repair of selected hand and measuring tools"
+			}, {
+				"answer": "An explanation of the types and uses of hydrostatic tools"
+			}, {
+				"answer": "Safety requirements and limited repair of hydrostatic tools"
+			}, {
+				"answer": "Information on the use and care of selected hand tools and measuring tools ",
+				"correct": true
+			}]
+		}, {
+			"question": "With proper tools and knowledge of how to use them, what action may occur?",
+			"answers": [{
+				"answer": "The user may face injury"
+			}, {
+				"answer": "The user may be more efficient",
+				"correct": true
+			}, {
+				"answer": "The task is accomplished in twice the time"
+			}, {
+				"answer": "The user may collect many unnecessary tools for the job"
+			}]
+		}, {
+			"question": "The introduction to each tool chapter in the text will provide information on how to choose and use the tools, various types of tools available, and what other information?",
+			"answers": [{
+				"answer": "How to check out tools"
+			}, {
+				"answer": "An example of their use",
+				"correct": true
+			}, {
+				"answer": "Location of the repair procedures"
+			}, {
+				"answer": "Where to purchase specific tools"
+			}]
+		}]
+	},
+	"2": {
+		"title": "Safety and Safety Equipment",
+		"questions": [{
+			"question": "What action will result if you use the wrong tool to make an adjustment?",
+			"answers": [{
+				"answer": "Accurate adjustment"
+			}, {
+				"answer": "Unsatisfactory adjustment",
+				"correct": true
+			}, {
+				"answer": "Edges of nuts and wrenches become smooth"
+			}, {
+				"answer": "Multiple positions are available from using a larger tool "
+			}]
+		}, {
+			"question": "What statement is true concerning tools?",
+			"answers": [{
+				"answer": "You should keep an inventory list in shop and check it after each shift"
+			}, {
+				"answer": "Place the extra tools on a flat ledge above the equipment for easy access"
+			}, {
+				"answer": "A worker's efficiency is often a direct result of the condition of the tools being used",
+				"correct": true
+			}, {
+				"answer": "Damaged tools should be saved because they can sometimes be used for purposes other than for which they were designed"
+			}]
+		}, {
+			"question": "Who should a broken tool be returned to?",
+			"answers": [{
+				"answer": "Supervisor"
+			}, {
+				"answer": "Section chief",
+				"correct": true
+			}, {
+				"answer": "Division officer"
+			}, {
+				"answer": "Safety officer"
+			}]
+		}]
+
+	}
+}

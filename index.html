@@ -24,7 +24,10 @@
 </head>
 <body ng-app="myApp" ng-controller="chapterController">
 	<header>
-		<div class="topicNav-area">
+		<a href="#" class="btn btn-secondary test-button"  ng-hide="testing" data-toggle="modal" data-target="#testModal">Take Test</a>
+		<a href="#" class="btn btn-secondary test-button"  ng-show="testing" ng-click="gradeTest()">Grade Test</a>
+		<a href="#" class="btn btn-secondary back-button" ng-show="testing" ng-click="testing=false">Back</a>
+		<div class="topicNav-area" ng-hide="testing">
 			<a href="#" class="topicNav-button">Chapters</a>
 			<div class="topicNav-wrapper">
 				<div class="topicNav-search-wrapper">
@@ -46,14 +49,14 @@
 		</div>
 	</header>
 	
-	<div class="hero">
+	<div class="hero" ng-hide="testing">
 		<div class="container text-center">
 			<h1>Chapter {{(chapterID>22)?translatedChapterID:chapterID}}</h1>
 			<h2>{{chapters[chapterID].title}}</h2>
 			<a href="#" class="bookmark-toggle-btn" ng-click="bookmarkToggle()" ng-class="(chapters[chapterID].bookmarked===true)?'bookmarked':''"><span class="bookmark-toggle-icon"></span> Bookmark</a>
 		</div>
 	</div>
-	<div class="utility-menu text-right">
+	<div class="utility-menu text-right" ng-hide="testing">
 		<span id="search-count"></span>
 		<div class="icon-wrapper">
 			<input type="text" class="form-control" id="search" style="display:inline-block;">
@@ -61,7 +64,7 @@
 			<i class="icon mdi mdi-add-circle" id="search-clear" style="display:none;"></i>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container" ng-hide="testing">
 		<div class="row">
 			<div class="col portal">
 				
@@ -82,10 +85,109 @@
 		</div>
 	</div>
 
+	<div class="container" ng-show="testing">
+		<div class="row">
+			<div class="col test-area">
+				<h3>{{currentTestIndex+1}}. {{currentTestData.title}}</h3>
+				<hr>
+				<div class="quiz" ng-repeat="question in currentTestData.questions" data-index="{{$index}}">
+					<div class="quiz-question">
+						<span>{{currentTestIndex+1}}-{{$index+1}}. </span>{{question.question}}
+					</div>
+					<div class="quiz-answers" >
+						<a href="#" ng-repeat="answer in question.answers" class="quiz-answer" ng-class="answerClass($parent.$index,$index)" ng-click="testSelectAnswer($event,$parent.$index,$index)"><span>{{numbersToLetters[$index]}}</span>{{answer.answer}}</a>
+					</div>
+				</div>
+
+				<div class="test-nav">
+					<a href="#" class="btn btn-primary test-nav-button test-nav-button-back" ng-click="loadTest(currentTestIndex-1)" ng-hide="currentTestIndex===0">Back</a>
+					<a href="#" class="btn btn-primary test-nav-button test-nav-button-next" ng-click="loadTest(currentTestIndex+1)" ng-hide="currentTestIndex+1===testMapping.length">Next</a>
+					<a href="#" class="btn btn-primary test-nav-button test-nav-button-next" ng-click="gradeTest()" ng-show="currentTestIndex+1===testMapping.length">Grade Test</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 
 
 	<div class="shroud"></div>
+	
+	<div class="modal" id="alertModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title"></h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="mdi mdi-close"></i>
+					</button>
+				</div>
+				<div class="modal-body">
+					
+				</div>
+				<div class="modal-footer">
+					<a href="#" class="btn btn-secondary" data-dismiss="modal">Close</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="testModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Verify Email Capability</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="mdi mdi-close"></i>
+					</button>
+				</div>
+				<div class="modal-body">
+					Before proceeding, please ensure that a functioning email account is active on your device. Once testing is complete and a passing score is achieved, you will be able to enter your 10-digit DODID and generate a completion email addressed to NTMPS.
+				</div>
+				<div class="modal-footer">
+					<a href="#" class="btn btn-secondary" data-dismiss="modal">Cancel</a>
+					<a href="#" class="btn btn-primary" data-dismiss="modal" ng-click="initTest()">Begin</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal" id="gradeModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title"><span ng-show="passed">Passed</span><span ng-hide="passed">Failed</span></h5>
+				</div>
+				<div class="modal-body">
+					<div ng-hide="passed">
+						<div class="grade text-center">
+							<h5>Your score:</h5>
+							<h1>{{score}}%</h1>
+						</div>
+
+						<p>A minimum score of 80% is required to pass this course. Please review the materials and attempt the test again.</p>
+					</div>
+					<div ng-show="passed">
+						<div class="grade text-center">
+							<h5>Your score:</h5>
+							<h1>{{score}}%</h1>
+						</div>
+						<p>You passed this course with a score above the minimum score of 80%. You may now generate a completion certificate to be submitted for credit.</p>
+						<p>After selecting an email below, a screen will appear with a draft email from your default email account ont his device. This email will contain your completion certificate; do not change any recipient, subject, body, or attachment fields, as this may disrupt processing. Select Send on this email screen to submit your completion package. Processing should be completed in 1-2 days. A backup of your completion certificate email will be stored in your email account's Sent folder.</p>
+						<form class="submitWrapper" name="submitForm">
+							<input type="number" class="form-control" id="dodid" ng-model="dodid" ng-maxlength="10" ng-minlength="10"placeholder="Enter your 10 digit DOD ID" required>
+							<button class="btn btn-primary" ng-click="sendCert()" ng-disabled="submitForm.$invalid">Submit Completion Certificate</button>
+						</form>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="#" class="btn btn-secondary" data-dismiss="modal" ng-click="testing=false">Back to home</a>
+					<a href="#" class="btn btn-primary" data-dismiss="modal" ng-click="initTest()" ng-hide="passed">Try Again</a>
+					
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div class="modal" id="figureModal" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">

@@ -92,14 +92,14 @@ app.controller('chapterController', function($scope,$compile,$http) {
 	}
 
 	$scope.sendCert = function(){
-		if(device==null){
-			var device={
-				manufacturer: 'Apple',
-				model: 'iphone',
-				platform: 'iOS',
-				version: '11.1'
-			};
-		}
+		// if(device==null){
+		// 	var device={
+		// 		manufacturer: 'Apple',
+		// 		model: 'iphone',
+		// 		platform: 'iOS',
+		// 		version: '11.1'
+		// 	};
+		// }
 		var guid=uuidv4();
 		var txt=`<?xml version="1.0" encoding="utf-8"?>
 		<course_completion>

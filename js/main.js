@@ -156,7 +156,7 @@ $(document).ready(function(){
 
 	resetTopicNav();
 
-	//$('#disclaimerModal').modal({backdrop: 'static'});
+	$('#disclaimerModal').modal({backdrop: 'static'});
 
 	//zendesk if online
 	if(zE){

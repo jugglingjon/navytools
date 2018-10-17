@@ -171,7 +171,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 		}
 		console.log(correct,total,correct/total);
 		$scope.score=correct/total;
-		$scope.passed = ($scope.score>=0)?true:false;
+		$scope.passed = ($scope.score>=80)?true:false;
 		$scope.score=Math.floor($scope.score*100);
 		$('#gradeModal').modal({backdrop: 'static'});
 

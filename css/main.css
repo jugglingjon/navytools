@@ -348,8 +348,8 @@ footer a i::before {
   margin-right: 0;
 }
 .modal-dialog {
-  margin-top: constant(safe-area-inset-top);
-  margin-top: env(safe-area-inset-top);
+  margin-top: calc(constant(safe-area-inset-top) + 20px);
+  margin-top: calc(env(safe-area-inset-top) + 20px);
 }
 #figureModal .modal-dialog {
   max-width: 680px;
@@ -394,6 +394,7 @@ header {
 }
 header .test-button {
   position: absolute;
+  z-index: 10;
   right: 10px;
   top: 50%;
   transform: translateY(-50%);

@@ -380,8 +380,8 @@ footer{
 // ====================================
 
 .modal-dialog{
-    margin-top: constant(safe-area-inset-top);
-    margin-top: env(safe-area-inset-top);
+    margin-top: calc(~"constant(safe-area-inset-top) + 20px");
+    margin-top: calc(~"env(safe-area-inset-top) + 20px");
 }
 
 #figureModal{
@@ -439,6 +439,7 @@ header{
 
     .test-button{
         position: absolute;
+        z-index:10;
         right:10px;
         top: 50%;
         transform: translateY(-50%);

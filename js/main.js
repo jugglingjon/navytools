@@ -1,14 +1,14 @@
-if (typeof console  != "undefined") 
-    if (typeof console.log != 'undefined')
-        console.olog = console.log;
-    else
-        console.olog = function() {};
+// if (typeof console  != "undefined") 
+//     if (typeof console.log != 'undefined')
+//         console.olog = console.log;
+//     else
+//         console.olog = function() {};
 
-console.log = function(message) {
-    console.olog(message);
-    $('#console').append('<p>' + message + '</p>');
-};
-console.error = console.debug = console.info =  console.log;
+// console.log = function(message) {
+//     console.olog(message);
+//     $('#console').append('<p>' + message + '</p>');
+// };
+// console.error = console.debug = console.info =  console.log;
 
 
 // ====================================
@@ -159,20 +159,19 @@ $(document).ready(function(){
 	//$('#disclaimerModal').modal({backdrop: 'static'});
 
 	//zendesk if online
-	$('.feedback').click(function(){
-		alert('An internet connection is required to submit feedback, please connect your device to the internet and restart the application to submit feedback');
-		return false;
-	});
-
 	if(zE){
-
-
 		zE(function() {
 			zE.hide();
-			$('.feedback').off('click').click(function(){
+			$('.feedback').click(function(){
 				zE.activate({hideOnClose: true});
 				return false;
 			})
+		});
+	}
+	else{
+		$('.feedback').click(function(){
+			alert('An internet connection is required to submit feedback, please connect your device to the internet and restart the application to submit feedback');
+			return false;
 		});
 	}
 	

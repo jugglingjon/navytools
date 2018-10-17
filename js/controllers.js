@@ -123,8 +123,6 @@ app.controller('chapterController', function($scope,$compile,$http) {
 
 		var base64 = Base64.encode(txt);
 		var blobx = b64toBlob(base64, 'text/xml');
-		//location.href="data:text/xml;base64," + base64;
-		//saveAs(blobx,'test.xml');
 
 		var zip = new JSZip();
 		zip.file(guid+'.xml',blobx);
@@ -140,16 +138,14 @@ app.controller('chapterController', function($scope,$compile,$http) {
 
 				cordova.plugins.email.open({
 				    to:      'jugglingjon@gmail.com',
-				    subject: 'Completion',
-				    body:    'send this file for completion',
+				    subject: 'Completion Certificate',
+				    body:    'NRTC-NAVEDTRA-14256A-TEST\n\nDo not change the subject line of this email. Changing the subject line may prevent credit for completing this course.',
 				    attachments: [b64string]
 				});
 			}
-			//saveAs(blob, "test.zip");
 			
 		});
 		return false;
-
 
 	}
 

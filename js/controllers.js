@@ -101,22 +101,23 @@ app.controller('chapterController', function($scope,$compile,$http) {
 		// 	};
 		// }
 		var guid=uuidv4();
+		var deviceType=($(window).width()>500)?'Tablet':'Phone';
 		var txt=`<?xml version="1.0" encoding="utf-8"?>
-		<course_completion>
-			<Course_Completion_ID>${guid}</Course_Completion_ID>
-			<DODID>${$scope.dodid}</DODID>
-			<Course_Number>NRTC-NAVEDTRA-14256A-TEST</Course_Number>
-			<Pre_Test_Score>0</Pre_Test_Score>
-			<Post_Test_Score>${$scope.score}</Post_Test_Score>
-			<Completion_Date>${moment().format()}</Completion_Date>
-			<Device_Information>
-				<Device_Manufacturer>${device.manufacturer}</Device_Manufacturer>
-				<Device_Model>${device.model}</Device_Model>
-				<Device_Type>Phone</Device_Type>
-				<Device_OS_Name>${device.platform}</Device_OS_Name>
-				<Device_OS_Version>${device.version}</Device_OS_Version>
-			</Device_Information>
-		</course_completion>`;
+<course_completion>
+	<Course_Completion_ID>${guid}</Course_Completion_ID>
+	<DODID>${$scope.dodid}</DODID>
+	<Course_Number>NRTC-NAVEDTRA-14256A-TEST</Course_Number>
+	<Pre_Test_Score>0</Pre_Test_Score>
+	<Post_Test_Score>${$scope.score}</Post_Test_Score>
+	<Completion_Date>${moment().format()}</Completion_Date>
+	<Device_Information>
+		<Device_Manufacturer>${device.manufacturer}</Device_Manufacturer>
+		<Device_Model>${device.model}</Device_Model>
+		<Device_Type>${deviceType}</Device_Type>
+		<Device_OS_Name>${device.platform}</Device_OS_Name>
+		<Device_OS_Version>${device.version}</Device_OS_Version>
+	</Device_Information>
+</course_completion>`;
 		console.log(txt);
 
 

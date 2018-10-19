@@ -75,7 +75,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 			outputClass+='test-incorrect ';
 		}
 
-		if($scope.currentTestData.questions[questionIndex].selected){
+		if($scope.currentTestData.questions[questionIndex].selected >= 0){
 			if($scope.currentTestData.questions[questionIndex].selected===answerIndex){
 				outputClass+='selected ';
 			}
@@ -317,6 +317,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 			el.addClass('selected').siblings().removeClass('selected');
 
 			$scope.currentTestData.questions[questionIndex].selected=answerIndex;
+			console.log($scope.currentTestData);
 
 			// var answer=el.parent().children().index(el);
 			// var question=el.closest('.quiz').index('.quiz');

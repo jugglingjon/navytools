@@ -138,7 +138,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 				var b64string = 'base64:'+guid+'.ldk//'+ base64data.substr(base64data.indexOf(',')+1);
 
 				cordova.plugins.email.open({
-				    to:      'jugglingjon@gmail.com',
+				    to:      'cronin_jonathan@bah.com',
 				    subject: 'Completion Certificate',
 				    body:    'NRTC-NAVEDTRA-14256A-TEST\n\nDo not change the subject line of this email. Changing the subject line may prevent credit for completing this course.',
 				    attachments: [b64string]

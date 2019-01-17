@@ -151,7 +151,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 				base64data = reader.result;                
 				//console.log(base64data);
 				console.log( base64data.substr(base64data.indexOf(',')+1) );
-				var b64string = 'base64:'+guid+'.ldk//'+ base64data.substr(base64data.indexOf(',')+1);
+				var b64string = 'base64:'+guid+'.idk//'+ base64data.substr(base64data.indexOf(',')+1);
 
 				cordova.plugins.email.open({
 				    to:      'NTMPS.Mobile.Support@navy.mil',

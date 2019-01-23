@@ -33,7 +33,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 
 	$scope.initTest = function(){
 		$scope.testing=true;
-		$http.get('testSHORT.json').then(function(response){
+		$http.get('test.json').then(function(response){
 			
 
 			$scope.allTestData=response.data;

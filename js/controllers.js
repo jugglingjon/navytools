@@ -1,5 +1,5 @@
 app.controller('chapterController', function($scope,$compile,$http) {
-	$scope.version="1.2"
+	$scope.version="1.3"
 	$scope.numbersToLetters={
 		"0": "A",
 		"1": "B",
@@ -63,6 +63,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 		else{
 			$scope.modalAlert('Missing Answers','Answer all questions before proceeding.');
 		}
+
 	}
 
 	$scope.answerClass = function(questionIndex,answerIndex){
@@ -178,7 +179,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 		var total=fullset.length;
 
 		for(var i=0;i<fullset.length;i++){
-			if(fullset[i].selected){
+			if(fullset[i].selected>=0){
 				if(fullset[i].answers[fullset[i].selected].correct){
 					correct++;
 				}
@@ -190,6 +191,33 @@ app.controller('chapterController', function($scope,$compile,$http) {
 		$scope.passed = ($scope.score>=.8)?true:false;
 		$scope.score=Math.floor($scope.score*100);
 		$('#gradeModal').modal({backdrop: 'static'});
+
+	}
+
+	$scope.xgradeTest = function(){
+		var fullset=[];
+
+		$.each($scope.allTestData[$scope.currentTestIndex].questions,function(){
+			fullset.push(this);
+		});
+		console.log(fullset);
+
+		var correct=0;
+		var total=fullset.length;
+
+		for(var i=0;i<fullset.length;i++){
+			if(fullset[i].selected>=0){
+				if(fullset[i].answers[fullset[i].selected].correct){
+					correct++;
+				}
+			}
+			
+		}
+		console.log(correct,total,correct/total);
+		// $scope.score=correct/total;
+		// $scope.passed = ($scope.score>=.8)?true:false;
+		// $scope.score=Math.floor($scope.score*100);
+		// $('#gradeModal').modal({backdrop: 'static'});
 
 	}
 

@@ -11,7 +11,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 	$scope.startChapter = 1;
 	$scope.chapterID=$scope.startChapter;
 
-	var namespace='NETCtoolsAlphaChaptersC';
+	var namespace='NETCtoolsAlphaChaptersD';
 
 	//load questions data file
 	$http.get('chapterQuestions.json').then(function(response){
@@ -33,7 +33,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 
 	$scope.initTest = function(){
 		$scope.testing=true;
-		$http.get('test.json').then(function(response){
+		$http.get('testSHORT.json').then(function(response){
 			
 
 			$scope.allTestData=response.data;

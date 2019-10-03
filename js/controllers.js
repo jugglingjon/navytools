@@ -1,5 +1,5 @@
 app.controller('chapterController', function($scope,$compile,$http) {
-	$scope.version="1.5"
+	$scope.version="1.6"
 	$scope.numbersToLetters={
 		"0": "A",
 		"1": "B",
@@ -33,7 +33,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 
 	$scope.initTest = function(){
 		$scope.testing=true;
-		$http.get('testSHORT.json').then(function(response){
+		$http.get('test.json').then(function(response){
 			
 
 			$scope.allTestData=response.data;

@@ -1,5 +1,5 @@
 app.controller('chapterController', function($scope,$compile,$http) {
-	$scope.version="1.6"
+	$scope.version="1.7"
 	$scope.numbersToLetters={
 		"0": "A",
 		"1": "B",
@@ -107,7 +107,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 <course_completion>
 	<Course_Completion_ID>${guid}</Course_Completion_ID>
 	<DODID>${$scope.dodid}</DODID>
-	<Course_Number>NRTC-NAVEDTRA-14256A-TEST</Course_Number>
+	<Course_Number>NRTC-NAVEDTRA-14256A-TATU-1.0</Course_Number>
 	<Pre_Test_Score>0</Pre_Test_Score>
 	<Post_Test_Score>${$scope.score}</Post_Test_Score>
 	<Completion_Date>${moment().format()}</Completion_Date>
@@ -157,7 +157,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 				cordova.plugins.email.open({
 				    to:      'NTMPS.Mobile.Support@navy.mil',
 				    subject: 'Completion Certificate',
-				    body:    'NRTC-NAVEDTRA-14256A-TEST\n\nDo not change the subject line of this email. Changing the subject line may prevent credit for completing this course.',
+				    body:    'NRTC-NAVEDTRA-14256A-TATU-1.0\n\nDo not change the subject line of this email. Changing the subject line may prevent credit for completing this course.',
 				    attachments: [b64string]
 				});
 			}
